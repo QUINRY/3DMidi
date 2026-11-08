@@ -30,7 +30,7 @@ Bu komut Cloudflare Quick Tunnel oluşturur, üretilen tek sunucu adını izin l
 
 ### Mevcut Tailscale hesabıyla sabit HTTPS
 
-Alan adı satın alınana kadar Pi'nin Tailscale DNS adı kullanılabilir. Bu kurulumda adres `https://3dmidi.tailb5b59b.ts.net` olur. Tailscale Funnel `--bg` ayarı daemon tarafından saklanır ve yeniden başlatmadan sonra geri gelir. `.env` içinde bu tam sunucu adı `MIDI_ALLOWED_HOSTS` listesine eklenir, `MIDI_PROXY_MODE=tailscale` seçilir. Dış ziyaretçilerin Tailscale kurması gerekmez. Funnel, Tailscale'ın bant genişliği sınırlarına tabidir; kendi alan adıyla Cloudflare seçeneği aşağıdadır.
+Alan adı satın alınana kadar Pi'nin Tailscale DNS adı kullanılabilir. Bu kurulumda adres `https://your-device.your-tailnet.ts.net` olur. Tailscale Funnel `--bg` ayarı daemon tarafından saklanır ve yeniden başlatmadan sonra geri gelir. `.env` içinde bu tam sunucu adı `MIDI_ALLOWED_HOSTS` listesine eklenir, `MIDI_PROXY_MODE=tailscale` seçilir. Dış ziyaretçilerin Tailscale kurması gerekmez. Funnel, Tailscale'ın bant genişliği sınırlarına tabidir; kendi alan adıyla Cloudflare seçeneği aşağıdadır.
 
 ```sh
 tailscale funnel --bg --yes http://127.0.0.1:8765
