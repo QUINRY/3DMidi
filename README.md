@@ -14,6 +14,9 @@ An offline Windows app with printer-specific G-code, movement and tempo controls
 4. Set movement speed and tempo to **Slow / Medium / Fast**.
 5. Generate G-code and save a short test, the full song or the JSON validation report using **Save As**.
 
+> [!IMPORTANT]
+> **For Klipper printers, start generated G-code files through the Klipper web interface (Mainsail / Fluidd), not from the printer's screen.**
+
 Windows 10/11 **x64** and [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) are required. WebView2 is present on many Windows systems. The executable is not code-signed.
 
 ## Languages and settings

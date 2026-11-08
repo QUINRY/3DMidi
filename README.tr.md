@@ -10,6 +10,9 @@ MIDI dosyalarından 3D yazıcı motorlarında müzik çalan G-code üretir. Wind
 4. Hareket hızını ve tempoyu ayarla, G-code oluştur.
 5. Kısa testi, tam dosyayı veya kontrol raporunu Farklı Kaydet ile kaydet.
 
+> [!IMPORTANT]
+> **Klipper tabanlı yazıcılarda, oluşturulan G-code dosyalarını yazıcı ekranından değil, Klipper web arayüzünden (Mainsail / Fluidd) başlatın.**
+
 Varsayılan dil İngilizcedir. **Settings → Language → Türkçe** yoluyla Türkçeye geçebilirsin. Dil seçimi anında uygulanır ve bilgisayarında saklanır. İngilizce, Türkçe, Almanca, İspanyolca, Fransızca, Portekizce, Çince, Japonca, Rusça ve Arapça bulunur. Çevirisi olmayan teknik ayrıntılar İngilizce gösterilir.
 
 Windows 10/11 x64 ve [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) gerekir. EXE kod imzalı değildir.
