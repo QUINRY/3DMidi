@@ -1,0 +1,26 @@
+{
+  "repository": "CrealityOfficial/K2_Series_Klipper",
+  "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+  "native_homing_command": "G28 X Y",
+  "physical_homing_tested": false,
+  "snapshots": [
+    {
+      "printer": "creality_k2",
+      "source_path": "config/F021_CR0CN200400C10/sensorless.cfg",
+      "snapshot": "reference/k2-startup/k2-sensorless.cfg",
+      "snapshot_sha256": "b2481241c407b264e79d6d36f352204bcdef0dbb0dcb26aa122932c9bf786ee5"
+    },
+    {
+      "printer": "creality_k2_pro",
+      "source_path": "config/F012_CR0CN200400C10/sensorless.cfg",
+      "snapshot": "reference/k2pro-bc0a52078ace/sensorless.cfg",
+      "snapshot_sha256": "5677985f3dd4124d4939b52563816456748418b644d24279ab2f812253a12c80"
+    },
+    {
+      "printer": "creality_k2_plus",
+      "source_path": "config/F008/sensorless.cfg",
+      "snapshot": "reference/k2-startup/k2plus-sensorless.cfg",
+      "snapshot_sha256": "c5c2f16e02ce513f10294770a0bd38c13ff4cee2819530b09fbe02ac81e0a5db"
+    }
+  ]
+}

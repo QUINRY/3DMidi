@@ -1,0 +1,1461 @@
+{
+  "schema_version": 1,
+  "default_id": "snapmaker_u1",
+  "verified_on": "2026-11-08",
+  "scope": "Resmî kaynak yapılandırmaları bulunan CoreXY/Cartesian modeller. Satış sıralaması veya tüm Klipper donanımı desteği iddiası değildir.",
+  "defaults_source": {
+    "url": "https://github.com/Klipper3d/klipper/blob/282db764dc568841837f68af3964762189d2baee/klippy/stepper.py",
+    "commit": "282db764dc568841837f68af3964762189d2baee",
+    "snapshot": "reference/printer-catalog/stepper.py",
+    "full_steps_per_rotation": 200,
+    "explanation": "getint('full_steps_per_rotation', 200) varsayılanı; profil belirtirse açık değer önceliklidir."
+  },
+  "profiles": [
+    {
+      "id": "snapmaker_u1",
+      "name": "Snapmaker U1",
+      "manufacturer": "Snapmaker",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        270,
+        270,
+        270
+      ],
+      "x": {
+        "min": 0,
+        "max": 271,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 64
+      },
+      "y": {
+        "min": 0,
+        "max": 335,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 64
+      },
+      "max_velocity_mm_s": 500,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 20000,
+      "tempo_follows_speed": true,
+      "startup": "xy_home",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/Snapmaker/u1-klipper/blob/7ac453b50fe6779b2ec0b759038a17da5e6d671d/lava/printer.cfg",
+        "commit": "7ac453b50fe6779b2ec0b759038a17da5e6d671d",
+        "path": "lava/printer.cfg",
+        "repository": "Snapmaker/u1-klipper",
+        "git_blob_sha": "c3e7b94678665e23cc83aa960108eaf0feb640fc",
+        "snapshot": "reference/printer-catalog/u1.cfg",
+        "snapshot_sha256": "2dbfd97bbad91397ba30a0d811b5fa3e412ac7a18a85903ceae6b92024d89cf2"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir."
+      ],
+      "volume_source_url": "https://www.snapmaker.com/snapmaker-u1/specs",
+      "square_corner_velocity_mm_s": 8
+    },
+    {
+      "id": "creality_k1_72",
+      "name": "Creality K1 · 72 mm kasnak profili",
+      "manufacturer": "Creality",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        220,
+        220,
+        250
+      ],
+      "x": {
+        "min": -5,
+        "max": 229,
+        "rotation_distance": 72,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "y": {
+        "min": -0.5,
+        "max": 226,
+        "rotation_distance": 72,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "max_velocity_mm_s": 800,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_CR4CU220812S12/printer.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_CR4CU220812S12/printer.cfg",
+        "repository": "CrealityOfficial/K1_Series_Klipper",
+        "git_blob_sha": "29358f067d12ec5eef7072ca76d1a5ed78d31320",
+        "snapshot": "reference/printer-catalog/k1.cfg",
+        "snapshot_sha256": "a44122c27755dcfbb4d3a8630346d8d48bf6fce36539841b8e6fbc0b26ea06dd"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.",
+        "K1/K1 Max kasnak revizyonunu rotation_distance üzerinden doğrula: resmî depoda hem 72 mm hem 40 mm profil vardır.",
+        "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir."
+      ],
+      "volume_source_url": "https://store.creality.com/blogs/all/k1c-vs-k1-vs-k1-se",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 20000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_CR4CU220812S12/printer_params.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_CR4CU220812S12/printer_params.cfg"
+      }
+    },
+    {
+      "id": "creality_k1_40",
+      "name": "Creality K1 · 40 mm kasnak profili",
+      "manufacturer": "Creality",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        220,
+        220,
+        250
+      ],
+      "x": {
+        "min": -5,
+        "max": 229,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "y": {
+        "min": -0.5,
+        "max": 226,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "max_velocity_mm_s": 800,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_CR4CU220812S12_1/printer.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_CR4CU220812S12_1/printer.cfg",
+        "repository": "CrealityOfficial/K1_Series_Klipper",
+        "git_blob_sha": "f8a7d76d36a60f2729dca3746cdc5cfe62e22cd0",
+        "snapshot": "reference/printer-catalog/k1_1.cfg",
+        "snapshot_sha256": "409a4bebb865e0373eb7f01ea2faacc67562fa043b53cb7d0298274914821fd6"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.",
+        "K1/K1 Max kasnak revizyonunu rotation_distance üzerinden doğrula: resmî depoda hem 72 mm hem 40 mm profil vardır.",
+        "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir."
+      ],
+      "volume_source_url": "https://store.creality.com/blogs/all/k1c-vs-k1-vs-k1-se",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 20000
+    },
+    {
+      "id": "creality_k1_max_72",
+      "name": "Creality K1 Max · 72 mm kasnak profili",
+      "manufacturer": "Creality",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        300,
+        300,
+        300
+      ],
+      "x": {
+        "min": -2,
+        "max": 306.5,
+        "rotation_distance": 72,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "y": {
+        "min": -2,
+        "max": 306,
+        "rotation_distance": 72,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "max_velocity_mm_s": 800,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_MAX_CR4CU220812S12/printer.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_MAX_CR4CU220812S12/printer.cfg",
+        "repository": "CrealityOfficial/K1_Series_Klipper",
+        "git_blob_sha": "b198d3b5d69cc4df0ed5a82494f6cf1478390457",
+        "snapshot": "reference/printer-catalog/k1max.cfg",
+        "snapshot_sha256": "71a158947856cb61759e47e3553f09cd7010aa9136dc4899c8b78da69ffa30f2"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.",
+        "K1/K1 Max kasnak revizyonunu rotation_distance üzerinden doğrula: resmî depoda hem 72 mm hem 40 mm profil vardır.",
+        "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir."
+      ],
+      "volume_source_url": "https://www.creality.com/compare/compare-k1-flagship-series",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 20000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_MAX_CR4CU220812S12/printer_params.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_MAX_CR4CU220812S12/printer_params.cfg"
+      }
+    },
+    {
+      "id": "creality_k1_max_40",
+      "name": "Creality K1 Max · 40 mm kasnak profili",
+      "manufacturer": "Creality",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        300,
+        300,
+        300
+      ],
+      "x": {
+        "min": -2,
+        "max": 306.5,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "y": {
+        "min": -2,
+        "max": 306,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "max_velocity_mm_s": 800,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_MAX_CR4CU220812S12_1/printer.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_MAX_CR4CU220812S12_1/printer.cfg",
+        "repository": "CrealityOfficial/K1_Series_Klipper",
+        "git_blob_sha": "061e447e5756a56208cd3e8bbb43b3260a9aa65f",
+        "snapshot": "reference/printer-catalog/k1max_1.cfg",
+        "snapshot_sha256": "cbb96d30d47feb8b39aa27f4fdd43421e7760b8101136287ec077ce6a465ceb3"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.",
+        "K1/K1 Max kasnak revizyonunu rotation_distance üzerinden doğrula: resmî depoda hem 72 mm hem 40 mm profil vardır.",
+        "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir."
+      ],
+      "volume_source_url": "https://www.creality.com/compare/compare-k1-flagship-series",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 20000
+    },
+    {
+      "id": "creality_k1c",
+      "name": "Creality K1C",
+      "manufacturer": "Creality",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        220,
+        220,
+        250
+      ],
+      "x": {
+        "min": -5,
+        "max": 229,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "y": {
+        "min": -0.5,
+        "max": 227,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "max_velocity_mm_s": 600,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1C_CR4CU220812S12/printer.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1C_CR4CU220812S12/printer.cfg",
+        "repository": "CrealityOfficial/K1_Series_Klipper",
+        "git_blob_sha": "5492b7cb9892ffbeb8c3da433188ccc5ff60824d",
+        "snapshot": "reference/printer-catalog/k1c.cfg",
+        "snapshot_sha256": "e086f7ffc0cca0d9f2f4fe043b2bbee249dcec1561e5ee095edf6c000785f597"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.",
+        "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir."
+      ],
+      "volume_source_url": "https://www.creality.com/compare/compare-k1-flagship-series",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 20000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1C_CR4CU220812S12/printer_params.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1C_CR4CU220812S12/printer_params.cfg"
+      }
+    },
+    {
+      "id": "creality_k1_se",
+      "name": "Creality K1 SE",
+      "manufacturer": "Creality",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        220,
+        220,
+        250
+      ],
+      "x": {
+        "min": -5,
+        "max": 229,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "y": {
+        "min": -0.5,
+        "max": 227,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "max_velocity_mm_s": 600,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_SE_CR4CU220812S12/printer.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_SE_CR4CU220812S12/printer.cfg",
+        "repository": "CrealityOfficial/K1_Series_Klipper",
+        "git_blob_sha": "c7e7f5258364359cde1e1b6930bd7d5fd9e41915",
+        "snapshot": "reference/printer-catalog/k1se.cfg",
+        "snapshot_sha256": "ad7ae3b067f542bc6a37ded2f9b274dcedf86f376eae059400630e958df98904"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.",
+        "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir."
+      ],
+      "volume_source_url": "https://store.creality.com/blogs/all/k1c-vs-k1-vs-k1-se",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 20000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/K1_Series_Klipper/blob/e09f36e6ada60e5467b0bef731a96263b5d8095b/config/K1_SE_CR4CU220812S12/printer_params.cfg",
+        "commit": "e09f36e6ada60e5467b0bef731a96263b5d8095b",
+        "path": "config/K1_SE_CR4CU220812S12/printer_params.cfg"
+      }
+    },
+    {
+      "id": "creality_k2",
+      "foc_band_available": true,
+      "name": "Creality K2",
+      "manufacturer": "Creality",
+      "music_settings_unlocked": true,
+      "default_speed": "slow",
+      "default_tempo": "slow",
+      "axis_priority": "balanced",
+      "motor_control": {
+        "type": "foc_step_servo",
+        "axes": [
+          "x",
+          "y",
+          "extruder"
+        ],
+        "verified_on": "2026-11-08",
+        "source_urls": [
+          "https://www.creality.com/products/k2-series"
+        ]
+      },
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        260,
+        260,
+        260
+      ],
+      "x": {
+        "min": -12,
+        "max": 262,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -3,
+        "max": 296.5,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 800,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "k2_xy_home",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K2_Series_Klipper/blob/bc0a52078ace1e4d82995e396b38457b9f441024/config/F021_CR0CN200400C10/printer.cfg",
+        "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+        "path": "config/F021_CR0CN200400C10/printer.cfg",
+        "repository": "CrealityOfficial/K2_Series_Klipper",
+        "git_blob_sha": "2d21fe4a4548b92605e3c04aa8b970bb7da82c36",
+        "snapshot": "reference/printer-catalog/k2.cfg",
+        "snapshot_sha256": "6b0f754efd9edd3cd7dc26ad0e03b610ade3b8ac5b98887f583d13a8fd7b6618"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Dosya önce normal yazıcı limitlerini geri yükleyip G28 X Y ile otomatik home alır. Tabla boş olmalı; homing sırasında stok firmware'in Z güvenlik davranışı geçerlidir. Müzikte Z sabittir; bitişte normal limitler geri yüklenir.",
+        "Müzik yalnızca X ekseninde çalar; Y ve Z sabittir. FOC modunda K2 Pro A07/A08 dinleme referansı olan X 12–16 mm/sn aralığı kullanılır; hız ve tempo serbesttir."
+      ],
+      "square_corner_velocity_mm_s": 10,
+      "max_accel_to_decel_mm_s2": 20000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/K2_Series_Klipper/blob/bc0a52078ace1e4d82995e396b38457b9f441024/config/F021_CR0CN200400C10/printer_params.cfg",
+        "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+        "path": "config/F021_CR0CN200400C10/printer_params.cfg"
+      },
+      "music_axes": "x"
+    },
+    {
+      "id": "creality_k2_pro",
+      "foc_band_available": true,
+      "name": "Creality K2 Pro",
+      "manufacturer": "Creality",
+      "music_settings_unlocked": true,
+      "default_speed": "slow",
+      "default_tempo": "slow",
+      "axis_priority": "balanced",
+      "motor_control": {
+        "type": "foc_step_servo",
+        "axes": [
+          "x",
+          "y",
+          "extruder"
+        ],
+        "verified_on": "2026-11-08",
+        "source_urls": [
+          "https://www.creality.com/products/k2-series"
+        ]
+      },
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        300,
+        300,
+        300
+      ],
+      "x": {
+        "min": -13,
+        "max": 302,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -6.5,
+        "max": 332,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 800,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "k2_xy_home",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K2_Series_Klipper/blob/bc0a52078ace1e4d82995e396b38457b9f441024/config/F012_CR0CN200400C10/printer.cfg",
+        "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+        "path": "config/F012_CR0CN200400C10/printer.cfg",
+        "repository": "CrealityOfficial/K2_Series_Klipper",
+        "git_blob_sha": "910ccae74ab54f1d2865046df735b03a8bdb2111",
+        "snapshot": "reference/printer-catalog/k2pro.cfg",
+        "snapshot_sha256": "9310453f18603309856c78382c7cd5ad6529a038701ac93ccc93962278ff0c64"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Dosya önce normal yazıcı limitlerini geri yükleyip G28 X Y ile otomatik home alır. Tabla boş olmalı; homing sırasında stok firmware'in Z güvenlik davranışı geçerlidir. Müzikte Z sabittir; bitişte normal limitler geri yüklenir.",
+        "Müzik yalnızca X ekseninde çalar; Y ve Z sabittir. FOC modunda K2 Pro A07/A08 dinleme referansı olan X 12–16 mm/sn aralığı kullanılır; hız ve tempo serbesttir."
+      ],
+      "square_corner_velocity_mm_s": 10,
+      "max_accel_to_decel_mm_s2": 20000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/K2_Series_Klipper/blob/bc0a52078ace1e4d82995e396b38457b9f441024/config/F012_CR0CN200400C10/printer_params.cfg",
+        "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+        "path": "config/F012_CR0CN200400C10/printer_params.cfg"
+      },
+      "music_axes": "x"
+    },
+    {
+      "id": "creality_k2_plus",
+      "foc_band_available": true,
+      "name": "Creality K2 Plus",
+      "manufacturer": "Creality",
+      "music_settings_unlocked": true,
+      "default_speed": "slow",
+      "default_tempo": "slow",
+      "axis_priority": "balanced",
+      "motor_control": {
+        "type": "foc_step_servo",
+        "axes": [
+          "x",
+          "y",
+          "z",
+          "extruder"
+        ],
+        "verified_on": "2026-11-08",
+        "source_urls": [
+          "https://www.creality.com/products/k2-series"
+        ]
+      },
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        350,
+        350,
+        350
+      ],
+      "x": {
+        "min": -10,
+        "max": 359,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -10,
+        "max": 400,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 1000,
+      "max_accel_mm_s2": 30000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "k2_xy_home",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/K2_Series_Klipper/blob/bc0a52078ace1e4d82995e396b38457b9f441024/config/F008/printer.cfg",
+        "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+        "path": "config/F008/printer.cfg",
+        "repository": "CrealityOfficial/K2_Series_Klipper",
+        "git_blob_sha": "ee9ede5a938c61abd718e3e50b7eaa4e241827a5",
+        "snapshot": "reference/printer-catalog/k2plus.cfg",
+        "snapshot_sha256": "ea6f12bf7f71ced38bdc65165c208e4e864070fb17c09da2dd3abe1b0d1b83f2"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Dosya önce normal yazıcı limitlerini geri yükleyip G28 X Y ile otomatik home alır. Tabla boş olmalı; homing sırasında stok firmware'in Z güvenlik davranışı geçerlidir. Müzikte Z sabittir; bitişte normal limitler geri yüklenir.",
+        "Müzik yalnızca X ekseninde çalar; Y ve Z sabittir. FOC modunda K2 Pro A07/A08 dinleme referansı olan X 12–16 mm/sn aralığı kullanılır; hız ve tempo serbesttir."
+      ],
+      "square_corner_velocity_mm_s": 10,
+      "max_accel_to_decel_mm_s2": 30000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/K2_Series_Klipper/blob/bc0a52078ace1e4d82995e396b38457b9f441024/config/F008/printer_params.cfg",
+        "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+        "path": "config/F008/printer_params.cfg"
+      },
+      "music_axes": "x"
+    },
+    {
+      "id": "creality_hi",
+      "name": "Creality Hi",
+      "manufacturer": "Creality",
+      "motor_control": {
+        "type": "foc_step_servo",
+        "axes": [
+          "x",
+          "y"
+        ],
+        "verified_on": "2026-11-08",
+        "source_urls": [
+          "https://www.creality.com/products/creality-hi-combo",
+          "https://www.creality.com/blog/creality-hi-combo-available-for-purchase-starting"
+        ]
+      },
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "cartesian",
+      "build_volume_mm": [
+        260,
+        260,
+        300
+      ],
+      "x": {
+        "min": -19,
+        "max": 285,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -7,
+        "max": 273,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 300,
+      "max_accel_mm_s2": 12000,
+      "music_max_velocity_mm_s": 180,
+      "music_max_accel_mm_s2": 3000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/Hi_Klipper/blob/646b6aaaa4dc1fe9c4f773f1a425ea4666e5ed9b/config/F018_CR4NU200360C20/printer.cfg",
+        "commit": "646b6aaaa4dc1fe9c4f773f1a425ea4666e5ed9b",
+        "path": "config/F018_CR4NU200360C20/printer.cfg",
+        "repository": "CrealityOfficial/Hi_Klipper",
+        "git_blob_sha": "4e3225a93f6c9cc8651a09f2778e09c74fdd8500",
+        "snapshot": "reference/printer-catalog/hi.cfg",
+        "snapshot_sha256": "a78b1aa6b2ef435ded08bed5afac510145cef69da72324d088b650ca94165af0"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+      ],
+      "square_corner_velocity_mm_s": 8,
+      "max_accel_to_decel_mm_s2": 12000,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/Hi_Klipper/blob/646b6aaaa4dc1fe9c4f773f1a425ea4666e5ed9b/config/F018_CR4NU200360C20/printer_params.cfg",
+        "commit": "646b6aaaa4dc1fe9c4f773f1a425ea4666e5ed9b",
+        "path": "config/F018_CR4NU200360C20/printer_params.cfg"
+      }
+    },
+    {
+      "id": "creality_ender3_v3_ke",
+      "name": "Creality Ender-3 V3 KE",
+      "manufacturer": "Creality",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "cartesian",
+      "build_volume_mm": [
+        220,
+        220,
+        240
+      ],
+      "x": {
+        "min": -12,
+        "max": 221,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -20,
+        "max": 223,
+        "rotation_distance": 60,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 500,
+      "max_accel_mm_s2": 8000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 8000,
+      "startup": "ke_auto_home_slow_z",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/CrealityOfficial/Ender-3_V3_KE_Klipper/blob/a63fb1a71672b91b505e0bda68fae2ede49f1168/config/F005/printer.cfg",
+        "commit": "a63fb1a71672b91b505e0bda68fae2ede49f1168",
+        "path": "config/F005/printer.cfg",
+        "repository": "CrealityOfficial/Ender-3_V3_KE_Klipper",
+        "git_blob_sha": "3a1a1fffd0f676fcd72aa6a9f6adb01db1da7d0c",
+        "snapshot": "reference/printer-catalog/ender3v3ke.cfg",
+        "snapshot_sha256": "457e4ca1084407a15c3dc446ce356f2373b76a77fb49f2c532897328d3625b03"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Varsayılan başlangıç: normal hızda otomatik home, ardından yalnızca Z20 mm’ye 3 mm/sn yükselme. Genel hız sınırı düşürülmez; dosya sonunda normal limitler geri yüklenir.",
+        "Stok homing makrosundaki FORCE_MOVE Z kaldırması normal hız sınırını atlayabilir. Onu da yavaşlatmak için yavaş Z ayarı bir kez kurulmalıdır.",
+        "Müzik yalnızca X motorunda tek sesli ana melodidir; Y yatağı ve Z müzik boyunca sabit kalır. Varsayılan hız Hızlı; X hız tavanları 100/180/360 mm/sn, ivme en fazla stok 8000 mm/sn²."
+      ],
+      "volume_source_url": "https://www.creality.com/compare/compare-ender-3-v3-series",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 2500,
+      "parameter_source": {
+        "url": "https://github.com/CrealityOfficial/Ender-3_V3_KE_Klipper/blob/a63fb1a71672b91b505e0bda68fae2ede49f1168/config/F005/printer_params.cfg",
+        "commit": "a63fb1a71672b91b505e0bda68fae2ede49f1168",
+        "path": "config/F005/printer_params.cfg"
+      },
+      "startup_options": [
+        "ke_auto_home_slow_z",
+        "prepared_no_z"
+      ],
+      "startup_clearance_mm": 20,
+      "startup_z_speed_mm_s": 3,
+      "stock_force_move_slow_z_config_required": true,
+      "startup_z_accel_mm_s2": 100,
+      "music_axes": "x",
+      "default_speed": "fast"
+    },
+    {
+      "id": "sovol_sv07",
+      "name": "Sovol SV07",
+      "manufacturer": "Sovol",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "cartesian",
+      "build_volume_mm": [
+        220,
+        220,
+        250
+      ],
+      "x": {
+        "min": -16,
+        "max": 225,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -2,
+        "max": 225,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 300,
+      "max_accel_mm_s2": 8000,
+      "music_max_velocity_mm_s": 180,
+      "music_max_accel_mm_s2": 3000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/Sovol3d/SOVOL_KLIPAD50_SYSTEM/blob/c2e82b5908cfc95f165350e47eab5872b600e042/klipper_configuration/SV07/printer.cfg",
+        "commit": "c2e82b5908cfc95f165350e47eab5872b600e042",
+        "path": "klipper_configuration/SV07/printer.cfg",
+        "repository": "Sovol3d/SOVOL_KLIPAD50_SYSTEM",
+        "git_blob_sha": "e17359d3579561d108ed155e5d0b3ee967137fde",
+        "snapshot": "reference/printer-catalog/sv07.cfg",
+        "snapshot_sha256": "ed127e94a8e21ef10e376a70da39c79968067d519d9a3f5251d7373c5f35f9f2"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+      ],
+      "volume_source_url": "https://www.sovol3d.com/blogs/news/sovol-sv07-vs-sv07-plus-comparison",
+      "square_corner_velocity_mm_s": 3,
+      "max_accel_to_decel_mm_s2": 3000
+    },
+    {
+      "id": "sovol_sv07_plus",
+      "name": "Sovol SV07 Plus",
+      "manufacturer": "Sovol",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "cartesian",
+      "build_volume_mm": [
+        300,
+        300,
+        350
+      ],
+      "x": {
+        "min": -12,
+        "max": 302,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -6,
+        "max": 302,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 300,
+      "max_accel_mm_s2": 12000,
+      "music_max_velocity_mm_s": 180,
+      "music_max_accel_mm_s2": 3000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/Sovol3d/SOVOL_KLIPAD50_SYSTEM/blob/c2e82b5908cfc95f165350e47eab5872b600e042/klipper_configuration/SV07 PLUS/printer.cfg",
+        "commit": "c2e82b5908cfc95f165350e47eab5872b600e042",
+        "path": "klipper_configuration/SV07 PLUS/printer.cfg",
+        "repository": "Sovol3d/SOVOL_KLIPAD50_SYSTEM",
+        "git_blob_sha": "51838ae98b6390e7b8c6e8d2ed123ea2c613843b",
+        "snapshot": "reference/printer-catalog/sv07plus.cfg",
+        "snapshot_sha256": "a52310931c49d7556b0c764f56684f1edb3dcb7ae2937a6fa33e9c9ddb1443f9"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+      ],
+      "volume_source_url": "https://www.sovol3d.com/blogs/news/sovol-sv07-vs-sv07-plus-comparison",
+      "square_corner_velocity_mm_s": 6,
+      "max_accel_to_decel_mm_s2": 5000
+    },
+    {
+      "id": "sovol_sv08",
+      "name": "Sovol SV08",
+      "manufacturer": "Sovol",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        350,
+        350,
+        345
+      ],
+      "x": {
+        "min": 0,
+        "max": 355,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": 0,
+        "max": 364,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 700,
+      "max_accel_mm_s2": 40000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/Sovol3d/SV08/blob/a60644875f8c756d20b3828c9416518b414b5491/home/sovol/printer_data/config/printer.cfg",
+        "commit": "a60644875f8c756d20b3828c9416518b414b5491",
+        "path": "home/sovol/printer_data/config/printer.cfg",
+        "repository": "Sovol3d/SV08",
+        "git_blob_sha": "8f213ddc131b4d31716a3b23e45238687d6b557b",
+        "snapshot": "reference/printer-catalog/sv08.cfg",
+        "snapshot_sha256": "46e5f083699cef5226504e28584cfb7da30dbcccf736bfff38f2a565fd41f998"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+      ],
+      "volume_source_url": "https://github.com/Sovol3d/SV08/blob/a60644875f8c756d20b3828c9416518b414b5491/README.md",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 10000
+    },
+    {
+      "id": "sovol_sv08_max",
+      "name": "Sovol SV08 Max",
+      "manufacturer": "Sovol",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        500,
+        500,
+        500
+      ],
+      "x": {
+        "min": -11,
+        "max": 502,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -1,
+        "max": 505,
+        "rotation_distance": 40,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 700,
+      "max_accel_mm_s2": 40000,
+      "music_max_velocity_mm_s": 300,
+      "music_max_accel_mm_s2": 10000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/Sovol3d/SV08MAX/blob/68c28ea4ef5a81279d69c0e7d3b6433f0945192b/home/sovol/printer_data/config/printer.cfg",
+        "commit": "68c28ea4ef5a81279d69c0e7d3b6433f0945192b",
+        "path": "home/sovol/printer_data/config/printer.cfg",
+        "repository": "Sovol3d/SV08MAX",
+        "git_blob_sha": "ef79230599e47b49ead2207a87f804a95f750f3e",
+        "snapshot": "reference/printer-catalog/sv08max.cfg",
+        "snapshot_sha256": "f219f77bda91bdba8cb1aac7448fa0986dee644cd9caeeab67a16608927483af"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+      ],
+      "volume_source_url": "https://sovol.eu/products/sovol-sv08-max-3d-printer",
+      "square_corner_velocity_mm_s": 5,
+      "max_accel_to_decel_mm_s2": 10000
+    },
+    {
+      "id": "qidi_q1_pro",
+      "name": "QIDI Q1 Pro",
+      "manufacturer": "QIDI",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        245,
+        245,
+        240
+      ],
+      "x": {
+        "min": -5.5,
+        "max": 246,
+        "rotation_distance": 39.88,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -4.5,
+        "max": 258,
+        "rotation_distance": 39.88,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 600,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/QIDITECH/QIDI_Q1_Pro/blob/61836007215a8b4f71418ac62059bc81c1f40b93/config/printer.cfg",
+        "commit": "61836007215a8b4f71418ac62059bc81c1f40b93",
+        "path": "config/printer.cfg",
+        "repository": "QIDITECH/QIDI_Q1_Pro",
+        "git_blob_sha": "33e30863e699b45ac337b3f640d0009863f35348",
+        "snapshot": "reference/printer-catalog/q1pro.cfg",
+        "snapshot_sha256": "067c4e61d4132666907aef06396381ba30bb17eea71a142dea97ac60c8d25dcf"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+      ],
+      "volume_source_url": "https://us.qidi3d.com/products/q1-pro-3d-printer",
+      "square_corner_velocity_mm_s": 8,
+      "max_accel_to_decel_mm_s2": 10000
+    },
+    {
+      "id": "qidi_plus4",
+      "name": "QIDI Plus4",
+      "manufacturer": "QIDI",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        305,
+        305,
+        280
+      ],
+      "x": {
+        "min": -1.5,
+        "max": 307,
+        "rotation_distance": 38.82,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "y": {
+        "min": -2,
+        "max": 325,
+        "rotation_distance": 38.82,
+        "full_steps_per_rotation": 200,
+        "microsteps": 32
+      },
+      "max_velocity_mm_s": 600,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/QIDITECH/QIDI_PLUS4/blob/ec595fc903540564be757bcafa745cd5c4a52cd0/config/printer.cfg",
+        "commit": "ec595fc903540564be757bcafa745cd5c4a52cd0",
+        "path": "config/printer.cfg",
+        "repository": "QIDITECH/QIDI_PLUS4",
+        "git_blob_sha": "f49a4831c92550d18a29f07115ea0a55e10d1dac",
+        "snapshot": "reference/printer-catalog/plus4.cfg",
+        "snapshot_sha256": "19b2866f504e786f30335f8662a0690eee5fd723d6409444483d5db77af8128f"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+      ],
+      "volume_source_url": "https://de.qidi3d.com/products/plus4-3d-printer",
+      "square_corner_velocity_mm_s": 8,
+      "max_accel_to_decel_mm_s2": 10000
+    },
+    {
+      "id": "qidi_q2",
+      "name": "QIDI Q2",
+      "manufacturer": "QIDI",
+      "selectable": true,
+      "status": "source_verified",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        270,
+        270,
+        256
+      ],
+      "x": {
+        "min": -1,
+        "max": 275,
+        "rotation_distance": 38.82,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "y": {
+        "min": -1,
+        "max": 295,
+        "rotation_distance": 38.82,
+        "full_steps_per_rotation": 200,
+        "microsteps": 16
+      },
+      "max_velocity_mm_s": 600,
+      "max_accel_mm_s2": 20000,
+      "music_max_velocity_mm_s": 360,
+      "music_max_accel_mm_s2": 12000,
+      "startup": "prepared_only",
+      "has_bed_mesh": true,
+      "source": {
+        "url": "https://github.com/QIDITECH/QIDI_Q2/blob/3f6bcc8bc295ecf067b45345c5bdb2139b287f17/config/printer.cfg",
+        "commit": "3f6bcc8bc295ecf067b45345c5bdb2139b287f17",
+        "path": "config/printer.cfg",
+        "repository": "QIDITECH/QIDI_Q2",
+        "git_blob_sha": "0fa8a94f5f364836591eda46dcaae94b3b832158",
+        "snapshot": "reference/printer-catalog/q2.cfg",
+        "snapshot_sha256": "b923ba017767d842b42188b68b99eec97ca2364a1f80ce7b7641c7953e96e658"
+      },
+      "notes": [
+        "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.",
+        "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.",
+        "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.",
+        "270×270×256 mm nominal hacim QIDI BOX kullanılmadığında geçerlidir; XY hareket alanı firmware sınırlarından alınır."
+      ],
+      "volume_source_url": "https://wiki.qidi3d.com/en/Q2/print-volume-limitations",
+      "square_corner_velocity_mm_s": 8
+    },
+    {
+      "id": "elegoo_neptune4",
+      "name": "ELEGOO Neptune 4",
+      "manufacturer": "ELEGOO",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "cartesian",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/elegooofficial/Neptune4"
+      },
+      "notes": [
+        "Kablo/Type-C ve motor akımı revizyonları değişiyor; kullanılan cihazın printer.cfg dosyasını içe aktar."
+      ]
+    },
+    {
+      "id": "elegoo_neptune4_pro",
+      "name": "ELEGOO Neptune 4 Pro",
+      "manufacturer": "ELEGOO",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "cartesian",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/elegooofficial/Neptune4"
+      },
+      "notes": [
+        "Kablo/Type-C ve motor akımı revizyonları değişiyor; kullanılan cihazın printer.cfg dosyasını içe aktar."
+      ]
+    },
+    {
+      "id": "elegoo_neptune4_plus",
+      "name": "ELEGOO Neptune 4 Plus",
+      "manufacturer": "ELEGOO",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "cartesian",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://wiki.elegoo.com/neptune"
+      },
+      "notes": [
+        "Resmî kaynak deposunda bu modelin sayısal hareket profili ayrı doğrulanamadı; cihazın printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "elegoo_neptune4_max",
+      "name": "ELEGOO Neptune 4 Max",
+      "manufacturer": "ELEGOO",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "cartesian",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://wiki.elegoo.com/neptune"
+      },
+      "notes": [
+        "Resmî kaynak deposunda bu modelin sayısal hareket profili ayrı doğrulanamadı; cihazın printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "qidi_xplus3",
+      "name": "QIDI X-Plus 3",
+      "manufacturer": "QIDI",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "corexy",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/QIDITECH/QIDI_PLUS3"
+      },
+      "notes": [
+        "Resmî depo ekran yazılımını içeriyor; doğrulanmış motor/eksen parametreleri için cihazın printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "qidi_xmax3",
+      "name": "QIDI X-Max 3",
+      "manufacturer": "QIDI",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "corexy",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/QIDITECH/QIDI_MAX3"
+      },
+      "notes": [
+        "Resmî depo ekran yazılımını içeriyor; doğrulanmış motor/eksen parametreleri için cihazın printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "qidi_max4",
+      "name": "QIDI Max4",
+      "manufacturer": "QIDI",
+      "motor_control": {
+        "type": "foc_step_servo",
+        "axes": [
+          "x",
+          "y"
+        ],
+        "verified_on": "2026-11-08",
+        "source_urls": [
+          "https://qidi3d.com/products/max4"
+        ],
+        "note": "Üretici X/Y için FOC kapalı döngü step motor belirtir; eksiksiz hareket konfigürasyonu hâlâ gerekli."
+      },
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": null,
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/QIDITECH/QIDI_MAX4"
+      },
+      "notes": [
+        "Bu revizyon için doğrulanmış hareket profili eklenmedi; cihazın printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "qidi_plus5",
+      "name": "QIDI Plus5",
+      "manufacturer": "QIDI",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "corexy",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://de.qidi3d.com/products/plus4-3d-printer"
+      },
+      "notes": [
+        "Üretici Plus4 sayfasında yeni model olarak yer alıyor; kendi printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "voron_v2_4",
+      "name": "Voron V2.4",
+      "manufacturer": "Voron",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "corexy",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/VoronDesign/Voron-2"
+      },
+      "notes": [
+        "Kurulum boyutu, motor, kasnak, kontrol kartı ve firmware kişiye göre değişir; kendi printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "voron_trident",
+      "name": "Voron Trident",
+      "manufacturer": "Voron",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": "corexy",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/VoronDesign/Voron-Trident"
+      },
+      "notes": [
+        "Kurulum boyutu, motor, kasnak, kontrol kartı ve firmware kişiye göre değişir; kendi printer.cfg dosyası gerekli."
+      ]
+    },
+    {
+      "id": "ratrig_vcore",
+      "name": "Rat Rig V-Core",
+      "manufacturer": "Rat Rig",
+      "selectable": false,
+      "status": "requires_config",
+      "kinematics": null,
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://github.com/Rat-OS/RatOS-configuration"
+      },
+      "notes": [
+        "Boyut ve CoreXY/Hybrid/IDEX sürümleri değişir; kinematik dahil gerçek printer.cfg gerekli."
+      ]
+    },
+    {
+      "id": "creality_ender3_v3",
+      "name": "Creality Ender-3 V3",
+      "manufacturer": "Creality",
+      "selectable": false,
+      "status": "unsupported_kinematics",
+      "kinematics": "corexz",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://www.creality.com/compare/compare-ender-3-v3-series"
+      },
+      "notes": [
+        "CoreXZ kinematiği bu XY müzik dönüştürücüsünde desteklenmiyor."
+      ]
+    },
+    {
+      "id": "creality_ender3_v3_plus",
+      "name": "Creality Ender-3 V3 Plus",
+      "manufacturer": "Creality",
+      "selectable": false,
+      "status": "unsupported_kinematics",
+      "kinematics": "corexz",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://www.creality.com/compare/compare-ender-3-v3-series"
+      },
+      "notes": [
+        "CoreXZ kinematiği bu XY müzik dönüştürücüsünde desteklenmiyor."
+      ]
+    },
+    {
+      "id": "flsun_v400",
+      "name": "FLSUN V400",
+      "manufacturer": "FLSUN",
+      "selectable": false,
+      "status": "unsupported_kinematics",
+      "kinematics": "delta",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://flsun3d.com/products/flsun-v400"
+      },
+      "notes": [
+        "Delta kinematiğinde yatay hareket üç kule motorunu birlikte kullanır; bu XY dönüştürücü desteklemiyor."
+      ]
+    },
+    {
+      "id": "flsun_s1",
+      "name": "FLSUN S1",
+      "manufacturer": "FLSUN",
+      "selectable": false,
+      "status": "unsupported_kinematics",
+      "kinematics": "delta",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://flsun3d.com/products/flsun-s1"
+      },
+      "notes": [
+        "Delta kinematiğinde yatay hareket üç kule motorunu birlikte kullanır; bu XY dönüştürücü desteklemiyor."
+      ]
+    },
+    {
+      "id": "flsun_t1",
+      "name": "FLSUN T1",
+      "manufacturer": "FLSUN",
+      "selectable": false,
+      "status": "unsupported_kinematics",
+      "kinematics": "delta",
+      "build_volume_mm": null,
+      "x": null,
+      "y": null,
+      "max_velocity_mm_s": null,
+      "max_accel_mm_s2": null,
+      "music_max_velocity_mm_s": null,
+      "music_max_accel_mm_s2": null,
+      "startup": "prepared_only",
+      "source": {
+        "url": "https://flsun3d.com/products/flsun-t1"
+      },
+      "notes": [
+        "Delta kinematiğinde yatay hareket üç kule motorunu birlikte kullanır; bu XY dönüştürücü desteklemiyor."
+      ]
+    }
+  ]
+}

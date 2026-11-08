@@ -1,0 +1,38 @@
+name: Windows application
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          architecture: x64
+      - name: Install dependencies
+        run: python -m pip install -r desktop/requirements.txt -r deploy/requirements.txt
+      - name: Test application
+        run: |
+          python -m unittest discover -s app -p "test_*.py"
+          python -m unittest discover -s desktop -p "test_*.py"
+      - name: Build and verify frozen executable
+        run: python desktop/build.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 3DMidi-Windows-x64
+          path: |
+            output/windows/3DMidi.exe
+            output/windows/3DMidi-*-Windows-x64.zip
+            output/windows/SHA256SUMS.txt
+            output/windows/bundle-check.json
+          if-no-files-found: error

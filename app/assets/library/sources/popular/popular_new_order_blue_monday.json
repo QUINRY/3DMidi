@@ -1,0 +1,20 @@
+{
+  "id": "popular_new_order_blue_monday",
+  "title": "Blue Monday",
+  "artist": "New Order",
+  "category": "Elektronik",
+  "source_url": "https://bitmidi.com/blue-monday-mid",
+  "download_url": "https://bitmidi.com/uploads/18454.mid",
+  "original_filename": "Blue-Monday.mid",
+  "source_sha256": "4ce9b64eb6307266014dcc2b0041e1dae23aebd25e03ae84c73d189bef092a38",
+  "source_duration_seconds": 416.25,
+  "source_note_count": 2485,
+  "embedded_copyright": [
+    "File Copyright (c) 1993 Adrenalin Software"
+  ],
+  "retrieved_on": "2026-11-08",
+  "license": "Lisans belirtilmemiş",
+  "license_url": "",
+  "rights_status": "The archive does not establish a reusable licence for this arrangement or composition.",
+  "usage_scope": "User-requested local library; no redistribution permission asserted."
+}

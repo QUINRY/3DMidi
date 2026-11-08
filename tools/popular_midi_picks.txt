@@ -1,0 +1,238 @@
+# title | artist / franchise | category
+Never Gonna Give You Up | Rick Astley | Pop
+Take On Me | a-ha | Pop
+Billie Jean | Michael Jackson | Pop
+Beat It | Michael Jackson | Pop
+Thriller | Michael Jackson | Pop
+Smooth Criminal | Michael Jackson | Pop
+Bad | Michael Jackson | Pop
+Black Or White | Michael Jackson | Pop
+Man In The Mirror | Michael Jackson | Pop
+Bohemian Rhapsody | Queen | Rock
+Don't Stop Me Now | Queen | Rock
+We Will Rock You | Queen | Rock
+We Are The Champions | Queen | Rock
+Another One Bites The Dust | Queen | Rock
+Somebody To Love | Queen | Rock
+The Show Must Go On | Queen | Rock
+Radio Ga Ga | Queen | Rock
+Africa | Toto | Pop
+Viva La Vida | Coldplay | Pop
+Clocks | Coldplay | Pop
+Yellow | Coldplay | Pop
+The Scientist | Coldplay | Pop
+Fix You | Coldplay | Pop
+Paradise | Coldplay | Pop
+Imagine | John Lennon | Pop
+Let It Be | The Beatles | Pop
+Hey Jude | The Beatles | Pop
+Yesterday | The Beatles | Pop
+Here Comes The Sun | The Beatles | Pop
+Come Together | The Beatles | Rock
+Help | The Beatles | Rock
+Eleanor Rigby | The Beatles | Pop
+Dancing Queen | ABBA | Pop
+Mamma Mia | ABBA | Pop
+Gimme Gimme Gimme | ABBA | Pop
+The Winner Takes It All | ABBA | Pop
+SOS | ABBA | Pop
+Super Trouper | ABBA | Pop
+Hotel California | Eagles | Rock
+Sweet Child O Mine | Guns N' Roses | Rock
+November Rain | Guns N' Roses | Rock
+Welcome To The Jungle | Guns N' Roses | Rock
+Nothing Else Matters | Metallica | Rock
+Enter Sandman | Metallica | Rock
+The Unforgiven | Metallica | Rock
+Smells Like Teen Spirit | Nirvana | Rock
+Come As You Are | Nirvana | Rock
+Stairway To Heaven | Led Zeppelin | Rock
+Kashmir | Led Zeppelin | Rock
+Back In Black | AC/DC | Rock
+Thunderstruck | AC/DC | Rock
+Highway To Hell | AC/DC | Rock
+Smoke On The Water | Deep Purple | Rock
+Eye Of The Tiger | Survivor | Rock
+The Final Countdown | Europe | Rock
+Livin On A Prayer | Bon Jovi | Rock
+It's My Life | Bon Jovi | Rock
+Zombie | The Cranberries | Rock
+Wonderwall | Oasis | Rock
+Don't Look Back In Anger | Oasis | Rock
+Boulevard Of Broken Dreams | Green Day | Rock
+Wake Me Up When September Ends | Green Day | Rock
+Basket Case | Green Day | Rock
+In The End | Linkin Park | Rock
+Numb | Linkin Park | Rock
+Bring Me To Life | Evanescence | Rock
+My Immortal | Evanescence | Rock
+Seven Nation Army | The White Stripes | Rock
+Sweet Dreams | Eurythmics | Pop
+Careless Whisper | George Michael | Pop
+Last Christmas | Wham! | Pop
+Wake Me Up Before You Go Go | Wham! | Pop
+Every Breath You Take | The Police | Pop
+Shape Of My Heart | Sting | Pop
+Fields Of Gold | Sting | Pop
+Englishman In New York | Sting | Pop
+Losing My Religion | R.E.M. | Rock
+Everybody Hurts | R.E.M. | Rock
+Creep | Radiohead | Rock
+Karma Police | Radiohead | Rock
+Take Me To Church | Hozier | Pop
+Rolling In The Deep | Adele | Pop
+Someone Like You | Adele | Pop
+Skyfall | Adele | Film / Dizi
+My Heart Will Go On | Celine Dion | Film / Dizi
+I Will Always Love You | Whitney Houston | Pop
+I Wanna Dance With Somebody | Whitney Houston | Pop
+Hallelujah | Leonard Cohen | Pop
+Enjoy The Silence | Depeche Mode | Elektronik
+Personal Jesus | Depeche Mode | Elektronik
+Blue Monday | New Order | Elektronik
+Around The World | Daft Punk | Elektronik
+Get Lucky | Daft Punk | Elektronik
+One More Time | Daft Punk | Elektronik
+Harder Better Faster Stronger | Daft Punk | Elektronik
+Sandstorm | Darude | Elektronik
+The Riddle | Gigi D'Agostino | Elektronik
+L'Amour Toujours | Gigi D'Agostino | Elektronik
+Dragostea Din Tei | O-Zone | Pop
+Barbie Girl | Aqua | Pop
+What Is Love | Haddaway | Elektronik
+Blue Da Ba Dee | Eiffel 65 | Elektronik
+Better Off Alone | Alice Deejay | Elektronik
+Children | Robert Miles | Elektronik
+Insomnia | Faithless | Elektronik
+Levels | Avicii | Elektronik
+Wake Me Up | Avicii | Elektronik
+Faded | Alan Walker | Elektronik
+Gangnam Style | PSY | Pop
+Despacito | Luis Fonsi | Pop
+Shape Of You | Ed Sheeran | Pop
+Bad Romance | Lady Gaga | Pop
+Poker Face | Lady Gaga | Pop
+Toxic | Britney Spears | Pop
+Oops I Did It Again | Britney Spears | Pop
+Baby One More Time | Britney Spears | Pop
+Wannabe | Spice Girls | Pop
+I Want It That Way | Backstreet Boys | Pop
+Everybody | Backstreet Boys | Pop
+Uptown Funk | Mark Ronson / Bruno Mars | Pop
+Happy | Pharrell Williams | Pop
+Smooth | Santana / Rob Thomas | Pop
+Still Dre | Dr. Dre | Hip-hop
+Lose Yourself | Eminem | Hip-hop
+The Real Slim Shady | Eminem | Hip-hop
+Gangsta's Paradise | Coolio | Hip-hop
+Without Me | Eminem | Hip-hop
+He's A Pirate | Pirates of the Caribbean | Film / Dizi
+Star Wars Theme | Star Wars | Film / Dizi
+Imperial March | Star Wars | Film / Dizi
+Cantina Band | Star Wars | Film / Dizi
+Hedwig's Theme | Harry Potter | Film / Dizi
+Jurassic Park | Jurassic Park | Film / Dizi
+The Godfather | The Godfather | Film / Dizi
+Mission Impossible | Mission: Impossible | Film / Dizi
+James Bond Theme | James Bond | Film / Dizi
+Pink Panther | The Pink Panther | Film / Dizi
+Indiana Jones | Indiana Jones | Film / Dizi
+Game Of Thrones | Game of Thrones | Film / Dizi
+Concerning Hobbits | The Lord of the Rings | Film / Dizi
+The Shire | The Lord of the Rings | Film / Dizi
+Time | Inception / Hans Zimmer | Film / Dizi
+Interstellar | Interstellar / Hans Zimmer | Film / Dizi
+Merry Christmas Mr Lawrence | Ryuichi Sakamoto | Film / Dizi
+Let It Go | Frozen | Film / Dizi
+A Whole New World | Aladdin | Film / Dizi
+Under The Sea | The Little Mermaid | Film / Dizi
+Circle Of Life | The Lion King | Film / Dizi
+Can You Feel The Love Tonight | The Lion King | Film / Dizi
+Beauty And The Beast | Beauty and the Beast | Film / Dizi
+Megalovania | Undertale | Oyun
+Bonetrousle | Undertale | Oyun
+Hopes And Dreams | Undertale | Oyun
+Fallen Down | Undertale | Oyun
+Mii Channel | Nintendo Wii | Oyun
+Super Mario World | Super Mario | Oyun
+Athletic | Super Mario World | Oyun
+Dire Dire Docks | Super Mario 64 | Oyun
+Gusty Garden Galaxy | Super Mario Galaxy | Oyun
+Lost Woods | The Legend of Zelda | Oyun
+Gerudo Valley | The Legend of Zelda | Oyun
+Song Of Storms | The Legend of Zelda | Oyun
+Zelda's Lullaby | The Legend of Zelda | Oyun
+Tetris Theme | Tetris | Oyun
+Green Hill Zone | Sonic the Hedgehog | Oyun
+Chemical Plant | Sonic the Hedgehog | Oyun
+Mortal Kombat | Mortal Kombat | Oyun
+Pokemon Theme | Pokemon | Oyun
+Lavender Town | Pokemon | Oyun
+Pallet Town | Pokemon | Oyun
+Gourmet Race | Kirby | Oyun
+Nyan Cat | Nyan Cat | Oyun
+Wii Sports | Nintendo Wii | Oyun
+Sweden | Minecraft / C418 | Oyun
+Unravel | Tokyo Ghoul | Anime
+A Cruel Angel's Thesis | Neon Genesis Evangelion | Anime
+Gurenge | Demon Slayer | Anime
+Guren No Yumiya | Attack on Titan | Anime
+Blue Bird | Naruto | Anime
+Tank | Cowboy Bebop | Anime
+Sailor Moon | Sailor Moon | Anime
+Simarik | Tarkan | Türkçe
+Sikidim | Tarkan | Türkçe
+Kuzu Kuzu | Tarkan | Türkçe
+Uskudara | Geleneksel | Türkçe
+Katibim | Geleneksel | Türkçe
+Ceddin Deden | Mehter | Türkçe
+Together Forever | Rick Astley | Pop
+Heal The World | Michael Jackson | Pop
+Earth Song | Michael Jackson | Pop
+You Are Not Alone | Michael Jackson | Pop
+Human Nature | Michael Jackson | Pop
+Purple Rain | Prince | Pop
+Kiss | Prince | Pop
+Superstition | Stevie Wonder | Pop
+Isn't She Lovely | Stevie Wonder | Pop
+Sir Duke | Stevie Wonder | Pop
+Paint It Black | The Rolling Stones | Rock
+Satisfaction | The Rolling Stones | Rock
+Angie | The Rolling Stones | Rock
+Starman | David Bowie | Rock
+Life On Mars | David Bowie | Rock
+Space Oddity | David Bowie | Rock
+Heroes | David Bowie | Rock
+Piano Man | Billy Joel | Pop
+Uptown Girl | Billy Joel | Pop
+We Didn't Start The Fire | Billy Joel | Pop
+What A Wonderful World | Louis Armstrong | Pop
+Fly Me To The Moon | Frank Sinatra | Pop
+My Way | Frank Sinatra | Pop
+New York New York | Frank Sinatra | Pop
+La Vie En Rose | Edith Piaf | Pop
+La Isla Bonita | Madonna | Pop
+Like A Prayer | Madonna | Pop
+Vogue | Madonna | Pop
+Material Girl | Madonna | Pop
+Listen To Your Heart | Roxette | Pop
+The Look | Roxette | Pop
+It Must Have Been Love | Roxette | Pop
+Don't Dream It's Over | Crowded House | Pop
+Hooked On A Feeling | Blue Swede | Pop
+Good Vibrations | The Beach Boys | Pop
+Surfin USA | The Beach Boys | Rock
+Wouldn't It Be Nice | The Beach Boys | Pop
+Your Song | Elton John | Pop
+Rocket Man | Elton John | Pop
+Crocodile Rock | Elton John | Pop
+Goodbye Yellow Brick Road | Elton John | Pop
+Candle In The Wind | Elton John | Pop
+Sunshine Of Your Love | Cream | Rock
+Karma Chameleon | Culture Club | Pop
+Come On Eileen | Dexys Midnight Runners | Pop
+September | Earth Wind and Fire | Pop
+Stayin Alive | Bee Gees | Pop
+How Deep Is Your Love | Bee Gees | Pop
+Take My Breath Away | Berlin | Pop
+The Sound Of Silence | Simon and Garfunkel | Pop

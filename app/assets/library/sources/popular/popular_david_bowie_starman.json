@@ -1,0 +1,20 @@
+{
+  "id": "popular_david_bowie_starman",
+  "title": "Starman",
+  "artist": "David Bowie",
+  "category": "Rock",
+  "source_url": "https://bitmidi.com/david-bowie-starman-mid",
+  "download_url": "https://bitmidi.com/uploads/38068.mid",
+  "original_filename": "David Bowie - Starman.mid",
+  "source_sha256": "f9a53ac6f327caff65f1a53632fddbac8f615198d96f203612f586c1a9f62344",
+  "source_duration_seconds": 238.125,
+  "source_note_count": 7908,
+  "embedded_copyright": [
+    "Copyright © 1972 David Bowie"
+  ],
+  "retrieved_on": "2026-11-08",
+  "license": "Lisans belirtilmemiş",
+  "license_url": "",
+  "rights_status": "The archive does not establish a reusable licence for this arrangement or composition.",
+  "usage_scope": "User-requested local library; no redistribution permission asserted."
+}

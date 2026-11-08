@@ -1,0 +1,10 @@
+{
+  "u1_reference_commit": "7ac453b50fe6779b2ec0b759038a17da5e6d671d",
+  "metadata_template_source": "childomine_u1_xy_fast.gcode",
+  "sha256": {
+    "u1_toolhead.py": "f28887bb85dcfd1ac530b4381bc3bf0b6103af247027870ab1a98024038f5188",
+    "u1_metadata_parser.py": "07c1e72d9f0cbcc2d6dfc3021c1b1bd9c6727ec20c2623463e1722cd3e756c7a",
+    "u1_metadata.gcode": "ed7c64871024734816d59dd4ed6395464815f7fe8ef032918abc92fb05430d0a",
+    "mario.mid": "1495efafd96aa30bbee81587f27b4fb8c773d2c92c599eee5cf0cc3fc7e9619a"
+  }
+}

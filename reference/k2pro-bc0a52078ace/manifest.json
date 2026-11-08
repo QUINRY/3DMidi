@@ -1,0 +1,23 @@
+{
+  "repository": "CrealityOfficial/K2_Series_Klipper",
+  "commit": "bc0a52078ace1e4d82995e396b38457b9f441024",
+  "profile": "config/F012_CR0CN200400C10",
+  "nominal_build_volume_mm": [
+    300,
+    300,
+    300
+  ],
+  "configured_xy_rotation_distance_mm": 40,
+  "configured_xy_microsteps": 16,
+  "full_steps_per_rotation_default": 200,
+  "stepper_defaults_source": "klippy/stepper.py:283",
+  "sha256": {
+    "corexy.py": "9b6d97f49b21c23c0cb7a82d61f2117b8a21333939f11d4e04e49bb70c5bc98b",
+    "gcode_macro.cfg": "41a33f8c701bc7f238177ba4a777d38ef15543ee2d16d033b2222bb6fbf32d84",
+    "homing_override.py": "c11b4cdf7db5cb59037a107a09783c0dd0d89057e9d9a4e84c0c3e22013f632b",
+    "metadata.py": "42c506ede5720df84592ca2558b6b01e7a88ef0785fcc54c3cea44ea3b8e9399",
+    "printer.cfg": "2265fe58da44dcb075bec6cf41b2694ff92c5809874956aa202fdebe12a95a48",
+    "printer_params.cfg": "b8a1c7b7668e1a881614dfa81174cc30679bd49e968cf2708ae728725da65b28",
+    "sensorless.cfg": "5677985f3dd4124d4939b52563816456748418b644d24279ab2f812253a12c80"
+  }
+}

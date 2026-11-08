@@ -1,0 +1,27 @@
+{
+  "vendor_commit": "a63fb1a71672b91b505e0bda68fae2ede49f1168",
+  "normal_toolhead_move": {
+    "requested_speed": 30,
+    "global_velocity": 3,
+    "actual_model_speed": 3.0,
+    "accel": 100
+  },
+  "stock_force_move_exception": {
+    "distance": 5,
+    "requested_velocity": 20,
+    "actual_model_speed": 20,
+    "affected_by_global_velocity": false
+  },
+  "physical_printer_tested": false,
+  "compiled_prtouch_execution": "not possible on this host; MIPS binary wrapper",
+  "snapshots": {
+    "sensorless.cfg": "3abef3fbc692d4d5fc83dace1dccf8498d5eb29668dc3bd8cfa780d8b347c00e",
+    "toolhead.py": "ee31374998539348ea9759e472d51b202300f7ad41b9a7eaf251ec998ad5b9df",
+    "cartesian.py": "08987ae2b9e619af71ce7b5b4424964f1af23ea4a16088cf1387ddc43d8913d9",
+    "homing.py": "da19341aaa6aa91e287b879e4cdae266b22c636ae87415fefd4442ce5d2ac8aa",
+    "homing_override.py": "bbf32b67ff1a2401b0d3d20fea2f3a82d021c0f066131c978b99a764f62b0e6a",
+    "force_move.py": "94f1470b4f323e53e7046330b23a74bb2295a998a8999541adfc2636bcf79461",
+    "prtouch_v2.py": "dc333c91196c90f13ac0b1ef51be44769e073395c5e789891dcbb04e58af8757",
+    "z_compensate.py": "12d0e36b4358d5d88a99a28d08f768a937c45ab07fd46ff1e059c3e97a626ac8"
+  }
+}

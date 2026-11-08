@@ -1,0 +1,48 @@
+Ender-3 V3 KE: otomatik başlangıç ve yavaş Z
+
+Uygulamanın KE otomatik seçeneği, önce normal kaynak profil limitlerini geri
+yükler ve standart G28 ile yazıcının normal hızında home yapar. Önceki bir
+dosya 3 mm/sn genel limit bırakmış olsa da yeni başlangıç bunu düzeltir.
+Home bittikten sonra aktif mesh temizlenir; yalnızca Z20 konumuna yükselme
+F180 (3 mm/sn) ve 100 mm/sn² ile yapılır. Genel hız limiti 3'e düşürülmez.
+Ardından normal limitler geri alınır; müzikte yalnızca X/Y kullanılır.
+Dosya bittiğinde de normal kaynak profil limitleri geri yüklenir.
+Müzik hız ayarı Z hareketine uygulanmaz.
+
+ÖNEMLİ KAYNAK SINIRI
+Resmî KE sensorless.cfg içinde ilk home öncesi Z kaldırması, normal
+hareket planlayıcısını atlayan FORCE_MOVE ... VELOCITY=20 ile yapılır.
+SET_VELOCITY_LIMIT bu doğrudan motor komutunu yavaşlatmaz. Bu nedenle,
+başlangıçtaki bu kaldırmanın da 3 mm/sn olmasını istiyorsan aşağıdaki
+bir defalık yapılandırma gerekir. Uygulama kurulu olup olmadığını ölçemez.
+Kapalı kaynak prtouch/z_compensate modüllerinin tüm iç hareketleri ve
+ısıtma davranışları uzaktan doğrulanmış değildir. Bu bir fiziksel test değildir.
+
+BİR DEFALIK KURULUM — YALNIZCA KE
+1. Yazıcı boşta iken mevcut printer.cfg dosyasını yedekle.
+2. midi_ke_slow_z.cfg dosyasını yazıcının printer.cfg ile aynı klasörüne koy.
+3. printer.cfg sonuna şu include satırını ekle:
+   [include midi_ke_slow_z.cfg]
+4. Başka bir [gcode_macro FORCE_MOVE] veya FORCE_MOVE_BASE varsa bu dosyayı
+   ikinci kez ekleme; mevcut override ile birleştirilmesi gerekir.
+5. Dosyaları kaydet, yazıcı boşta iken FIRMWARE_RESTART yap.
+6. Önce kısa müzik testini çalıştır ve homing aşamasını gözlemle.
+
+Yapılandırma dosyalarına erişim, stok KE arayüzü/kurulu firmware'e bağlıdır.
+Bu dosya kullanıcı izni dışında yazıcıya kurulmaz veya otomatik gönderilmez.
+
+NE DEĞİŞİR?
+Yalnızca stepper_z için FORCE_MOVE hızı en fazla 3 mm/sn, ivmesi en fazla
+100 mm/sn² olur. Stok komut ivme belirtmiyorsa kontrollü 100 mm/sn² eklenir.
+Daha düşük pozitif hız/ivme korunur; DISTANCE değiştirilmez. X/Y FORCE_MOVE
+komutları aynı parametrelerle iletilir. Endstoplar devre dışı bırakılmaz;
+SET_KINEMATIC_POSITION ile sahte home yapılmaz, ekstra unhomed Z adımı eklenmez.
+
+GERİ ALMA
+Yazıcı boşta iken eklenen include satırını kaldır ve FIRMWARE_RESTART yap.
+Bu wrapper, normal baskının homing sırasında çağırdığı Z FORCE_MOVE komutlarını
+da yavaşlatır. Normal baskının geri kalanı için hız/ivme sınırları değiştirilmez.
+
+Kaynak sürümü: CrealityOfficial/Ender-3_V3_KE_Klipper
+a63fb1a71672b91b505e0bda68fae2ede49f1168
+Kaynak karşılaştırması ve model sınırı: source-replay.json ve README.md.

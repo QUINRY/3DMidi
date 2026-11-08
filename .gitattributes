@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Pinned firmware and musical sources are hash-checked byte for byte.
+app/assets/** -text
+reference/** -text
+*.mid -text
+*.midi -text
+*.ico -text
+*.png -text

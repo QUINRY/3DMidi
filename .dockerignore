@@ -1,0 +1,11 @@
+**/__pycache__
+**/*.pyc
+**/.logs
+**/test_*.py
+.venv
+.git
+.ssh
+output
+.playwright-mcp
+deploy/.env
+deploy/secrets

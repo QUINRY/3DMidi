@@ -1,0 +1,1401 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-11-08",
+  "source_repository": "bambulab/BambuStudio",
+  "source_commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+  "scope": "Bambu Lab native M1006 sound capabilities established by active official startup templates. No inferred motor full-step or belt-pulley calibration.",
+  "native_sound_editor_source": "https://midi-to-gcode.bambulab.com/",
+  "native_sound_editor_script": "https://midi-to-gcode.bambulab.com/browserMain-8002fc808330ff1b5d91.js",
+  "profiles": [
+    {
+      "id": "bambu_a1",
+      "name": "Bambu Lab A1",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "cartesian",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        256.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 12000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 19,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A1%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab A1 0.4 nozzle.json",
+        "snapshot_sha256": "f70b109cd1532542fccdc72827e0c8c06d58deded79bc8808a4fb2e0630e3144"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A1%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab A1 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "a5d4de36e2bd9414f24803ed3800e889995920068319382de78655f48a961e8d"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A1%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab A1 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "e12b6bbbc4060f90740e2c774ba0183655511fe1a8b549a4f8788f7635e38412"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 12000.0,
+        "y_accel_mm_s2": 12000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256"
+        ],
+        "printable_height_mm": 256.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_a1_mini",
+      "name": "Bambu Lab A1 mini",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "cartesian",
+      "build_volume_mm": [
+        180.0,
+        180.0,
+        180.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 19,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A1%20mini%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A1 mini 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab A1 mini 0.4 nozzle.json",
+        "snapshot_sha256": "c9e61a08e6adbf493c851d186fd4beb4281bf9a3a4981e64cfe0e8ec5f909c4b"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A1%20mini%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A1 mini 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab A1 mini 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "5c75a615095122b6de6e2cf9a00b2a27b44061c1328a150b064e91598dc4c262"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A1%20mini%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A1 mini 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab A1 mini 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "1cd56e099b40c522de5148e53146aab6472d1250a131635b26e4b35d87ad3ccc"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "180x0",
+          "180x180",
+          "0x180"
+        ],
+        "printable_height_mm": 180.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_a2l",
+      "name": "Bambu Lab A2L",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "cartesian",
+      "build_volume_mm": [
+        330.0,
+        320.0,
+        325.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 8000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A2L%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A2L 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab A2L 0.4 nozzle.json",
+        "snapshot_sha256": "7fb8a097acaf14bbca12f3a9cfc3014b595461f36064a49222cbf9c107bbd4c8"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A2L%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A2L 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab A2L 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "dcc586109888f3eb5c6714e03c6d5589b7c014adb1f592e33a470ec218eb75f2"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20A2L%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab A2L 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab A2L 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "5eb6e2b29fb5705931987c850da7b8280a1e717f1bdf38f4ca26ffb095ab52ef"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 12000.0,
+        "y_accel_mm_s2": 8000.0,
+        "printable_area": [
+          "0x0",
+          "330x0",
+          "330x320",
+          "0x320"
+        ],
+        "printable_height_mm": 325.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_p1p",
+      "name": "Bambu Lab P1P",
+      "manufacturer": "Bambu Lab",
+      "selectable": false,
+      "status": "unsupported_bambu_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        250.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 0,
+        "present_in_official_startup": false
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P1P%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P1P 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab P1P 0.4 nozzle.json",
+        "snapshot_sha256": "2360c1a2d2254728007e7ad9668dfd8148bd4d54acd53c44382694d63cdff3c5"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P1P%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P1P 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab P1P 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "90683028e6f90f606bf3cbb585b3333d8cfcdf0f32c58dd9336a2cfbc71c5f25"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P1P%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P1P 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab P1P 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "4dbb9d946068294fbcb1d8b7bc64651c8ba24909730ba4b8b59aec63855587b6"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256"
+        ],
+        "printable_height_mm": 250.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses dizisi bulunmadığı için bu modelin yerel ses desteği doğrulanamadı; çıktı için seçilemez.",
+        "Bu bir printer.cfg eksikliği değildir. Kapalı Bambu firmware için doğrulanmış ses komutu desteği gerekir.",
+        "Gösterilen 250 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; pazarlanan nominal hacimden farklı olabilir. Ses modu bu sınırda hareket üretmez."
+      ]
+    },
+    {
+      "id": "bambu_p1s",
+      "name": "Bambu Lab P1S",
+      "manufacturer": "Bambu Lab",
+      "selectable": false,
+      "status": "unsupported_bambu_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        250.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 0,
+        "present_in_official_startup": false
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P1S%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P1S 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab P1S 0.4 nozzle.json",
+        "snapshot_sha256": "2fe75b68724125eb47c03ed5dc59ddb3f2f606eb308641fc2985082b06c517c1"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P1S%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P1S 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab P1S 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "ecfedd58ee4775dec2dafe0a14c1adbcd1fe3c83d2f85e9a252cceec05d2730e"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P1S%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P1S 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab P1S 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "766999ac6456c7ddd82aa47a3dbd9ef71d1e9333483305999b3530befe22ab7d"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256"
+        ],
+        "printable_height_mm": 250.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses dizisi bulunmadığı için bu modelin yerel ses desteği doğrulanamadı; çıktı için seçilemez.",
+        "Bu bir printer.cfg eksikliği değildir. Kapalı Bambu firmware için doğrulanmış ses komutu desteği gerekir.",
+        "Gösterilen 250 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; pazarlanan nominal hacimden farklı olabilir. Ses modu bu sınırda hareket üretmez."
+      ]
+    },
+    {
+      "id": "bambu_p2s",
+      "name": "Bambu Lab P2S",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        256.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 1000.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P2S%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P2S 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab P2S 0.4 nozzle.json",
+        "snapshot_sha256": "5e690e3c88409bebaef616590d099697eead5aea095225a1f4d72756b7910d2d"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P2S%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P2S 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab P2S 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "11d010942d9025a259613ed304a2dd9ad6940c941fecb42c66e4db8986b14172"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20P2S%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab P2S 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab P2S 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "840ac7f05fda06258129e27859cc72c43d88a907e6bd017bc391a1531c25796d"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 1000.0,
+        "normal_mode_y_velocity_mm_s": 1000.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256"
+        ],
+        "printable_height_mm": 256.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_x1",
+      "name": "Bambu Lab X1",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        250.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 19,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab X1 0.4 nozzle.json",
+        "snapshot_sha256": "3bf5e215514ed29032a25bf0eb6a642029966130d5f53ec4856421ea0f4aa818"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X1 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "110ea3ff224d1cd3adc1baf1643779de9c639edcd7a08673f939a66f6574cc61"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X1 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "8fd1129e78e70a06700f3bf86f894448490bcf9b37c986f4b9473a367561f68a"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256"
+        ],
+        "printable_height_mm": 250.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez.",
+        "M1006 dizisi resmî 20251031 tarihli X1 başlangıç şablonunda etkin durumdadır; önceki firmware sürümlerinde destek farklı olabilir.",
+        "Gösterilen 250 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; pazarlanan nominal hacimden farklı olabilir. Ses modu bu sınırda hareket üretmez."
+      ]
+    },
+    {
+      "id": "bambu_x1_carbon",
+      "name": "Bambu Lab X1 Carbon",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        250.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 19,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1%20Carbon%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab X1 Carbon 0.4 nozzle.json",
+        "snapshot_sha256": "cce2cd5a974bf3c3504b2e110796daeca8c26773cef0b8b9d9d7c92b3b53e48e"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1%20Carbon%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X1 Carbon 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "cc890a986c3f073e4691908d4bd3256222da9afc52fa9520261318bea9757505"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1%20Carbon%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1 Carbon 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X1 Carbon 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "e90eb249dceb719ff8511b59275793a85ab84e1d5b5d4981e1fe6256fb6ffe54"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256"
+        ],
+        "printable_height_mm": 250.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez.",
+        "M1006 dizisi resmî 20251031 tarihli X1 başlangıç şablonunda etkin durumdadır; önceki firmware sürümlerinde destek farklı olabilir.",
+        "Gösterilen 250 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; pazarlanan nominal hacimden farklı olabilir. Ses modu bu sınırda hareket üretmez."
+      ]
+    },
+    {
+      "id": "bambu_x1e",
+      "name": "Bambu Lab X1E",
+      "manufacturer": "Bambu Lab",
+      "selectable": false,
+      "status": "unsupported_bambu_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        250.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 500.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 0,
+        "present_in_official_startup": false
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1E%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1E 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab X1E 0.4 nozzle.json",
+        "snapshot_sha256": "ab81fad5ad853aff6a0fbfd66080f9d4869d4039e9778ce89524fec94eac0489"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1E%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1E 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X1E 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "06fc50960eb25d4f71fe73ba22125266ceed75e66a54c7453b2345cbca61d3f2"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X1E%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X1E 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X1E 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "40f3c04a66613829e9b40efea167acdc16f1480a4f8849356975b71a70e3f16d"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 500.0,
+        "normal_mode_y_velocity_mm_s": 500.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256"
+        ],
+        "printable_height_mm": 250.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses dizisi bulunmadığı için bu modelin yerel ses desteği doğrulanamadı; çıktı için seçilemez.",
+        "Bu bir printer.cfg eksikliği değildir. Kapalı Bambu firmware için doğrulanmış ses komutu desteği gerekir.",
+        "Gösterilen 250 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; pazarlanan nominal hacimden farklı olabilir. Ses modu bu sınırda hareket üretmez."
+      ]
+    },
+    {
+      "id": "bambu_x2d",
+      "name": "Bambu Lab X2D",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        256.0,
+        256.0,
+        261.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 1000.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X2D%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab X2D 0.4 nozzle.json",
+        "snapshot_sha256": "6e4e9035e2f7d81320dc85725d924c9cec577678a6a13a57f2fe3005259e9808"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X2D%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X2D 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "204e34c7fe41d160a86ae6be35d1ae13223f97d66b42e9be9c656a23af2d0948"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20X2D%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab X2D 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "e1eff49373db551d4a3c50a0c7669c9bfa462b4bac6e38c1087b36f7d3e3d240"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 1000.0,
+        "normal_mode_y_velocity_mm_s": 1000.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "256x0",
+          "256x256",
+          "0x256 "
+        ],
+        "printable_height_mm": 261.0,
+        "extruder_printable_area": [
+          "0x0,256x0,256x256,0x256",
+          "20.5x0,256x0,256x256,20.5x256"
+        ],
+        "inherits": "fdm_bbl_3dp_002_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez.",
+        "Gösterilen 261 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; ses modu bu sınırda hareket üretmez."
+      ]
+    },
+    {
+      "id": "bambu_h2c",
+      "name": "Bambu Lab H2C",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        330.0,
+        320.0,
+        325.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 1000.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2C%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2C 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab H2C 0.4 nozzle.json",
+        "snapshot_sha256": "d2ac68750a65faf2ebceccc941f39396ce10a51852784c4e1aba4da111e1400a"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2C%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2C 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2C 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "b473d17fe7af0f2e431f8003782d0ab1f74b7a1e2ce73e265b3d7716e9ec8ce5"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2C%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2C 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2C 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "2adc660220d954417396f6252ae989b74be13b563b5894ba3eea16ad14914d45"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 1000.0,
+        "normal_mode_y_velocity_mm_s": 1000.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "330x0",
+          "330x320",
+          "0x320"
+        ],
+        "printable_height_mm": 325.0,
+        "extruder_printable_area": [
+          "0x0,325x0,325x320,0x320",
+          "25x0,330x0,330x320,25x320"
+        ],
+        "inherits": "fdm_bbl_3dp_002_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_h2d",
+      "name": "Bambu Lab H2D",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        350.0,
+        320.0,
+        325.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 1000.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2D%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab H2D 0.4 nozzle.json",
+        "snapshot_sha256": "fa8705d5e654edb3597e77f85c495e24ccb3d6a90d486cef80a80296833f0c4d"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2D%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2D 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "885783190201e95c7c7a5743d598a081c51e63162fedb4f639f8b7a5b8200f20"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2D%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2D 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2D 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "b2707f3bf45e72dba0daf7e5d4ed4ee9a8668865452bbb7a6c46a0dbaac58fd8"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 1000.0,
+        "normal_mode_y_velocity_mm_s": 1000.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "350x0",
+          "350x320",
+          "0x320"
+        ],
+        "printable_height_mm": 325.0,
+        "extruder_printable_area": [
+          "0x0,325x0,325x320,0x320",
+          "25x0,350x0,350x320,25x320"
+        ],
+        "inherits": "fdm_bbl_3dp_002_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_h2d_pro",
+      "name": "Bambu Lab H2D Pro",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        350.0,
+        320.0,
+        325.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 1000.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2D%20Pro%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2D Pro 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab H2D Pro 0.4 nozzle.json",
+        "snapshot_sha256": "e609c545afb5aed184fa59b2664478acbfc3864ff2fe60815bfec7cf334a2a55"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2D%20Pro%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2D Pro 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2D Pro 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "569bc373e144add471b14262874d2445b11987b2620f061b537911d306e5d4f8"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2D%20Pro%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2D Pro 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2D Pro 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "4c2beda5ce4a2856a59a58ba070ce405d55b0608684b1fe91fc5d7e6d735879d"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 1000.0,
+        "normal_mode_y_velocity_mm_s": 1000.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "350x0",
+          "350x320",
+          "0x320"
+        ],
+        "printable_height_mm": 325.0,
+        "extruder_printable_area": [
+          "0x0,325x0,325x320,0x320",
+          "25x0,350x0,350x320,25x320"
+        ],
+        "inherits": "fdm_bbl_3dp_002_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_h2s",
+      "name": "Bambu Lab H2S",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        340.0,
+        320.0,
+        340.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 1000.0,
+      "max_accel_mm_s2": 20000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2S%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2S 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab H2S 0.4 nozzle.json",
+        "snapshot_sha256": "42dfeb1290f961b2224513bd7d704d39bc5fdd521dc469430e432c2eaac3e331"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2S%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2S 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2S 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "744d2759861465a8a9e2a27c59ebd9f6f486fd0d3c0ce8e7be29fcc904b4cc81"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H2S%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H2S 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H2S 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "c182b61c58bc070d36673482e456b12ec9ef96af8eaab407e2890b6665e51a09"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 1000.0,
+        "normal_mode_y_velocity_mm_s": 1000.0,
+        "x_accel_mm_s2": 20000.0,
+        "y_accel_mm_s2": 20000.0,
+        "printable_area": [
+          "0x0",
+          "340x0",
+          "340x320",
+          "0x320"
+        ],
+        "printable_height_mm": 340.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    },
+    {
+      "id": "bambu_h3c",
+      "name": "Bambu Lab H3C",
+      "manufacturer": "Bambu Lab",
+      "selectable": true,
+      "status": "source_verified_native_sound",
+      "firmware_family": "bambu",
+      "music_mode": "bambu_native",
+      "backend": "bambu_m1006",
+      "kinematics": "corexy",
+      "build_volume_mm": [
+        330.0,
+        320.0,
+        325.0
+      ],
+      "volume_basis": "Bambu Studio 0.4 mm machine profile printable area/height; slicer envelope, not marketing nominal volume",
+      "max_velocity_mm_s": 1400.0,
+      "max_accel_mm_s2": 25000.0,
+      "startup": "native_sound_no_motion",
+      "has_bed_mesh": false,
+      "native_music": {
+        "command": "M1006",
+        "channels": [
+          "X",
+          "Y"
+        ],
+        "muted_channels": [
+          "Z"
+        ],
+        "midi_note_range": [
+          24,
+          95
+        ],
+        "pitch_code_range": [
+          1,
+          72
+        ],
+        "midi_to_pitch_offset": -23,
+        "tick_seconds": 0.01,
+        "max_ticks_per_event": 200,
+        "positioning_moves": false,
+        "source_startup_active_M1006_count": 8,
+        "present_in_official_startup": true
+      },
+      "source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H3C%200.4%20nozzle.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H3C 0.4 nozzle.json",
+        "snapshot": "reference/bambu/Bambu Lab H3C 0.4 nozzle.json",
+        "snapshot_sha256": "4b287ec7ae756b40ea5c3ec900f64123e02475f6370d4e1bb390a687d3d76a0e"
+      },
+      "sound_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H3C%200.4%20nozzle%20template%20machine_start_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H3C 0.4 nozzle template machine_start_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H3C 0.4 nozzle template machine_start_gcode.json",
+        "snapshot_sha256": "81a2646b1ab2d37ec3207fe9185f7de2066b9c58a2607b87fc8bc793639c39b0"
+      },
+      "end_source": {
+        "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/Bambu%20Lab%20H3C%200.4%20nozzle%20template%20machine_end_gcode.json",
+        "repository": "bambulab/BambuStudio",
+        "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+        "path": "resources/profiles/BBL/machine/Bambu Lab H3C 0.4 nozzle template machine_end_gcode.json",
+        "snapshot": "reference/bambu/Bambu Lab H3C 0.4 nozzle template machine_end_gcode.json",
+        "snapshot_sha256": "33a9cd352e4b4e7dbb1b16bd44f5d9a42a3d48401101251662b5d91b0b7f9c18"
+      },
+      "profile_limits": {
+        "normal_mode_x_velocity_mm_s": 1400.0,
+        "normal_mode_y_velocity_mm_s": 1400.0,
+        "x_accel_mm_s2": 25000.0,
+        "y_accel_mm_s2": 25000.0,
+        "printable_area": [
+          "0x0",
+          "330x0",
+          "330x320",
+          "0x320"
+        ],
+        "printable_height_mm": 325.0,
+        "extruder_printable_area": [],
+        "inherits": "fdm_bbl_3dp_001_common"
+      },
+      "notes": [
+        "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.",
+        "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.",
+        "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.",
+        "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+      ]
+    }
+  ],
+  "inherited_sources": [
+    {
+      "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/fdm_machine_common.json",
+      "repository": "bambulab/BambuStudio",
+      "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+      "path": "resources/profiles/BBL/machine/fdm_machine_common.json",
+      "snapshot": "reference/bambu/fdm_machine_common.json",
+      "snapshot_sha256": "8adb536acf0fda1ff91e437d6581a2e501ac98b8eea4004115edfd059498c64e"
+    },
+    {
+      "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/fdm_bbl_3dp_001_common.json",
+      "repository": "bambulab/BambuStudio",
+      "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+      "path": "resources/profiles/BBL/machine/fdm_bbl_3dp_001_common.json",
+      "snapshot": "reference/bambu/fdm_bbl_3dp_001_common.json",
+      "snapshot_sha256": "f911d4012d803184927b48d149eb18e30e98317109424ecc988caeb9c204504a"
+    },
+    {
+      "url": "https://github.com/bambulab/BambuStudio/blob/4c2c19a4bf698edf153555dfe28fd4f81d6550be/resources/profiles/BBL/machine/fdm_bbl_3dp_002_common.json",
+      "repository": "bambulab/BambuStudio",
+      "commit": "4c2c19a4bf698edf153555dfe28fd4f81d6550be",
+      "path": "resources/profiles/BBL/machine/fdm_bbl_3dp_002_common.json",
+      "snapshot": "reference/bambu/fdm_bbl_3dp_002_common.json",
+      "snapshot_sha256": "1155134a56c94be6865f1b7e90534b76fff90c73da87d18e2b07f040da7a7b2e"
+    }
+  ]
+}

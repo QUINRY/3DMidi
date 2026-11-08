@@ -1,0 +1,22 @@
+3DMidi 1.0.0 - Windows x64
+
+3DMidi.exe dosyasini cift tikla. Kurulum ve Python gerekmez.
+Windows 10/11 x64 ve Microsoft Edge WebView2 Runtime gereklidir.
+Runtime eksikse: https://developer.microsoft.com/microsoft-edge/webview2/
+
+Yazicini sec (varsayilan Snapmaker U1).
+MIDI dosyani sec veya 129 ornekten birini kullan.
+Hareket hizi ve tempoyu ayarla, G-code olustur.
+Once kisa testi, sonra tam parcayi Farkli Kaydet ile kaydet.
+
+Donusum bu bilgisayarda yapilir. Internet baglantisi gerekmez.
+Uygulama yaziciya baglanmaz ve otomatik dosya gondermez.
+Z eksenine melodi veya muzik hizlari uygulanmaz.
+Ilk fiziksel denemede yaziciyi gozlemle ve profil uyarilarini incele.
+
+Kaynak kodu, surumler ve hata bildirimleri:
+https://github.com/QUINRY/3DMidi
+
+Veri ve hata gunlugu: %LOCALAPPDATA%\3DMidi
+Bu surum kod imzali degildir.
+Uygulama kodu GPLv3; ucuncu taraf ve MIDI haklari icin THIRD_PARTY_NOTICES.md.

@@ -1,0 +1,20 @@
+{
+  "id": "popular_the_beatles_here_comes_the_sun",
+  "title": "Here Comes The Sun",
+  "artist": "The Beatles",
+  "category": "Pop",
+  "source_url": "https://bitmidi.com/the-beatles-here-comes-the-sun-mid",
+  "download_url": "https://bitmidi.com/uploads/100710.mid",
+  "original_filename": "The Beatles - Here Comes the Sun.mid",
+  "source_sha256": "a43e851d3dfb3ab36af4bc7969ffbe5a21288d78925845f840365856803c7186",
+  "source_duration_seconds": 213.583438,
+  "source_note_count": 5557,
+  "embedded_copyright": [
+    "MIDI File Copyright 1996, DWBarnes"
+  ],
+  "retrieved_on": "2026-11-08",
+  "license": "Lisans belirtilmemiş",
+  "license_url": "",
+  "rights_status": "The archive does not establish a reusable licence for this arrangement or composition.",
+  "usage_scope": "User-requested local library; no redistribution permission asserted."
+}
