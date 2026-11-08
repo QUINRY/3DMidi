@@ -10,7 +10,9 @@ An offline Windows app with printer-specific G-code, movement and tempo controls
 
 **Insomnia — Snapmaker U1 motor music.** Turn on sound to hear the melody played by the printer's motors.
 
-[Watch the video (MP4, 35 seconds)](https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Snapmaker-U1-Insomnia.mp4)
+https://github.com/user-attachments/assets/35632834-2989-4c17-b8fd-dd31da0e4d57
+
+[Download the video (MP4, 35 seconds)](https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Snapmaker-U1-Insomnia.mp4)
 
 ## Get started
 
