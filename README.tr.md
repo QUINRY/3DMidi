@@ -4,6 +4,12 @@ MIDI dosyalarından 3D yazıcı motorlarında müzik çalan G-code üretir. Wind
 
 [Windows sürümünü indir](https://github.com/QUINRY/3DMidi/releases/latest) · [English](README.md)
 
+## Snapmaker U1 örnek videosu
+
+**Insomnia — Snapmaker U1 motor müziği.** Yazıcı motorlarının çaldığı melodiyi duymak için sesi açın.
+
+[Videoyu izle (MP4, 35 saniye)](https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Snapmaker-U1-Insomnia.mp4)
+
 1. `3DMidi.exe` dosyasını indir ve çift tıkla. Python veya kurulum gerekmez.
 2. Yazıcını seç; varsayılan Snapmaker U1’dir.
 3. MIDI dosyanı veya kitaplıktan bir örneği seç.

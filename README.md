@@ -6,6 +6,12 @@ An offline Windows app with printer-specific G-code, movement and tempo controls
 
 [Download for Windows](https://github.com/QUINRY/3DMidi/releases/latest) · [Türkçe](README.tr.md)
 
+## Snapmaker U1 demo
+
+**Insomnia — Snapmaker U1 motor music.** Turn on sound to hear the melody played by the printer's motors.
+
+[Watch the video (MP4, 35 seconds)](https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Snapmaker-U1-Insomnia.mp4)
+
 ## Get started
 
 1. Download **3DMidi.exe** from the latest release and double-click it. No installer is needed.
