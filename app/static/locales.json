@@ -1,0 +1,3588 @@
+{
+  "languages": {
+    "en": "English",
+    "tr": "Türkçe",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "zh": "简体中文",
+    "ja": "日本語",
+    "ru": "Русский",
+    "ar": "العربية"
+  },
+  "messages": {
+    " X moves more slowly; Y moves faster.": {
+      "en": " X moves more slowly; Y moves faster.",
+      "tr": " X daha yavaş, Y daha hızlı hareket eder."
+    },
+    " · FOC step-servo · Slow / Slow": {
+      "en": " · FOC step-servo · Slow / Slow",
+      "tr": " · FOC step-servo · Yavaş / Yavaş"
+    },
+    " · Fast Y / slow X · Adjustable settings": {
+      "en": " · Fast Y / slow X · Adjustable settings",
+      "tr": " · Y hızlı / X yavaş · Ayarlar serbest"
+    },
+    " · X only · Adjustable settings": {
+      "en": " · X only · Adjustable settings",
+      "tr": " · Yalnızca X · Ayarlar serbest"
+    },
+    " G-CODE": {
+      "en": " G-CODE",
+      "tr": " İÇİN G-CODE"
+    },
+    ".MID / .MIDI · UP TO 4 MB": {
+      "en": ".MID / .MIDI · UP TO 4 MB",
+      "tr": ".MID / .MIDI · EN FAZLA 4 MB",
+      "de": ".MID / .MIDI · BIS 4 MB",
+      "es": ".MID / .MIDI · HASTA 4 MB",
+      "fr": ".MID / .MIDI · JUSQU’À 4 Mo",
+      "pt": ".MID / .MIDI · ATÉ 4 MB",
+      "zh": ".MID / .MIDI · 最大4 MB",
+      "ja": ".MID / .MIDI · 最大4 MB",
+      "ru": ".MID / .MIDI · ДО 4 МБ",
+      "ar": ".MID / .MIDI · حتى 4 MB"
+    },
+    "Up to 180 mm/s": {
+      "en": "Up to 180 mm/s",
+      "tr": "180 mm/sn’ye kadar"
+    },
+    "MOTOR MUSIC FOR 3D PRINTERS": {
+      "en": "MOTOR MUSIC FOR 3D PRINTERS",
+      "tr": "3D YAZICILAR İÇİN MOTOR MÜZİĞİ",
+      "de": "MOTORMUSIK FÜR 3D-DRUCKER",
+      "es": "MÚSICA DE MOTORES PARA IMPRESORAS 3D",
+      "fr": "MUSIQUE DE MOTEURS POUR IMPRIMANTES 3D",
+      "pt": "MÚSICA DE MOTORES PARA IMPRESSORAS 3D",
+      "zh": "3D打印机电机音乐",
+      "ja": "3Dプリンターのモーター音楽",
+      "ru": "МУЗЫКА МОТОРОВ 3D-ПРИНТЕРОВ",
+      "ar": "موسيقى محركات الطابعات ثلاثية الأبعاد"
+    },
+    "Save 8-second test": {
+      "en": "Save 8-second test",
+      "tr": "8 sn testi indir",
+      "de": "8-Sekunden-Test speichern",
+      "es": "Guardar prueba de 8 segundos",
+      "fr": "Enregistrer le test de 8 s",
+      "pt": "Salvar teste de 8 segundos",
+      "zh": "保存8秒测试",
+      "ja": "8秒テストを保存",
+      "ru": "Сохранить тест на 8 секунд",
+      "ar": "حفظ اختبار 8 ثوانٍ"
+    },
+    "Main navigation": {
+      "en": "Main navigation",
+      "tr": "Ana gezinme",
+      "de": "Hauptnavigation",
+      "es": "Navegación principal",
+      "fr": "Navigation principale",
+      "pt": "Navegação principal",
+      "zh": "主导航",
+      "ja": "メインナビゲーション",
+      "ru": "Главная навигация",
+      "ar": "التنقل الرئيسي"
+    },
+    "The main melody plays on X only. Y and Z stay still. The preview is a MIDI reference.": {
+      "en": "The main melody plays on X only. Y and Z stay still. The preview is a MIDI reference.",
+      "tr": "Ana melodi yalnızca X ekseninde çalar; Y ve Z sabittir. Önizleme MIDI referansıdır."
+    },
+    "Check settings": {
+      "en": "Check settings",
+      "tr": "Ayarları kontrol et",
+      "de": "Einstellungen prüfen",
+      "es": "Revisar ajustes",
+      "fr": "Vérifier les réglages",
+      "pt": "Verificar ajustes",
+      "zh": "检查设置",
+      "ja": "設定を確認",
+      "ru": "Проверьте настройки",
+      "ar": "تحقق من الإعدادات"
+    },
+    "BAMBU LAB · Built-in music": {
+      "en": "BAMBU LAB · Built-in music",
+      "tr": "BAMBU LAB · Yerleşik müzik"
+    },
+    "BPM": {
+      "en": "BPM",
+      "tr": "BPM"
+    },
+    "Bass / octave": {
+      "en": "Bass / octave",
+      "tr": "Bas / oktav",
+      "de": "Bass / Oktave",
+      "es": "Bajo / octava",
+      "fr": "Basse / octave",
+      "pt": "Baixo / oitava",
+      "zh": "低音/八度",
+      "ja": "ベース／オクターブ",
+      "ru": "Бас / октава",
+      "ar": "جهير / أوكتاف"
+    },
+    "Startup options": {
+      "en": "Startup options",
+      "tr": "Başlangıç seçenekleri",
+      "de": "Startoptionen",
+      "es": "Opciones de inicio",
+      "fr": "Options de démarrage",
+      "pt": "Opções de início",
+      "zh": "启动选项",
+      "ja": "開始オプション",
+      "ru": "Параметры запуска",
+      "ar": "خيارات البدء"
+    },
+    "Startup method": {
+      "en": "Startup method",
+      "tr": "Başlangıç yöntemi",
+      "de": "Startmethode",
+      "es": "Método de inicio",
+      "fr": "Méthode de démarrage",
+      "pt": "Método de início",
+      "zh": "启动方式",
+      "ja": "開始方法",
+      "ru": "Способ запуска",
+      "ar": "طريقة البدء"
+    },
+    "Before starting, clear the bed, let the printer cool and leave at least 20 mm between nozzle and bed. This file does not create that clearance.": {
+      "en": "Before starting, clear the bed, let the printer cool and leave at least 20 mm between nozzle and bed. This file does not create that clearance.",
+      "tr": "Başlatmadan önce tabla boş, yazıcı soğuk ve nozul–tabla arası en az 20 mm olmalı. Dosya bu boşluğu oluşturmaz.",
+      "de": "Vor dem Start Bett freiräumen, Drucker abkühlen lassen und mindestens 20 mm Düsenabstand zum Bett sicherstellen. Die Datei erzeugt diesen Abstand nicht.",
+      "es": "Antes de empezar, despeja la cama, deja enfriar la impresora y deja al menos 20 mm entre boquilla y cama. El archivo no crea esa separación.",
+      "fr": "Avant de commencer, videz le plateau, laissez refroidir l’imprimante et gardez au moins 20 mm entre buse et plateau. Le fichier ne crée pas cet espace.",
+      "pt": "Antes de iniciar, libere a mesa, deixe a impressora esfriar e mantenha ao menos 20 mm entre bico e mesa. O arquivo não cria essa distância.",
+      "zh": "开始前请清空热床、让打印机冷却，并确保喷嘴与热床间距至少20 mm。此文件不会自动创建该间距。",
+      "ja": "開始前にベッドを空にし、プリンターを冷まし、ノズルとベッドの間を20 mm以上空けてください。このファイルは隙間を作りません。",
+      "ru": "Перед запуском освободите стол, остудите принтер и обеспечьте зазор не менее 20 мм. Файл не создаёт этот зазор.",
+      "ar": "قبل البدء أفرغ السرير واترك الطابعة تبرد واترك 20 mm على الأقل بين الفوهة والسرير. لا ينشئ الملف هذه المسافة."
+    },
+    "Home all axes first, keep the motors enabled and leave at least 20 mm nozzle-to-bed clearance. This profile does not home automatically.": {
+      "en": "Home all axes first, keep the motors enabled and leave at least 20 mm nozzle-to-bed clearance. This profile does not home automatically.",
+      "tr": "Başlatmadan önce tüm eksenler home alınmış, motorlar etkin ve nozul–tabla arası en az 20 mm olmalı. Bu profil otomatik home komutu göndermez."
+    },
+    "See a melody in motion.": {
+      "en": "See a melody in motion.",
+      "tr": "Bir melodinin hareketini gör.",
+      "de": "Sieh eine Melodie in Bewegung.",
+      "es": "Mira una melodía en movimiento.",
+      "fr": "Voyez une mélodie en mouvement.",
+      "pt": "Veja uma melodia em movimento.",
+      "zh": "看看旋律如何化为运动。",
+      "ja": "メロディーの動きを見よう。",
+      "ru": "Посмотрите на движение мелодии.",
+      "ar": "شاهد اللحن يتحرك."
+    },
+    "One octave lower, gentler motion.": {
+      "en": "One octave lower, gentler motion.",
+      "tr": "Bir oktav daha kalın, daha sakin hareket.",
+      "de": "Eine Oktave tiefer, sanftere Bewegung.",
+      "es": "Una octava más grave, movimiento más suave.",
+      "fr": "Une octave plus grave, mouvement plus doux.",
+      "pt": "Uma oitava abaixo, movimento mais suave.",
+      "zh": "低一个八度，运动更平缓。",
+      "ja": "1オクターブ低く、穏やかな動き。",
+      "ru": "На октаву ниже, движения спокойнее.",
+      "ar": "أوكتاف أخفض وحركة أهدأ."
+    },
+    "One octave higher, livelier motion.": {
+      "en": "One octave higher, livelier motion.",
+      "tr": "Bir oktav daha tiz, daha canlı hareket.",
+      "de": "Eine Oktave höher, lebhaftere Bewegung.",
+      "es": "Una octava más aguda, movimiento más vivo.",
+      "fr": "Une octave plus aiguë, mouvement plus vif.",
+      "pt": "Uma oitava acima, movimento mais vivo.",
+      "zh": "高一个八度，运动更活跃。",
+      "ja": "1オクターブ高く、活発な動き。",
+      "ru": "На октаву выше, движения активнее.",
+      "ar": "أوكتاف أعلى وحركة أنشط."
+    },
+    "This FOC step-servo profile fixes tempo to Slow (75%).": {
+      "en": "This FOC step-servo profile fixes tempo to Slow (75%).",
+      "tr": "Bu FOC step-servo profilinde tempo Yavaş (%75) olarak sabittir."
+    },
+    "No matching tracks.": {
+      "en": "No matching tracks.",
+      "tr": "Bu aramaya uygun eser bulunamadı.",
+      "de": "Keine passenden Titel.",
+      "es": "No hay pistas coincidentes.",
+      "fr": "Aucun morceau correspondant.",
+      "pt": "Nenhuma música encontrada.",
+      "zh": "未找到匹配的曲目。",
+      "ja": "該当する曲はありません。",
+      "ru": "Подходящих композиций нет.",
+      "ar": "لا توجد مقطوعات مطابقة."
+    },
+    "No matching printers.": {
+      "en": "No matching printers.",
+      "tr": "Bu aramaya uygun yazıcı bulunamadı.",
+      "de": "Keine passenden Drucker.",
+      "es": "No hay impresoras coincidentes.",
+      "fr": "Aucune imprimante correspondante.",
+      "pt": "Nenhuma impressora encontrada.",
+      "zh": "未找到匹配的打印机。",
+      "ja": "該当するプリンターはありません。",
+      "ru": "Подходящих принтеров нет.",
+      "ar": "لا توجد طابعات مطابقة."
+    },
+    "Review these settings.": {
+      "en": "Review these settings.",
+      "tr": "Bu ayarları gözden geçir.",
+      "de": "Prüfe diese Einstellungen.",
+      "es": "Revisa estos ajustes.",
+      "fr": "Vérifiez ces réglages.",
+      "pt": "Revise estas configurações.",
+      "zh": "请检查这些设置。",
+      "ja": "設定を確認してください。",
+      "ru": "Проверьте эти настройки.",
+      "ar": "راجع هذه الإعدادات."
+    },
+    "This startup does not home automatically. Home all axes first, keep the motors enabled and leave at least 20 mm nozzle-to-bed clearance.": {
+      "en": "This startup does not home automatically. Home all axes first, keep the motors enabled and leave at least 20 mm nozzle-to-bed clearance.",
+      "tr": "Bu başlangıç seçeneği otomatik home kullanmaz. Tüm eksenler önceden home alınmış, motorlar etkin ve nozul–tabla arası en az 20 mm olmalı."
+    },
+    "Running on this computer": {
+      "en": "Running on this computer",
+      "tr": "Bu bilgisayarda çalışıyor",
+      "de": "Läuft auf diesem Computer",
+      "es": "Se ejecuta en este equipo",
+      "fr": "Fonctionne sur cet ordinateur",
+      "pt": "Executando neste computador",
+      "zh": "在此计算机上运行",
+      "ja": "このパソコンで実行中",
+      "ru": "Работает на этом компьютере",
+      "ar": "يعمل على هذا الكمبيوتر"
+    },
+    "Unsupported kinematics · Unavailable": {
+      "en": "Unsupported kinematics · Unavailable",
+      "tr": "Bu kinematik desteklenmiyor · Seçilemez"
+    },
+    "START WITH A MELODY": {
+      "en": "START WITH A MELODY",
+      "tr": "BİR MELODİYLE BAŞLA",
+      "de": "MIT EINER MELODIE STARTEN",
+      "es": "EMPIEZA CON UNA MELODÍA",
+      "fr": "COMMENCEZ PAR UNE MÉLODIE",
+      "pt": "COMECE COM UMA MELODIA",
+      "zh": "从一段旋律开始",
+      "ja": "メロディーから始めよう",
+      "ru": "НАЧНИТЕ С МЕЛОДИИ",
+      "ar": "ابدأ بلحن"
+    },
+    "The file homes automatically with G28 X Y. Normal machine limits are restored before homing and after music. Clear the bed; stock Z safety behavior applies during homing.": {
+      "en": "The file homes automatically with G28 X Y. Normal machine limits are restored before homing and after music. Clear the bed; stock Z safety behavior applies during homing.",
+      "tr": "Dosya G28 X Y ile otomatik home alır. Öncesinde ve müzik sonunda normal makine limitleri geri yüklenir. Tabla boş olmalı; homing sırasında stok Z güvenlik davranışı geçerlidir."
+    },
+    "File too large. Choose a MIDI file up to 4 MB.": {
+      "en": "File too large. Choose a MIDI file up to 4 MB.",
+      "tr": "Dosya çok büyük. En fazla 4 MB MIDI seçebilirsin.",
+      "de": "Datei zu groß. Wähle eine MIDI bis 4 MB.",
+      "es": "Archivo demasiado grande. Elige un MIDI de hasta 4 MB.",
+      "fr": "Fichier trop volumineux. Choisissez un MIDI de 4 Mo maximum.",
+      "pt": "Arquivo muito grande. Escolha um MIDI de até 4 MB.",
+      "zh": "文件太大，请选择不超过4 MB的MIDI。",
+      "ja": "ファイルが大きすぎます。4 MB以下を選択してください。",
+      "ru": "Файл слишком большой. Выберите MIDI до 4 МБ.",
+      "ar": "الملف كبير جدًا. اختر MIDI حتى 4 MB."
+    },
+    "These files are bundled locally. Each track includes source, license status and arrangement details.": {
+      "en": "These files are bundled locally. Each track includes source, license status and arrangement details.",
+      "tr": "Dosyalar bu bilgisayarda hazırdır. Kaynak, lisans durumu ve varsa yazıcı için yapılan düzenleme her eserin yanında gösterilir."
+    },
+    "Your files are ready to play.": {
+      "en": "Your files are ready to play.",
+      "tr": "Dosyaların çalmaya hazır.",
+      "de": "Deine Dateien sind spielbereit.",
+      "es": "Tus archivos están listos.",
+      "fr": "Vos fichiers sont prêts.",
+      "pt": "Seus arquivos estão prontos.",
+      "zh": "文件已准备就绪。",
+      "ja": "ファイルの準備ができました。",
+      "ru": "Файлы готовы к воспроизведению.",
+      "ar": "ملفاتك جاهزة للتشغيل."
+    },
+    "Choose a file and adjust the settings, then generate.": {
+      "en": "Choose a file and adjust the settings, then generate.",
+      "tr": "Dosyanı seçip ayarlarını yaptıktan sonra oluştur.",
+      "de": "Datei wählen, Einstellungen anpassen und erzeugen.",
+      "es": "Elige un archivo, ajusta las opciones y genera.",
+      "fr": "Choisissez un fichier, réglez les options et générez.",
+      "pt": "Escolha um arquivo, ajuste as opções e gere.",
+      "zh": "选择文件并调整设置，然后生成。",
+      "ja": "ファイルと設定を選んでから生成します。",
+      "ru": "Выберите файл, настройте параметры и создайте G-code.",
+      "ar": "اختر ملفًا واضبط الإعدادات ثم أنشئ الناتج."
+    },
+    "You can start this file directly. It homes X/Y first. Clear the bed. Stock Z safety behavior applies during homing; Z stays still during music.": {
+      "en": "You can start this file directly. It homes X/Y first. Clear the bed. Stock Z safety behavior applies during homing; Z stays still during music.",
+      "tr": "Dosyayı doğrudan başlatabilirsin; önce otomatik X/Y home yapılır. Tabla boş olmalı. Homing sırasında stok Z güvenlik davranışı geçerlidir; müzikte Z sabittir."
+    },
+    "Converter": {
+      "en": "Converter",
+      "tr": "Dönüştürücü",
+      "de": "Konverter",
+      "es": "Convertidor",
+      "fr": "Convertisseur",
+      "pt": "Conversor",
+      "zh": "转换器",
+      "ja": "コンバーター",
+      "ru": "Конвертер",
+      "ar": "المحوّل"
+    },
+    "Arrangement": {
+      "en": "Arrangement",
+      "tr": "Düzenleme",
+      "de": "Arrangement",
+      "es": "Arreglo",
+      "fr": "Arrangement",
+      "pt": "Arranjo",
+      "zh": "编曲",
+      "ja": "アレンジ",
+      "ru": "Аранжировка",
+      "ar": "التوزيع"
+    },
+    "FOC sound range": {
+      "en": "FOC sound range",
+      "tr": "FOC ses aralığı",
+      "de": "FOC-Klangbereich",
+      "es": "Rango sonoro FOC",
+      "fr": "Plage sonore FOC",
+      "pt": "Faixa sonora FOC",
+      "zh": "FOC发声范围",
+      "ja": "FOC音域",
+      "ru": "Звуковой диапазон FOC",
+      "ar": "نطاق صوت FOC"
+    },
+    "FOC sound range: X plays; Y and Z stay still. The preview is a MIDI reference; actual motor pitch may differ.": {
+      "en": "FOC sound range: X plays; Y and Z stay still. The preview is a MIDI reference; actual motor pitch may differ.",
+      "tr": "FOC ses aralığı: yalnızca X ekseni çalar; Y ve Z sabittir. Dinletim MIDI referansıdır; gerçek motor perdesi farklı olabilir."
+    },
+    "FOC step-servo profile": {
+      "en": "FOC step-servo profile",
+      "tr": "FOC step-servo profili"
+    },
+    "FOC step-servo profile: fixed Slow / Slow.": {
+      "en": "FOC step-servo profile: fixed Slow / Slow.",
+      "tr": "FOC step-servo profili: Yavaş / Yavaş olarak sabit."
+    },
+    "FOC step-servo · Slow / Slow": {
+      "en": "FOC step-servo · Slow / Slow",
+      "tr": "FOC step-servo · Yavaş / Yavaş"
+    },
+    "FOC · X only": {
+      "en": "FOC · X only",
+      "tr": "FOC · Yalnızca X",
+      "de": "FOC · Nur X",
+      "es": "FOC · Solo X",
+      "fr": "FOC · X seul",
+      "pt": "FOC · Apenas X",
+      "zh": "FOC · 仅X轴",
+      "ja": "FOC・Xのみ",
+      "ru": "FOC · Только X",
+      "ar": "FOC · X فقط"
+    },
+    "FOC · X melody only": {
+      "en": "FOC · X melody only",
+      "tr": "FOC · yalnızca X melodisi",
+      "de": "FOC · Nur X-Melodie",
+      "es": "FOC · Melodía solo en X",
+      "fr": "FOC · Mélodie sur X uniquement",
+      "pt": "FOC · Melodia apenas em X",
+      "zh": "FOC · 仅X轴旋律",
+      "ja": "FOC・Xメロディーのみ",
+      "ru": "FOC · Мелодия только по X",
+      "ar": "FOC · اللحن على X فقط"
+    },
+    "G-code is ready. Try the short test first.": {
+      "en": "G-code is ready. Try the short test first.",
+      "tr": "G-code hazır. Önce kısa test dosyasını deneyebilirsin.",
+      "de": "G-code bereit. Zuerst den Kurztest probieren.",
+      "es": "G-code listo. Prueba primero el test corto.",
+      "fr": "G-code prêt. Essayez d’abord le test court.",
+      "pt": "G-code pronto. Experimente primeiro o teste curto.",
+      "zh": "G-code已就绪，请先尝试短测试。",
+      "ja": "G-codeの準備完了。まず短いテストをお試しください。",
+      "ru": "G-code готов. Сначала попробуйте короткий тест.",
+      "ar": "G-code جاهز. جرّب الاختبار القصير أولًا."
+    },
+    "Generate G-code": {
+      "en": "Generate G-code",
+      "tr": "G-code oluştur",
+      "de": "G-code erzeugen",
+      "es": "Generar G-code",
+      "fr": "Générer le G-code",
+      "pt": "Gerar G-code",
+      "zh": "生成G-code",
+      "ja": "G-codeを生成",
+      "ru": "Создать G-code",
+      "ar": "إنشاء G-code"
+    },
+    "The motion path appears after generating G-code.": {
+      "en": "The motion path appears after generating G-code.",
+      "tr": "G-code oluşturulduğunda hareket yolu görünecek."
+    },
+    "Generate and save G-code.": {
+      "en": "Generate and save G-code.",
+      "tr": "G-code’u oluştur ve indir."
+    },
+    "THE INSTRUMENT IN MOTION": {
+      "en": "THE INSTRUMENT IN MOTION",
+      "tr": "HAREKETİN ENSTRÜMANI"
+    },
+    "Movement speed": {
+      "en": "Movement speed",
+      "tr": "Hareket hızı",
+      "de": "Bewegungsgeschwindigkeit",
+      "es": "Velocidad de movimiento",
+      "fr": "Vitesse de déplacement",
+      "pt": "Velocidade de movimento",
+      "zh": "移动速度",
+      "ja": "移動速度",
+      "ru": "Скорость движения",
+      "ar": "سرعة الحركة"
+    },
+    "Movement speed and tempo are fixed to Slow.": {
+      "en": "Movement speed and tempo are fixed to Slow.",
+      "tr": "Hareket hızı ve tempo Yavaş’a sabitlenmiştir."
+    },
+    "Motion limits and note timing checked. Try the short test first.": {
+      "en": "Motion limits and note timing checked. Try the short test first.",
+      "tr": "Hareket sınırları ve nota zamanları kontrol edildi. Önce kısa testi dinle.",
+      "de": "Bewegungsgrenzen und Notentiming geprüft. Zuerst den Kurztest probieren.",
+      "es": "Límites de movimiento y tiempos comprobados. Prueba primero el test corto.",
+      "fr": "Limites de mouvement et durées vérifiées. Essayez d’abord le test court.",
+      "pt": "Limites de movimento e tempos verificados. Teste primeiro o trecho curto.",
+      "zh": "已检查运动限制和音符时序，请先运行短测试。",
+      "ja": "移動制限と音符のタイミングを確認済み。まず短いテストをお試しください。",
+      "ru": "Ограничения движения и время нот проверены. Начните с короткого теста.",
+      "ar": "تم فحص حدود الحركة وتوقيت النغمات. جرّب الاختبار القصير أولًا."
+    },
+    "Calculating motion.": {
+      "en": "Calculating motion.",
+      "tr": "Hareketler hesaplanıyor.",
+      "de": "Bewegung wird berechnet.",
+      "es": "Calculando movimiento.",
+      "fr": "Calcul du mouvement.",
+      "pt": "Calculando movimentos.",
+      "zh": "正在计算运动。",
+      "ja": "移動を計算中。",
+      "ru": "Расчёт движения.",
+      "ar": "حساب الحركة."
+    },
+    "Planning motion": {
+      "en": "Planning motion",
+      "tr": "Hareketler planlanıyor",
+      "de": "Bewegung wird geplant",
+      "es": "Planificando movimiento",
+      "fr": "Planification du mouvement",
+      "pt": "Planejando movimentos",
+      "zh": "正在规划运动",
+      "ja": "移動を計画中",
+      "ru": "Планирование движения",
+      "ar": "تخطيط الحركة"
+    },
+    "Homing uses normal machine limits. Only the following lift to Z20 mm uses 3 mm/s. Global speed is not reduced; normal limits are restored at the end.": {
+      "en": "Homing uses normal machine limits. Only the following lift to Z20 mm uses 3 mm/s. Global speed is not reduced; normal limits are restored at the end.",
+      "tr": "Home normal hızında çalışır; yalnızca ardından Z20 mm’ye yükselme 3 mm/sn ile yapılır. Genel hız sınırı düşürülmez; dosya sonunda normal limitler geri yüklenir."
+    },
+    "Homing runs at normal speed. Only the following Z20 mm lift uses 3 mm/s. Z stays still during music. Clear the bed.": {
+      "en": "Homing runs at normal speed. Only the following Z20 mm lift uses 3 mm/s. Z stays still during music. Clear the bed.",
+      "tr": "Home normal hızında çalışır; yalnızca sonraki Z20 mm yükseltmesi 3 mm/sn’dir. Müzikte Z sabittir. Tabla boş olmalı."
+    },
+    "Notes follow your speed and tempo settings.": {
+      "en": "Notes follow your speed and tempo settings.",
+      "tr": "Hız ve tempo seçimine göre notalar hazırlanır."
+    },
+    "Faster · 125%": {
+      "en": "Faster · 125%",
+      "tr": "Hızlandırılmış · %125",
+      "de": "Schneller · 125%",
+      "es": "Más rápido · 125%",
+      "fr": "Accéléré · 125 %",
+      "pt": "Mais rápido · 125%",
+      "zh": "较快 · 125%",
+      "ja": "速く · 125%",
+      "ru": "Быстрее · 125%",
+      "ar": "أسرع · 125%"
+    },
+    "Fast": {
+      "en": "Fast",
+      "tr": "Hızlı",
+      "de": "Schnell",
+      "es": "Rápida",
+      "fr": "Rapide",
+      "pt": "Rápida",
+      "zh": "快",
+      "ja": "速い",
+      "ru": "Быстро",
+      "ar": "سريع"
+    },
+    "No heating or extrusion": {
+      "en": "No heating or extrusion",
+      "tr": "Isıtma ve filament sürme yok",
+      "de": "Keine Heizung oder Extrusion",
+      "es": "Sin calentamiento ni extrusión",
+      "fr": "Sans chauffe ni extrusion",
+      "pt": "Sem aquecimento ou extrusão",
+      "zh": "无加热或挤出",
+      "ja": "加熱・押し出しなし",
+      "ru": "Без нагрева и экструзии",
+      "ar": "بلا تسخين أو بثق"
+    },
+    "No heating/extrusion commands; stock homing depends on firmware": {
+      "en": "No heating/extrusion commands; stock homing depends on firmware",
+      "tr": "Isıtma/filament komutu üretilmez; stok homing davranışı firmware’e bağlı"
+    },
+    "K2 · Automatic X/Y home": {
+      "en": "K2 · Automatic X/Y home",
+      "tr": "K2 · X/Y otomatik home"
+    },
+    "Lower": {
+      "en": "Lower",
+      "tr": "Kalın",
+      "de": "Tiefer",
+      "es": "Grave",
+      "fr": "Grave",
+      "pt": "Grave",
+      "zh": "低音",
+      "ja": "低い",
+      "ru": "Ниже",
+      "ar": "أخفض"
+    },
+    "Close": {
+      "en": "Close",
+      "tr": "Kapat",
+      "de": "Schließen",
+      "es": "Cerrar",
+      "fr": "Fermer",
+      "pt": "Fechar",
+      "zh": "关闭",
+      "ja": "閉じる",
+      "ru": "Закрыть",
+      "ar": "إغلاق"
+    },
+    "Source configuration": {
+      "en": "Source configuration",
+      "tr": "Kaynak konfigürasyonu",
+      "de": "Quellkonfiguration",
+      "es": "Configuración de origen",
+      "fr": "Configuration source",
+      "pt": "Configuração de origem",
+      "zh": "源配置",
+      "ja": "出典の設定",
+      "ru": "Исходная конфигурация",
+      "ar": "الإعداد الأصلي"
+    },
+    "See source license": {
+      "en": "See source license",
+      "tr": "Kaynak lisansına bak",
+      "de": "Quellenlizenz ansehen",
+      "es": "Ver licencia original",
+      "fr": "Voir la licence d’origine",
+      "pt": "Ver licença de origem",
+      "zh": "查看来源许可",
+      "ja": "出典のライセンスを確認",
+      "ru": "См. лицензию источника",
+      "ar": "راجع ترخيص المصدر"
+    },
+    "Source notes": {
+      "en": "Source notes",
+      "tr": "Kaynak nota",
+      "de": "Quellnoten",
+      "es": "Notas originales",
+      "fr": "Notes d’origine",
+      "pt": "Notas de origem",
+      "zh": "原始音符",
+      "ja": "元の音符数",
+      "ru": "Исходные ноты",
+      "ar": "النغمات الأصلية"
+    },
+    "Loading library…": {
+      "en": "Loading library…",
+      "tr": "Kitaplık yükleniyor…",
+      "de": "Bibliothek wird geladen…",
+      "es": "Cargando biblioteca…",
+      "fr": "Chargement de la bibliothèque…",
+      "pt": "Carregando biblioteca…",
+      "zh": "正在加载曲库…",
+      "ja": "ライブラリを読み込み中…",
+      "ru": "Загрузка библиотеки…",
+      "ar": "جارٍ تحميل المكتبة…"
+    },
+    "Search library": {
+      "en": "Search library",
+      "tr": "Kitaplıkta ara",
+      "de": "Bibliothek durchsuchen",
+      "es": "Buscar en la biblioteca",
+      "fr": "Rechercher dans la bibliothèque",
+      "pt": "Buscar na biblioteca",
+      "zh": "搜索曲库",
+      "ja": "ライブラリを検索",
+      "ru": "Поиск в библиотеке",
+      "ar": "البحث في المكتبة"
+    },
+    "Classical": {
+      "en": "Classical",
+      "tr": "Klasik",
+      "de": "Klassik",
+      "es": "Clásica",
+      "fr": "Classique",
+      "pt": "Clássica",
+      "zh": "古典",
+      "ja": "クラシック",
+      "ru": "Классика",
+      "ar": "كلاسيكي"
+    },
+    "Import a complete printer.cfg for Klipper CoreXY / Cartesian.": {
+      "en": "Import a complete printer.cfg for Klipper CoreXY / Cartesian.",
+      "tr": "Klipper CoreXY / Cartesian için eksiksiz printer.cfg içe aktar."
+    },
+    "Klipper profiles use source configurations. Bambu Lab profiles use official music templates. Unverified models cannot be selected. New models have not been physically tested.": {
+      "en": "Klipper profiles use source configurations. Bambu Lab profiles use official music templates. Unverified models cannot be selected. New models have not been physically tested.",
+      "tr": "Klipper profilleri kaynak konfigürasyonlarına, Bambu Lab profilleri resmî müzik şablonlarına dayanır. Desteği doğrulanmayan modeller seçilemez. Yeni modellerde fiziksel test yapılmadı."
+    },
+    "Motion limits and timing are checked offline. Bambu uses native music commands, with no positioning or homing and a muted Z sound channel. V3 KE homes normally, then lifts to Z20 mm at 3 mm/s; slowing the stock initial Z hop requires the optional slow-Z configuration. K2 models home X/Y at normal machine limits. Stock homing behavior depends on firmware. Other Klipper profiles require prior homing, enabled motors, a cool printer and at least 20 mm nozzle-to-bed clearance. U1 automatic X/Y homing also requires this clearance. These checks are not physical or acoustic tests.": {
+      "en": "Motion limits and timing are checked offline. Bambu uses native music commands, with no positioning or homing and a muted Z sound channel. V3 KE homes normally, then lifts to Z20 mm at 3 mm/s; slowing the stock initial Z hop requires the optional slow-Z configuration. K2 models home X/Y at normal machine limits. Stock homing behavior depends on firmware. Other Klipper profiles require prior homing, enabled motors, a cool printer and at least 20 mm nozzle-to-bed clearance. U1 automatic X/Y homing also requires this clearance. These checks are not physical or acoustic tests.",
+      "tr": "Klipper çıktısında hareket sınırları ve zamanlama çevrimdışı planlayıcıyla; Bambu Lab çıktısında yerleşik müzik komutları ve süreleri kontrol edilir. Bambu Lab yerleşik modunda konumlandırma veya home komutu üretilmez ve Z ses kanalı kapalıdır. V3 KE’nin otomatik başlangıcında home ve Z20 mm’ye 3 mm/sn yükseltme yapılır. Stok home içindeki ilk Z kaldırmasını da yavaşlatmak için yavaş Z ayarı bir kez kurulmalı; tabla boş olmalı. Stok homing davranışı firmware’e bağlıdır. K2, K2 Pro ve K2 Plus çıktıları normal makine limitleriyle otomatik X/Y home alır; tabla boş olmalı, homing sırasında stok Z güvenlik davranışı geçerlidir. Diğer Klipper başlangıçlarında önceden hazırlanmış, motorları etkin, soğuk ve en az 20 mm nozul–tabla boşluğu olan yazıcı gerekir; U1’in otomatik X/Y home seçeneğinde de bu boşluk gereklidir. Kontroller fiziksel veya akustik test değildir."
+    },
+    "For Klipper, speed selects the pitch range and motion ceiling. For Bambu Lab, Lower / Original / Higher changes pitch. Tempo scales the rhythm in either mode.": {
+      "en": "For Klipper, speed selects the pitch range and motion ceiling. For Bambu Lab, Lower / Original / Higher changes pitch. Tempo scales the rhythm in either mode.",
+      "tr": "Klipper’da hız seçimi hedef oktavı ve hareket tavanını belirler. Bambu Lab’de Kalın / Orijinal / İnce, melodinin ses aralığını değiştirir. Tempo her iki yöntemde de ritmi ölçekler."
+    },
+    "Inspect code": {
+      "en": "Inspect code",
+      "tr": "Kodu incele",
+      "de": "Code ansehen",
+      "es": "Inspeccionar código",
+      "fr": "Voir le code",
+      "pt": "Ver código",
+      "zh": "查看代码",
+      "ja": "コードを確認",
+      "ru": "Просмотреть код",
+      "ar": "فحص الكود"
+    },
+    "Configuration required · Unavailable": {
+      "en": "Configuration required · Unavailable",
+      "tr": "Konfigürasyon gerekli · Seçilemez"
+    },
+    "Reading configuration…": {
+      "en": "Reading configuration…",
+      "tr": "Konfigürasyon okunuyor…",
+      "de": "Konfiguration wird gelesen…",
+      "es": "Leyendo configuración…",
+      "fr": "Lecture de la configuration…",
+      "pt": "Lendo configuração…",
+      "zh": "正在读取配置…",
+      "ja": "設定を読み込み中…",
+      "ru": "Чтение конфигурации…",
+      "ar": "قراءة الإعدادات…"
+    },
+    "Configuration profile": {
+      "en": "Configuration profile",
+      "tr": "Konfigürasyon profili",
+      "de": "Konfigurationsprofil",
+      "es": "Perfil de configuración",
+      "fr": "Profil de configuration",
+      "pt": "Perfil de configuração",
+      "zh": "配置文件",
+      "ja": "構成プロファイル",
+      "ru": "Профиль конфигурации",
+      "ar": "ملف إعداد"
+    },
+    "Validation report": {
+      "en": "Validation report",
+      "tr": "Kontrol raporu",
+      "de": "Prüfbericht",
+      "es": "Informe de validación",
+      "fr": "Rapport de validation",
+      "pt": "Relatório de validação",
+      "zh": "验证报告",
+      "ja": "検証レポート",
+      "ru": "Отчёт проверки",
+      "ar": "تقرير التحقق"
+    },
+    "No positioning path: X/Y sound channels are used; Z is muted.": {
+      "en": "No positioning path: X/Y sound channels are used; Z is muted.",
+      "tr": "Konumlandırma yolu yok; X/Y ses kanalları kullanılır, Z sessiz."
+    },
+    "No positioning, homing, heating or extrusion commands. Follow the selected model's transfer notes.": {
+      "en": "No positioning, homing, heating or extrusion commands. Follow the selected model's transfer notes.",
+      "tr": "Konumlandırma, home, ısıtma ve filament sürme komutu yok. Dosyayı aktarırken seçili modelin profil notlarını izle."
+    },
+    "Setup instructions": {
+      "en": "Setup instructions",
+      "tr": "Kurulum adımları"
+    },
+    "Saving short test…": {
+      "en": "Saving short test…",
+      "tr": "Kısa test dosyası indiriliyor."
+    },
+    "Choose a .mid or .midi file.": {
+      "en": "Choose a .mid or .midi file.",
+      "tr": "Lütfen .mid veya .midi dosyası seç.",
+      "de": "Wähle eine .mid- oder .midi-Datei.",
+      "es": "Elige un archivo .mid o .midi.",
+      "fr": "Choisissez un fichier .mid ou .midi.",
+      "pt": "Escolha um arquivo .mid ou .midi.",
+      "zh": "请选择.mid或.midi文件。",
+      "ja": ".midまたは.midiファイルを選択してください。",
+      "ru": "Выберите файл .mid или .midi.",
+      "ar": "اختر ملف .mid أو .midi."
+    },
+    "Choose a printer.cfg file.": {
+      "en": "Choose a printer.cfg file.",
+      "tr": "Lütfen printer.cfg biçiminde bir dosya seç."
+    },
+    "MIDI": {
+      "en": "MIDI",
+      "tr": "MIDI"
+    },
+    "3DMidi": {
+      "en": "3DMidi",
+      "tr": "3DMidi",
+      "de": "3DMidi",
+      "es": "3DMidi",
+      "fr": "3DMidi",
+      "pt": "3DMidi",
+      "zh": "3DMidi",
+      "ja": "3DMidi",
+      "ru": "3DMidi",
+      "ar": "3DMidi"
+    },
+    "3DMidi home": {
+      "en": "3DMidi home",
+      "tr": "MIDI Studio ana sayfa"
+    },
+    "MIDI archive": {
+      "en": "MIDI archive",
+      "tr": "MIDI arşivi"
+    },
+    "Waiting for MIDI": {
+      "en": "Waiting for MIDI",
+      "tr": "MIDI bekleniyor",
+      "de": "Warte auf MIDI",
+      "es": "Esperando MIDI",
+      "fr": "En attente de MIDI",
+      "pt": "Aguardando MIDI",
+      "zh": "等待MIDI",
+      "ja": "MIDI待機中",
+      "ru": "Ожидание MIDI",
+      "ar": "بانتظار MIDI"
+    },
+    "Your MIDI is processed on this computer.": {
+      "en": "Your MIDI is processed on this computer.",
+      "tr": "MIDI dosyan bu bilgisayarda işlenir.",
+      "de": "Deine MIDI wird auf diesem Computer verarbeitet.",
+      "es": "Tu MIDI se procesa en este equipo.",
+      "fr": "Votre MIDI est traité sur cet ordinateur.",
+      "pt": "Seu MIDI é processado neste computador.",
+      "zh": "MIDI在此计算机上处理。",
+      "ja": "MIDIはこのパソコンで処理されます。",
+      "ru": "MIDI обрабатывается на этом компьютере.",
+      "ar": "تتم معالجة MIDI على هذا الكمبيوتر."
+    },
+    "Drop a MIDI file here": {
+      "en": "Drop a MIDI file here",
+      "tr": "MIDI dosyanı buraya bırak",
+      "de": "MIDI-Datei hier ablegen",
+      "es": "Arrastra aquí un archivo MIDI",
+      "fr": "Déposez un fichier MIDI ici",
+      "pt": "Arraste um arquivo MIDI aqui",
+      "zh": "将MIDI文件拖到这里",
+      "ja": "MIDIファイルをここにドロップ",
+      "ru": "Перетащите MIDI-файл сюда",
+      "ar": "اسحب ملف MIDI إلى هنا"
+    },
+    "MIDI file": {
+      "en": "MIDI file",
+      "tr": "MIDI dosyası",
+      "de": "MIDI-Datei",
+      "es": "Archivo MIDI",
+      "fr": "Fichier MIDI",
+      "pt": "Arquivo MIDI",
+      "zh": "MIDI文件",
+      "ja": "MIDIファイル",
+      "ru": "MIDI-файл",
+      "ar": "ملف MIDI"
+    },
+    "Remove MIDI file": {
+      "en": "Remove MIDI file",
+      "tr": "MIDI dosyasını kaldır",
+      "de": "MIDI-Datei entfernen",
+      "es": "Quitar archivo MIDI",
+      "fr": "Retirer le fichier MIDI",
+      "pt": "Remover arquivo MIDI",
+      "zh": "移除MIDI文件",
+      "ja": "MIDIファイルを解除",
+      "ru": "Убрать MIDI-файл",
+      "ar": "إزالة ملف MIDI"
+    },
+    "MIDI library": {
+      "en": "MIDI library",
+      "tr": "MIDI kitaplığı",
+      "de": "MIDI-Bibliothek",
+      "es": "Biblioteca MIDI",
+      "fr": "Bibliothèque MIDI",
+      "pt": "Biblioteca MIDI",
+      "zh": "MIDI曲库",
+      "ja": "MIDIライブラリ",
+      "ru": "Библиотека MIDI",
+      "ar": "مكتبة MIDI"
+    },
+    "MIDI library.": {
+      "en": "MIDI library.",
+      "tr": "MIDI kitaplığı.",
+      "de": "MIDI-Bibliothek.",
+      "es": "Biblioteca MIDI.",
+      "fr": "Bibliothèque MIDI.",
+      "pt": "Biblioteca MIDI.",
+      "zh": "MIDI曲库。",
+      "ja": "MIDIライブラリ。",
+      "ru": "Библиотека MIDI.",
+      "ar": "مكتبة MIDI."
+    },
+    "MIDI melody reference": {
+      "en": "MIDI melody reference",
+      "tr": "MIDI melodi referansı",
+      "de": "MIDI-Melodiereferenz",
+      "es": "Referencia de melodía MIDI",
+      "fr": "Référence de mélodie MIDI",
+      "pt": "Referência de melodia MIDI",
+      "zh": "MIDI旋律参考",
+      "ja": "MIDIメロディーの参考音",
+      "ru": "Образец мелодии MIDI",
+      "ar": "مرجع لحن MIDI"
+    },
+    "MIDI note timeline": {
+      "en": "MIDI note timeline",
+      "tr": "MIDI notalarının zaman çizelgesi"
+    },
+    "Select a MIDI to see its notes here.": {
+      "en": "Select a MIDI to see its notes here.",
+      "tr": "MIDI seçtiğinde notalar burada belirecek.",
+      "de": "Wähle eine MIDI, um hier Noten zu sehen.",
+      "es": "Elige un MIDI para ver sus notas aquí.",
+      "fr": "Choisissez un MIDI pour voir ses notes ici.",
+      "pt": "Escolha um MIDI para ver as notas aqui.",
+      "zh": "选择MIDI后，音符将显示在这里。",
+      "ja": "MIDIを選ぶと、ここに音符が表示されます。",
+      "ru": "Выберите MIDI, чтобы увидеть ноты.",
+      "ar": "اختر MIDI لعرض نغماته هنا."
+    },
+    "MIDI and conversion settings": {
+      "en": "MIDI and conversion settings",
+      "tr": "MIDI ve dönüştürme ayarları"
+    },
+    "MIDI is arranged for the selected printer's XY motors. Actual motor sound may differ from the preview.": {
+      "en": "MIDI is arranged for the selected printer's XY motors. Actual motor sound may differ from the preview.",
+      "tr": "MIDI, seçili yazıcının XY motorları için düzenlenir. Gerçek motor sesi sentetik önizlemeden farklı olabilir."
+    },
+    "From MIDI to printer music": {
+      "en": "From MIDI to printer music",
+      "tr": "MIDI’den yazıcı müziğine"
+    },
+    "Try Mario": {
+      "en": "Try Mario",
+      "tr": "Mario ile hızlı dene",
+      "de": "Mario ausprobieren",
+      "es": "Probar Mario",
+      "fr": "Essayer Mario",
+      "pt": "Testar Mario",
+      "zh": "试试马里奥",
+      "ja": "マリオで試す",
+      "ru": "Попробовать Марио",
+      "ar": "جرّب ماريو"
+    },
+    "Search brand or model": {
+      "en": "Search brand or model",
+      "tr": "Marka veya model ara",
+      "de": "Marke oder Modell suchen",
+      "es": "Buscar marca o modelo",
+      "fr": "Rechercher une marque ou un modèle",
+      "pt": "Buscar marca ou modelo",
+      "zh": "搜索品牌或型号",
+      "ja": "メーカーや機種を検索",
+      "ru": "Поиск марки или модели",
+      "ar": "ابحث عن علامة أو طراز"
+    },
+    "Melody": {
+      "en": "Melody",
+      "tr": "Melodi",
+      "de": "Melodie",
+      "es": "Melodía",
+      "fr": "Mélodie",
+      "pt": "Melodia",
+      "zh": "旋律",
+      "ja": "メロディー",
+      "ru": "Мелодия",
+      "ar": "اللحن"
+    },
+    "Melody + lower octave": {
+      "en": "Melody + lower octave",
+      "tr": "Melodi + alt oktav",
+      "de": "Melodie + tiefere Oktave",
+      "es": "Melodía + octava inferior",
+      "fr": "Mélodie + octave inférieure",
+      "pt": "Melodia + oitava abaixo",
+      "zh": "旋律与低八度",
+      "ja": "メロディー＋低いオクターブ",
+      "ru": "Мелодия + нижняя октава",
+      "ar": "لحن + أوكتاف أخفض"
+    },
+    "Melody + bass": {
+      "en": "Melody + bass",
+      "tr": "Melodi + bas",
+      "de": "Melodie + Bass",
+      "es": "Melodía + bajo",
+      "fr": "Mélodie + basse",
+      "pt": "Melodia + baixo",
+      "zh": "旋律与低音",
+      "ja": "メロディー＋ベース",
+      "ru": "Мелодия + бас",
+      "ar": "لحن + جهير"
+    },
+    "The melody plays in its original pitch range.": {
+      "en": "The melody plays in its original pitch range.",
+      "tr": "Melodi özgün ses aralığında çalar.",
+      "de": "Die Melodie spielt im ursprünglichen Tonbereich.",
+      "es": "La melodía conserva su registro original.",
+      "fr": "La mélodie garde son registre d’origine.",
+      "pt": "A melodia toca na faixa original.",
+      "zh": "旋律使用原始音域。",
+      "ja": "メロディーを元の音域で再生します。",
+      "ru": "Мелодия звучит в исходном диапазоне.",
+      "ar": "يُعزف اللحن بنطاقه الأصلي."
+    },
+    "Your melody is ready.": {
+      "en": "Your melody is ready.",
+      "tr": "Melodin hazır.",
+      "de": "Deine Melodie ist bereit.",
+      "es": "Tu melodía está lista.",
+      "fr": "Votre mélodie est prête.",
+      "pt": "Sua melodia está pronta.",
+      "zh": "旋律已就绪。",
+      "ja": "メロディーの準備完了。",
+      "ru": "Мелодия готова.",
+      "ar": "لحنك جاهز."
+    },
+    "Melody ready. Next comes motion.": {
+      "en": "Melody ready. Next comes motion.",
+      "tr": "Melodin hazır. Sırada hareket var.",
+      "de": "Melodie bereit. Jetzt folgt Bewegung.",
+      "es": "Melodía lista. Ahora viene el movimiento.",
+      "fr": "Mélodie prête. Place au mouvement.",
+      "pt": "Melodia pronta. Agora vem o movimento.",
+      "zh": "旋律就绪，即将转为运动。",
+      "ja": "メロディーの準備完了。次は動きです。",
+      "ru": "Мелодия готова. Дальше — движение.",
+      "ar": "اللحن جاهز. حان دور الحركة."
+    },
+    "Preparing music commands.": {
+      "en": "Preparing music commands.",
+      "tr": "Müzik komutları hazırlanıyor.",
+      "de": "Musikbefehle werden vorbereitet.",
+      "es": "Preparando comandos musicales.",
+      "fr": "Préparation des commandes musicales.",
+      "pt": "Preparando comandos musicais.",
+      "zh": "正在准备音乐指令。",
+      "ja": "音楽コマンドを準備中。",
+      "ru": "Подготовка музыкальных команд.",
+      "ar": "إعداد أوامر الموسيقى."
+    },
+    "Genre": {
+      "en": "Genre",
+      "tr": "Müzik türü",
+      "de": "Genre",
+      "es": "Género",
+      "fr": "Genre",
+      "pt": "Gênero",
+      "zh": "曲风",
+      "ja": "ジャンル",
+      "ru": "Жанр",
+      "ar": "النوع الموسيقي"
+    },
+    "Music plays on X only; Y and Z stay still. The initial 12–16 mm/s range comes from K2 Pro A07/A08 listening feedback. Adjust it as needed. Pitch intervals are compressed; actual pitch has not been measured.": {
+      "en": "Music plays on X only; Y and Z stay still. The initial 12–16 mm/s range comes from K2 Pro A07/A08 listening feedback. Adjust it as needed. Pitch intervals are compressed; actual pitch has not been measured.",
+      "tr": "Müzik yalnızca X ekseninde çalar; Y ve Z sabittir. 12–16 mm/sn başlangıç aralığı K2 Pro A07/A08 dinleme testinden alınmıştır. Aralığı değiştirebilirsin; özgün perde aralıkları sıkıştırılır, gerçek ses perdesi ölçülmedi."
+    },
+    "Music template verified · No physical test": {
+      "en": "Music template verified · No physical test",
+      "tr": "Müzik şablonu doğrulandı · Fiziksel test yok"
+    },
+    "Only X moves during music. Y and Z stay still.": {
+      "en": "Only X moves during music. Y and Z stay still.",
+      "tr": "Müzikte yalnızca X ekseni hareket eder; Y ve Z sabittir."
+    },
+    "How it works": {
+      "en": "How it works",
+      "tr": "Nasıl çalışır?",
+      "de": "So funktioniert’s",
+      "es": "Cómo funciona",
+      "fr": "Comment ça marche",
+      "pt": "Como funciona",
+      "zh": "使用说明",
+      "ja": "使い方",
+      "ru": "Как это работает",
+      "ar": "طريقة الاستخدام"
+    },
+    "Note frequency · X only": {
+      "en": "Note frequency · X only",
+      "tr": "Nota frekansı · yalnızca X",
+      "de": "Notenfrequenz · Nur X",
+      "es": "Frecuencia de notas · Solo X",
+      "fr": "Fréquence des notes · X seul",
+      "pt": "Frequência de notas · Apenas X",
+      "zh": "音符频率 · 仅X轴",
+      "ja": "音符周波数・Xのみ",
+      "ru": "Частота нот · Только X",
+      "ar": "تردد النغمات · X فقط"
+    },
+    "Turning notes into motion…": {
+      "en": "Turning notes into motion…",
+      "tr": "Notalar harekete dönüşüyor…",
+      "de": "Noten werden zu Bewegung…",
+      "es": "Convirtiendo notas en movimiento…",
+      "fr": "Conversion des notes en mouvement…",
+      "pt": "Convertendo notas em movimento…",
+      "zh": "正在将音符转为运动…",
+      "ja": "音符を動きに変換中…",
+      "ru": "Преобразование нот в движение…",
+      "ar": "تحويل النغمات إلى حركة…"
+    },
+    "Turning notes into music…": {
+      "en": "Turning notes into music…",
+      "tr": "Notalar müziğe dönüşüyor…",
+      "de": "Noten werden zu Musik…",
+      "es": "Convirtiendo notas en música…",
+      "fr": "Conversion des notes en musique…",
+      "pt": "Convertendo notas em música…",
+      "zh": "正在将音符转为音乐…",
+      "ja": "音符を音楽に変換中…",
+      "ru": "Преобразование нот в музыку…",
+      "ar": "تحويل النغمات إلى موسيقى…"
+    },
+    "Reading notes and tempo": {
+      "en": "Reading notes and tempo",
+      "tr": "Notalar ve tempo bilgisi alınıyor",
+      "de": "Noten und Tempo werden gelesen",
+      "es": "Leyendo notas y tempo",
+      "fr": "Lecture des notes et du tempo",
+      "pt": "Lendo notas e tempo",
+      "zh": "正在读取音符和速度",
+      "ja": "音符とテンポを読み込み中",
+      "ru": "Чтение нот и темпа",
+      "ar": "قراءة النغمات والإيقاع"
+    },
+    "Turn notes into printer music.": {
+      "en": "Turn notes into printer music.",
+      "tr": "Notalardan yazıcı müziğine.",
+      "de": "Verwandle Noten in Druckermusik.",
+      "es": "Convierte notas en música de impresora.",
+      "fr": "Transformez les notes en musique d’imprimante.",
+      "pt": "Transforme notas em música de impressora.",
+      "zh": "让音符化为打印机音乐。",
+      "ja": "音符をプリンターの音楽に。",
+      "ru": "Превратите ноты в музыку принтера.",
+      "ar": "حوّل النغمات إلى موسيقى الطابعة."
+    },
+    "Generated G-code": {
+      "en": "Generated G-code",
+      "tr": "Oluşturulan G-code",
+      "de": "Erzeugter G-code",
+      "es": "G-code generado",
+      "fr": "G-code généré",
+      "pt": "G-code gerado",
+      "zh": "生成的G-code",
+      "ja": "生成されたG-code",
+      "ru": "Созданный G-code",
+      "ar": "G-code الناتج"
+    },
+    "Visible after generation": {
+      "en": "Visible after generation",
+      "tr": "Oluşturulduğunda görünür",
+      "de": "Nach Erzeugung sichtbar",
+      "es": "Visible tras generar",
+      "fr": "Visible après génération",
+      "pt": "Visível após gerar",
+      "zh": "生成后显示",
+      "ja": "生成後に表示",
+      "ru": "Появится после создания",
+      "ar": "يظهر بعد الإنشاء"
+    },
+    "Original · 100%": {
+      "en": "Original · 100%",
+      "tr": "Orijinal · %100",
+      "de": "Original · 100%",
+      "es": "Original · 100%",
+      "fr": "Original · 100 %",
+      "pt": "Original · 100%",
+      "zh": "原速 · 100%",
+      "ja": "原速 · 100%",
+      "ru": "Исходный · 100%",
+      "ar": "أصلي · 100%"
+    },
+    "Medium": {
+      "en": "Medium",
+      "tr": "Orta",
+      "de": "Mittel",
+      "es": "Media",
+      "fr": "Moyenne",
+      "pt": "Média",
+      "zh": "中",
+      "ja": "標準",
+      "ru": "Средне",
+      "ar": "متوسط"
+    },
+    "Automatic startup uses standard G28 X Y. Stock Z behavior applies during homing. At least 20 mm physical nozzle-to-bed clearance is required.": {
+      "en": "Automatic startup uses standard G28 X Y. Stock Z behavior applies during homing. At least 20 mm physical nozzle-to-bed clearance is required.",
+      "tr": "Otomatik başlangıç standart G28 X Y kullanır; homing sırasında yazıcının normal Z davranışı geçerlidir. En az 20 mm fiziksel nozul–tabla boşluğu gerekir."
+    },
+    "Automatic home + slow Z": {
+      "en": "Automatic home + slow Z",
+      "tr": "Otomatik home + yavaş Z",
+      "de": "Auto-Homing + langsames Z",
+      "es": "Homing automático + Z lento",
+      "fr": "Référencement auto + Z lent",
+      "pt": "Homing automático + Z lento",
+      "zh": "自动归零与慢速Z移动",
+      "ja": "自動原点復帰＋低速Z",
+      "ru": "Авто home + медленный Z",
+      "ar": "مرجعة تلقائية + Z بطيء"
+    },
+    "Games": {
+      "en": "Games",
+      "tr": "Oyun",
+      "de": "Spiele",
+      "es": "Juegos",
+      "fr": "Jeux",
+      "pt": "Jogos",
+      "zh": "游戏",
+      "ja": "ゲーム",
+      "ru": "Игры",
+      "ar": "ألعاب"
+    },
+    "Pop, rock, electronic, film and game melodies. Choose a track and generate G-code for your printer.": {
+      "en": "Pop, rock, electronic, film and game melodies. Choose a track and generate G-code for your printer.",
+      "tr": "Pop, rock, elektronik, film ve oyun melodileri. Bir eser seçip yazıcın için G-code oluştur."
+    },
+    "Loading profile details…": {
+      "en": "Loading profile details…",
+      "tr": "Profil bilgileri yükleniyor…",
+      "de": "Profildetails werden geladen…",
+      "es": "Cargando detalles del perfil…",
+      "fr": "Chargement des détails du profil…",
+      "pt": "Carregando detalhes do perfil…",
+      "zh": "正在加载配置详情…",
+      "ja": "プロファイル詳細を読み込み中…",
+      "ru": "Загрузка данных профиля…",
+      "ar": "تحميل تفاصيل الملف…"
+    },
+    "Profile source ↗": {
+      "en": "Profile source ↗",
+      "tr": "Profil kaynağı ↗",
+      "de": "Profilquelle ↗",
+      "es": "Fuente del perfil ↗",
+      "fr": "Source du profil ↗",
+      "pt": "Fonte do perfil ↗",
+      "zh": "配置来源 ↗",
+      "ja": "プロファイルの出典 ↗",
+      "ru": "Источник профиля ↗",
+      "ar": "مصدر الملف ↗"
+    },
+    "Profile notes": {
+      "en": "Profile notes",
+      "tr": "Profil notları",
+      "de": "Profilhinweise",
+      "es": "Notas del perfil",
+      "fr": "Notes du profil",
+      "pt": "Notas do perfil",
+      "zh": "配置说明",
+      "ja": "プロファイルの注意事項",
+      "ru": "Примечания к профилю",
+      "ar": "ملاحظات الملف"
+    },
+    "Loading profile": {
+      "en": "Loading profile",
+      "tr": "Profil yükleniyor",
+      "de": "Profil wird geladen",
+      "es": "Cargando perfil",
+      "fr": "Chargement du profil",
+      "pt": "Carregando perfil",
+      "zh": "正在加载配置",
+      "ja": "プロファイルを読み込み中",
+      "ru": "Загрузка профиля",
+      "ar": "تحميل الملف"
+    },
+    "Loading profiles…": {
+      "en": "Loading profiles…",
+      "tr": "Profiller yükleniyor…",
+      "de": "Profile werden geladen…",
+      "es": "Cargando perfiles…",
+      "fr": "Chargement des profils…",
+      "pt": "Carregando perfis…",
+      "zh": "正在加载配置列表…",
+      "ja": "プロファイル一覧を読み込み中…",
+      "ru": "Загрузка профилей…",
+      "ar": "تحميل الملفات…"
+    },
+    "SNAPMAKER U1 G-CODE": {
+      "en": "SNAPMAKER U1 G-CODE",
+      "tr": "SNAPMAKER U1 İÇİN G-CODE"
+    },
+    "Play synthetic note preview": {
+      "en": "Play synthetic note preview",
+      "tr": "Sentetik nota önizlemesini dinle",
+      "de": "Synthetische Notenvorschau abspielen",
+      "es": "Reproducir vista previa sintética",
+      "fr": "Écouter l’aperçu synthétique",
+      "pt": "Ouvir prévia sintética",
+      "zh": "播放合成音预览",
+      "ja": "合成音プレビューを再生",
+      "ru": "Слушать синтетический звук",
+      "ar": "تشغيل المعاينة الاصطناعية"
+    },
+    "Synthetic preview": {
+      "en": "Synthetic preview",
+      "tr": "Sentetik önizleme",
+      "de": "Synthetische Vorschau",
+      "es": "Vista previa sintética",
+      "fr": "Aperçu synthétique",
+      "pt": "Prévia sintética",
+      "zh": "合成音预览",
+      "ja": "合成音プレビュー",
+      "ru": "Синтетический звук",
+      "ar": "معاينة صوتية اصطناعية"
+    },
+    "Pitch range": {
+      "en": "Pitch range",
+      "tr": "Ses aralığı",
+      "de": "Tonbereich",
+      "es": "Registro tonal",
+      "fr": "Registre sonore",
+      "pt": "Faixa de notas",
+      "zh": "音域",
+      "ja": "音域",
+      "ru": "Диапазон высоты",
+      "ar": "النطاق الصوتي"
+    },
+    "Adjust pitch range and tempo.": {
+      "en": "Adjust pitch range and tempo.",
+      "tr": "Ses aralığını ve tempoyu ayarla."
+    },
+    "Sound-speed ranges and timing checked. Actual pitch is unmeasured; try the short test first.": {
+      "en": "Sound-speed ranges and timing checked. Actual pitch is unmeasured; try the short test first.",
+      "tr": "Ses hız aralıkları ve zamanlama kontrol edildi. Gerçek perde ölçülmedi; önce kısa testi dinle."
+    },
+    "Sound channels": {
+      "en": "Sound channels",
+      "tr": "Ses kanalları",
+      "de": "Klangkanäle",
+      "es": "Canales de sonido",
+      "fr": "Canaux sonores",
+      "pt": "Canais de som",
+      "zh": "发声通道",
+      "ja": "音声チャンネル",
+      "ru": "Звуковые каналы",
+      "ar": "قنوات الصوت"
+    },
+    "Checking sound channels, note timing and output commands.": {
+      "en": "Checking sound channels, note timing and output commands.",
+      "tr": "Ses kanalları, nota süreleri ve çıktı komutları kontrol ediliyor."
+    },
+    "Audio preview could not start. You can still generate G-code.": {
+      "en": "Audio preview could not start. You can still generate G-code.",
+      "tr": "Ses önizlemesi açılamadı. G-code dönüştürmeye devam edebilirsin."
+    },
+    "Sound generation": {
+      "en": "Sound generation",
+      "tr": "Ses üretimi",
+      "de": "Klangerzeugung",
+      "es": "Generación de sonido",
+      "fr": "Production du son",
+      "pt": "Geração de som",
+      "zh": "发声方式",
+      "ja": "音の生成",
+      "ru": "Генерация звука",
+      "ar": "توليد الصوت"
+    },
+    "Preparing sounds": {
+      "en": "Preparing sounds",
+      "tr": "Sesler hazırlanıyor",
+      "de": "Klänge werden vorbereitet",
+      "es": "Preparando sonidos",
+      "fr": "Préparation des sons",
+      "pt": "Preparando sons",
+      "zh": "正在准备声音",
+      "ja": "音声を準備中",
+      "ru": "Подготовка звуков",
+      "ar": "إعداد الأصوات"
+    },
+    "Select": {
+      "en": "Select",
+      "tr": "Seç",
+      "de": "Auswählen",
+      "es": "Seleccionar",
+      "fr": "Sélectionner",
+      "pt": "Selecionar",
+      "zh": "选择",
+      "ja": "選択",
+      "ru": "Выбрать",
+      "ar": "اختيار"
+    },
+    "Selected": {
+      "en": "Selected",
+      "tr": "Seçili",
+      "de": "Ausgewählt",
+      "es": "Seleccionado",
+      "fr": "Sélectionné",
+      "pt": "Selecionado",
+      "zh": "已选择",
+      "ja": "選択中",
+      "ru": "Выбрано",
+      "ar": "محدد"
+    },
+    "Selected profile": {
+      "en": "Selected profile",
+      "tr": "Seçili profil",
+      "de": "Ausgewähltes Profil",
+      "es": "Perfil seleccionado",
+      "fr": "Profil sélectionné",
+      "pt": "Perfil selecionado",
+      "zh": "已选配置",
+      "ja": "選択中のプロファイル",
+      "ru": "Выбранный профиль",
+      "ar": "الملف المحدد"
+    },
+    "Selected printer": {
+      "en": "Selected printer",
+      "tr": "Seçili yazıcı",
+      "de": "Ausgewählter Drucker",
+      "es": "Impresora seleccionada",
+      "fr": "Imprimante sélectionnée",
+      "pt": "Impressora selecionada",
+      "zh": "已选打印机",
+      "ja": "選択中のプリンター",
+      "ru": "Выбранный принтер",
+      "ar": "الطابعة المحددة"
+    },
+    "Snapmaker U1": {
+      "en": "Snapmaker U1",
+      "tr": "Snapmaker U1"
+    },
+    "Stock homing lifts Z at a fixed speed. Install the slow-Z configuration once to slow that lift too. Later music files can start directly.": {
+      "en": "Stock homing lifts Z at a fixed speed. Install the slow-Z configuration once to slow that lift too. Later music files can start directly.",
+      "tr": "Stok home, ilk Z kaldırmasını sabit hızla yapar. Bu hareketi de yavaşlatmak için yavaş Z ayarını yazıcıya bir kez ekle. Sonraki müzik dosyalarını doğrudan başlatabilirsin."
+    },
+    "Save full G-code": {
+      "en": "Save full G-code",
+      "tr": "Tam G-code’u indir",
+      "de": "Vollständigen G-code speichern",
+      "es": "Guardar G-code completo",
+      "fr": "Enregistrer tout le G-code",
+      "pt": "Salvar G-code completo",
+      "zh": "保存完整G-code",
+      "ja": "G-code全体を保存",
+      "ru": "Сохранить полный G-code",
+      "ar": "حفظ G-code كاملًا"
+    },
+    "First 120 lines of the full file": {
+      "en": "First 120 lines of the full file",
+      "tr": "Tam dosyanın ilk 120 satırı",
+      "de": "Erste 120 Zeilen der vollständigen Datei",
+      "es": "Primeras 120 líneas del archivo completo",
+      "fr": "120 premières lignes du fichier complet",
+      "pt": "Primeiras 120 linhas do arquivo completo",
+      "zh": "完整文件的前120行",
+      "ja": "全ファイルの先頭120行",
+      "ru": "Первые 120 строк полного файла",
+      "ar": "أول 120 سطرًا من الملف الكامل"
+    },
+    "Tempo": {
+      "en": "Tempo",
+      "tr": "Tempo",
+      "de": "Tempo",
+      "es": "Tempo",
+      "fr": "Tempo",
+      "pt": "Tempo",
+      "zh": "速度",
+      "ja": "テンポ",
+      "ru": "Темп",
+      "ar": "الإيقاع"
+    },
+    "Tempo changes rhythm independently of movement speed.": {
+      "en": "Tempo changes rhythm independently of movement speed.",
+      "tr": "Tempo ritmi değiştirir; hareket hızı seçimini korur.",
+      "de": "Tempo ändert den Rhythmus unabhängig von der Bewegungsgeschwindigkeit.",
+      "es": "El tempo cambia el ritmo sin cambiar la velocidad de movimiento.",
+      "fr": "Le tempo modifie le rythme sans changer la vitesse de déplacement.",
+      "pt": "O tempo altera o ritmo sem mudar a velocidade de movimento.",
+      "zh": "节奏可独立于移动速度调整。",
+      "ja": "テンポは移動速度とは独立してリズムを変えます。",
+      "ru": "Темп меняет ритм независимо от скорости движения.",
+      "ar": "يغيّر الإيقاع النبض مستقلًا عن سرعة الحركة."
+    },
+    "All genres": {
+      "en": "All genres",
+      "tr": "Tüm türler",
+      "de": "Alle Genres",
+      "es": "Todos los géneros",
+      "fr": "Tous les genres",
+      "pt": "Todos os gêneros",
+      "zh": "所有曲风",
+      "ja": "すべてのジャンル",
+      "ru": "Все жанры",
+      "ar": "كل الأنواع"
+    },
+    "U1 is the default. Klipper profiles make music through XY motion; supported Bambu Lab profiles use built-in music commands.": {
+      "en": "U1 is the default. Klipper profiles make music through XY motion; supported Bambu Lab profiles use built-in music commands.",
+      "tr": "U1 varsayılandır. Klipper profilleri XY hareketleriyle müzik oluşturur; desteklenen Bambu Lab profilleri yazıcının yerleşik müzik komutlarını kullanır."
+    },
+    "On U1, selecting a speed matches the tempo level. You can adjust tempo separately.": {
+      "en": "On U1, selecting a speed matches the tempo level. You can adjust tempo separately.",
+      "tr": "U1’de hız seçimi tempoyu aynı seviyeye getirir. Tempoyu ayrıca değiştirebilirsin.",
+      "de": "Bei U1 passt die Geschwindigkeitswahl das Tempo an. Das Tempo lässt sich separat ändern.",
+      "es": "En U1, elegir velocidad ajusta el nivel de tempo. Puedes cambiarlo por separado.",
+      "fr": "Sur U1, la vitesse choisie ajuste le tempo. Vous pouvez modifier le tempo séparément.",
+      "pt": "No U1, a velocidade ajusta o nível de tempo. Você pode alterá-lo separadamente.",
+      "zh": "U1选择速度时会匹配节奏等级，也可单独调整节奏。",
+      "ja": "U1では速度に合わせてテンポも変わります。テンポは個別に変更できます。",
+      "ru": "На U1 выбор скорости задаёт уровень темпа. Темп можно изменить отдельно.",
+      "ar": "في U1 يطابق اختيار السرعة مستوى الإيقاع، ويمكن ضبط الإيقاع منفصلًا."
+    },
+    "V3 KE: slow-Z setup": {
+      "en": "V3 KE: slow-Z setup",
+      "tr": "V3 KE: yavaş Z kurulumu"
+    },
+    "Default profile": {
+      "en": "Default profile",
+      "tr": "Varsayılan profil",
+      "de": "Standardprofil",
+      "es": "Perfil predeterminado",
+      "fr": "Profil par défaut",
+      "pt": "Perfil padrão",
+      "zh": "默认配置",
+      "ja": "既定のプロファイル",
+      "ru": "Профиль по умолчанию",
+      "ar": "الملف الافتراضي"
+    },
+    "Default selection": {
+      "en": "Default selection",
+      "tr": "Varsayılan seçim",
+      "de": "Standardauswahl",
+      "es": "Selección predeterminada",
+      "fr": "Sélection par défaut",
+      "pt": "Seleção padrão",
+      "zh": "默认选择",
+      "ja": "既定の選択",
+      "ru": "Выбор по умолчанию",
+      "ar": "الخيار الافتراضي"
+    },
+    "X / Y speed range": {
+      "en": "X / Y speed range",
+      "tr": "X / Y hız aralığı"
+    },
+    "X minimum · mm/s": {
+      "en": "X minimum · mm/s",
+      "tr": "X alt · mm/sn",
+      "de": "X-Minimum · mm/s",
+      "es": "X mínimo · mm/s",
+      "fr": "X minimum · mm/s",
+      "pt": "X mínimo · mm/s",
+      "zh": "X轴下限 · mm/s",
+      "ja": "X最小 · mm/s",
+      "ru": "Минимум X · мм/с",
+      "ar": "الحد الأدنى X · mm/s"
+    },
+    "X speed range": {
+      "en": "X speed range",
+      "tr": "X hız aralığı",
+      "de": "X-Geschwindigkeitsbereich",
+      "es": "Rango de velocidad X",
+      "fr": "Plage de vitesse X",
+      "pt": "Faixa de velocidade X",
+      "zh": "X轴速度范围",
+      "ja": "X速度範囲",
+      "ru": "Диапазон скорости X",
+      "ar": "نطاق سرعة X"
+    },
+    "X sound range": {
+      "en": "X sound range",
+      "tr": "X ses aralığı",
+      "de": "X-Klangbereich",
+      "es": "Rango sonoro X",
+      "fr": "Plage sonore X",
+      "pt": "Faixa sonora X",
+      "zh": "X轴发声范围",
+      "ja": "X軸の音域",
+      "ru": "Звуковой диапазон X",
+      "ar": "نطاق صوت X"
+    },
+    "X sound speed": {
+      "en": "X sound speed",
+      "tr": "X ses hızı",
+      "de": "X-Klanggeschwindigkeit",
+      "es": "Velocidad sonora X",
+      "fr": "Vitesse sonore X",
+      "pt": "Velocidade sonora X",
+      "zh": "X轴发声速度",
+      "ja": "X音声速度",
+      "ru": "Звуковая скорость X",
+      "ar": "سرعة صوت X"
+    },
+    "X maximum · mm/s": {
+      "en": "X maximum · mm/s",
+      "tr": "X üst · mm/sn",
+      "de": "X-Maximum · mm/s",
+      "es": "X máximo · mm/s",
+      "fr": "X maximum · mm/s",
+      "pt": "X máximo · mm/s",
+      "zh": "X轴上限 · mm/s",
+      "ja": "X最大 · mm/s",
+      "ru": "Максимум X · мм/с",
+      "ar": "الحد الأقصى X · mm/s"
+    },
+    "Automatic X/Y home": {
+      "en": "Automatic X/Y home",
+      "tr": "X/Y otomatik home",
+      "de": "Automatisches X/Y-Homing",
+      "es": "Homing X/Y automático",
+      "fr": "Référencement X/Y automatique",
+      "pt": "Homing X/Y automático",
+      "zh": "自动X/Y归零",
+      "ja": "X/Y自動原点復帰",
+      "ru": "Автоматический home X/Y",
+      "ar": "مرجعة X/Y تلقائية"
+    },
+    "XY MOTORS": {
+      "en": "XY MOTORS",
+      "tr": "XY MOTORLARI",
+      "de": "XY-MOTOREN",
+      "es": "MOTORES XY",
+      "fr": "MOTEURS XY",
+      "pt": "MOTORES XY",
+      "zh": "XY电机",
+      "ja": "XYモーター",
+      "ru": "МОТОРЫ XY",
+      "ar": "محركات XY"
+    },
+    "XY motion": {
+      "en": "XY motion",
+      "tr": "XY hareketi",
+      "de": "XY-Bewegung",
+      "es": "Movimiento XY",
+      "fr": "Mouvement XY",
+      "pt": "Movimento XY",
+      "zh": "XY运动",
+      "ja": "XY移動",
+      "ru": "Движение XY",
+      "ar": "حركة XY"
+    },
+    "XY speed range": {
+      "en": "XY speed range",
+      "tr": "XY hız aralığı",
+      "de": "XY-Geschwindigkeitsbereich",
+      "es": "Rango de velocidad XY",
+      "fr": "Plage de vitesse XY",
+      "pt": "Faixa de velocidade XY",
+      "zh": "XY速度范围",
+      "ja": "XY速度範囲",
+      "ru": "Диапазон скорости XY",
+      "ar": "نطاق سرعة XY"
+    },
+    "Checking XY path, note timing and output limits.": {
+      "en": "Checking XY path, note timing and output limits.",
+      "tr": "XY yolu, nota zamanları ve çıktı sınırları kontrol ediliyor."
+    },
+    "Save Y sound-range sweep": {
+      "en": "Save Y sound-range sweep",
+      "tr": "Y ses aralığı taramasını indir"
+    },
+    "Y and Z stay still during music.": {
+      "en": "Y and Z stay still during music.",
+      "tr": "Y ve Z, müzikte sabit.",
+      "de": "Y und Z bleiben während der Musik still.",
+      "es": "Y y Z permanecen inmóviles durante la música.",
+      "fr": "Y et Z restent immobiles pendant la musique.",
+      "pt": "Y e Z ficam parados durante a música.",
+      "zh": "音乐播放期间Y和Z轴静止。",
+      "ja": "音楽中はY軸とZ軸は静止します。",
+      "ru": "Во время музыки Y и Z неподвижны.",
+      "ar": "يبقى Y وZ ثابتين أثناء الموسيقى."
+    },
+    "Y priority · Adjustable speed/tempo": {
+      "en": "Y priority · Adjustable speed/tempo",
+      "tr": "Y öncelikli · Hız/tempo serbest"
+    },
+    "X MOTION ONLY": {
+      "en": "X MOTION ONLY",
+      "tr": "YALNIZCA X HAREKETİ",
+      "de": "NUR X-BEWEGUNG",
+      "es": "SOLO MOVIMIENTO X",
+      "fr": "MOUVEMENT X UNIQUEMENT",
+      "pt": "APENAS MOVIMENTO X",
+      "zh": "仅X轴运动",
+      "ja": "X軸移動のみ",
+      "ru": "ДВИЖЕНИЕ ТОЛЬКО ПО X",
+      "ar": "حركة X فقط"
+    },
+    "PRINTER PROFILE": {
+      "en": "PRINTER PROFILE",
+      "tr": "YAZICI PROFİLİ",
+      "de": "DRUCKERPROFIL",
+      "es": "PERFIL DE IMPRESORA",
+      "fr": "PROFIL D’IMPRIMANTE",
+      "pt": "PERFIL DA IMPRESSORA",
+      "zh": "打印机配置",
+      "ja": "プリンタープロファイル",
+      "ru": "ПРОФИЛЬ ПРИНТЕРА",
+      "ar": "ملف تعريف الطابعة"
+    },
+    "X melody only": {
+      "en": "X melody only",
+      "tr": "Yalnızca X melodisi",
+      "de": "Nur X-Melodie",
+      "es": "Melodía solo en X",
+      "fr": "Mélodie sur X uniquement",
+      "pt": "Melodia apenas em X",
+      "zh": "仅X轴旋律",
+      "ja": "X軸のみのメロディー",
+      "ru": "Мелодия только по X",
+      "ar": "اللحن على X فقط"
+    },
+    "X only · Adjustable speed/tempo": {
+      "en": "X only · Adjustable speed/tempo",
+      "tr": "Yalnızca X · Hız/tempo serbest",
+      "de": "Nur X · Geschwindigkeit/Tempo einstellbar",
+      "es": "Solo X · Velocidad/tempo ajustables",
+      "fr": "X seul · Vitesse/tempo réglables",
+      "pt": "Apenas X · Velocidade/tempo ajustáveis",
+      "zh": "仅X轴 · 速度/节奏可调",
+      "ja": "Xのみ・速度とテンポ調整可",
+      "ru": "Только X · Скорость/темп настраиваются",
+      "ar": "X فقط · سرعة وإيقاع قابلان للضبط"
+    },
+    "X only · Y stays still": {
+      "en": "X only · Y stays still",
+      "tr": "Yalnızca X · Y sabit",
+      "de": "Nur X · Y bleibt still",
+      "es": "Solo X · Y inmóvil",
+      "fr": "X seul · Y immobile",
+      "pt": "Apenas X · Y parado",
+      "zh": "仅X轴 · Y轴静止",
+      "ja": "Xのみ・Yは静止",
+      "ru": "Только X · Y неподвижна",
+      "ar": "X فقط · Y ثابت"
+    },
+    "Slow": {
+      "en": "Slow",
+      "tr": "Yavaş",
+      "de": "Langsam",
+      "es": "Lenta",
+      "fr": "Lente",
+      "pt": "Lenta",
+      "zh": "慢",
+      "ja": "遅い",
+      "ru": "Медленно",
+      "ar": "بطيء"
+    },
+    "Save slow-Z configuration": {
+      "en": "Save slow-Z configuration",
+      "tr": "Yavaş Z ayarını indir"
+    },
+    "Slow: lower range · Medium: full range · Fast: upper range. The melody is fitted into these sound ranges.": {
+      "en": "Slow: lower range · Medium: full range · Fast: upper range. The melody is fitted into these sound ranges.",
+      "tr": "Yavaş: aralığın alt bölümü · Orta: tam aralık · Hızlı: üst bölümü. Melodi çizgisi bu ses aralıklarına uyarlanır."
+    },
+    "Slower · 75%": {
+      "en": "Slower · 75%",
+      "tr": "Yavaşlatılmış · %75",
+      "de": "Langsamer · 75%",
+      "es": "Más lento · 75%",
+      "fr": "Ralenti · 75 %",
+      "pt": "Mais lento · 75%",
+      "zh": "较慢 · 75%",
+      "ja": "ゆっくり · 75%",
+      "ru": "Медленнее · 75%",
+      "ar": "أبطأ · 75%"
+    },
+    "Search printers": {
+      "en": "Search printers",
+      "tr": "Yazıcı ara",
+      "de": "Drucker suchen",
+      "es": "Buscar impresoras",
+      "fr": "Rechercher une imprimante",
+      "pt": "Buscar impressoras",
+      "zh": "搜索打印机",
+      "ja": "プリンターを検索",
+      "ru": "Поиск принтеров",
+      "ar": "البحث عن طابعة"
+    },
+    "Change printer": {
+      "en": "Change printer",
+      "tr": "Yazıcı değiştir",
+      "de": "Drucker wechseln",
+      "es": "Cambiar impresora",
+      "fr": "Changer d’imprimante",
+      "pt": "Trocar impressora",
+      "zh": "更换打印机",
+      "ja": "プリンターを変更",
+      "ru": "Сменить принтер",
+      "ar": "تغيير الطابعة"
+    },
+    "Printer configuration imported.": {
+      "en": "Printer configuration imported.",
+      "tr": "Yazıcı konfigürasyonu içe aktarıldı.",
+      "de": "Druckerkonfiguration importiert.",
+      "es": "Configuración importada.",
+      "fr": "Configuration importée.",
+      "pt": "Configuração importada.",
+      "zh": "打印机配置已导入。",
+      "ja": "プリンター設定を読み込みました。",
+      "ru": "Конфигурация импортирована.",
+      "ar": "تم استيراد إعداد الطابعة."
+    },
+    "The printer profile selects the music method: XY motion for Klipper, native motor sound for supported Bambu Lab models. Snapmaker U1 is the default.": {
+      "en": "The printer profile selects the music method: XY motion for Klipper, native motor sound for supported Bambu Lab models. Snapmaker U1 is the default.",
+      "tr": "Yazıcı profili müzik yöntemini belirler: Klipper için XY hareketi, desteklenen Bambu Lab modelleri için yerleşik motor sesi. Snapmaker U1 varsayılandır."
+    },
+    "Could not create printer profile.": {
+      "en": "Could not create printer profile.",
+      "tr": "Yazıcı profili oluşturulamadı."
+    },
+    "Could not load printers and MIDI library. Restart the application and try again.": {
+      "en": "Could not load printers and MIDI library. Restart the application and try again.",
+      "tr": "Yazıcı ve MIDI kitaplığı yüklenemedi. Uygulama sunucusunu kontrol edip sayfayı yenile."
+    },
+    "Choose your printer.": {
+      "en": "Choose your printer.",
+      "tr": "Yazıcını seç.",
+      "de": "Wähle deinen Drucker.",
+      "es": "Elige tu impresora.",
+      "fr": "Choisissez votre imprimante.",
+      "pt": "Escolha sua impressora.",
+      "zh": "选择打印机。",
+      "ja": "プリンターを選択。",
+      "ru": "Выберите принтер.",
+      "ar": "اختر طابعتك."
+    },
+    "Choose a printer. Adjust your MIDI. Play your melody.": {
+      "en": "Choose a printer. Adjust your MIDI. Play your melody.",
+      "tr": "Yazıcını seç. MIDI’ni ayarla. Melodini çaldır.",
+      "de": "Drucker wählen. MIDI anpassen. Melodie spielen.",
+      "es": "Elige una impresora. Ajusta tu MIDI. Reproduce tu melodía.",
+      "fr": "Choisissez une imprimante. Réglez le MIDI. Jouez votre mélodie.",
+      "pt": "Escolha a impressora. Ajuste o MIDI. Toque sua melodia.",
+      "zh": "选择打印机，调整MIDI，演奏旋律。",
+      "ja": "プリンターを選び、MIDIを調整し、メロディーを奏でましょう。",
+      "ru": "Выберите принтер, настройте MIDI и сыграйте мелодию.",
+      "ar": "اختر طابعة واضبط MIDI وشغّل لحنك."
+    },
+    "Choose your printer and MIDI.": {
+      "en": "Choose your printer and MIDI.",
+      "tr": "Yazıcını ve MIDI’ni seç."
+    },
+    "Your printer has a melody.": {
+      "en": "Your printer has a melody.",
+      "tr": "Yazıcının melodisi.",
+      "de": "Dein Drucker hat eine Melodie.",
+      "es": "Tu impresora tiene una melodía.",
+      "fr": "Votre imprimante a une mélodie.",
+      "pt": "Sua impressora tem uma melodia.",
+      "zh": "你的打印机也有旋律。",
+      "ja": "プリンターにもメロディーを。",
+      "ru": "У вашего принтера есть мелодия.",
+      "ar": "لطابعتك لحن."
+    },
+    "Local processing": {
+      "en": "Local processing",
+      "tr": "Yerel çalışma",
+      "de": "Lokale Verarbeitung",
+      "es": "Procesamiento local",
+      "fr": "Traitement local",
+      "pt": "Processamento local",
+      "zh": "本地处理",
+      "ja": "ローカル処理",
+      "ru": "Локальная обработка",
+      "ar": "معالجة محلية"
+    },
+    "Native X/Y sound channels are used. No positioning or homing commands; the Z sound channel stays muted.": {
+      "en": "Native X/Y sound channels are used. No positioning or homing commands; the Z sound channel stays muted.",
+      "tr": "Yerleşik X/Y ses kanalları kullanılır. Konumlandırma ve home komutu üretilmez; Z ses kanalı sessiz tutulur."
+    },
+    "Built-in motor music": {
+      "en": "Built-in motor music",
+      "tr": "Yerleşik motor müziği",
+      "de": "Integrierte Motormusik",
+      "es": "Música de motor integrada",
+      "fr": "Musique de moteurs intégrée",
+      "pt": "Música de motor integrada",
+      "zh": "内置电机音乐",
+      "ja": "内蔵モーター音楽",
+      "ru": "Встроенная музыка моторов",
+      "ar": "موسيقى المحركات المدمجة"
+    },
+    "Native music support unverified · Unavailable": {
+      "en": "Native music support unverified · Unavailable",
+      "tr": "Yerleşik müzik desteği doğrulanmadı · Seçilemez"
+    },
+    "Native music commands and timing checked. Try the short test first.": {
+      "en": "Native music commands and timing checked. Try the short test first.",
+      "tr": "Yerleşik müzik komutları ve süreleri kontrol edildi. Önce kısa testi dinle."
+    },
+    "Built-in music · Firmware dependent": {
+      "en": "Built-in music · Firmware dependent",
+      "tr": "Yerleşik müzik · firmware’e bağlı"
+    },
+    "Built-in music · No positioning": {
+      "en": "Built-in music · No positioning",
+      "tr": "Yerleşik müzik · konumlandırma yok"
+    },
+    "Load": {
+      "en": "Load",
+      "tr": "Yükle",
+      "de": "Laden",
+      "es": "Cargar",
+      "fr": "Charger",
+      "pt": "Carregar",
+      "zh": "载入",
+      "ja": "読み込む",
+      "ru": "Загрузить",
+      "ar": "تحميل"
+    },
+    "Z": {
+      "en": "Z",
+      "tr": "Z"
+    },
+    "Z sound channel is off.": {
+      "en": "Z sound channel is off.",
+      "tr": "Z ses kanalı kapalı.",
+      "de": "Z-Klangkanal ist aus.",
+      "es": "El canal de sonido Z está apagado.",
+      "fr": "Le canal sonore Z est désactivé.",
+      "pt": "O canal de som Z está desligado.",
+      "zh": "Z发声通道已关闭。",
+      "ja": "Z音声チャンネルはオフです。",
+      "ru": "Звуковой канал Z выключен.",
+      "ar": "قناة صوت Z معطلة."
+    },
+    "Z does not move during music.": {
+      "en": "Z does not move during music.",
+      "tr": "Z, müzikte hareket etmez.",
+      "de": "Z bewegt sich während der Musik nicht.",
+      "es": "Z no se mueve durante la música.",
+      "fr": "Z ne bouge pas pendant la musique.",
+      "pt": "Z não se move durante a música.",
+      "zh": "音乐播放期间Z轴不移动。",
+      "ja": "音楽中はZ軸は動きません。",
+      "ru": "Во время музыки Z не движется.",
+      "ar": "لا يتحرك Z أثناء الموسيقى."
+    },
+    "min:sec": {
+      "en": "min:sec",
+      "tr": "dk:sn"
+    },
+    "lower": {
+      "en": "lower",
+      "tr": "kalın"
+    },
+    "mm/s": {
+      "en": "mm/s",
+      "tr": "mm/sn"
+    },
+    "Choose printer.cfg": {
+      "en": "Choose printer.cfg",
+      "tr": "printer.cfg seç",
+      "de": "printer.cfg wählen",
+      "es": "Elegir printer.cfg",
+      "fr": "Choisir printer.cfg",
+      "pt": "Escolher printer.cfg",
+      "zh": "选择printer.cfg",
+      "ja": "printer.cfgを選択",
+      "ru": "Выбрать printer.cfg",
+      "ar": "اختيار printer.cfg"
+    },
+    "or click to choose a file": {
+      "en": "or click to choose a file",
+      "tr": "veya dosya seçmek için tıkla",
+      "de": "oder klicken, um eine Datei zu wählen",
+      "es": "o haz clic para elegir un archivo",
+      "fr": "ou cliquez pour choisir un fichier",
+      "pt": "ou clique para escolher um arquivo",
+      "zh": "或点击选择文件",
+      "ja": "またはクリックして選択",
+      "ru": "или нажмите, чтобы выбрать файл",
+      "ar": "أو انقر لاختيار ملف"
+    },
+    "WORKING PREVIEW": {
+      "en": "WORKING PREVIEW",
+      "tr": "ÇALIŞAN TASLAK"
+    },
+    "Playback settings": {
+      "en": "Playback settings",
+      "tr": "Çalma ayarları",
+      "de": "Wiedergabeeinstellungen",
+      "es": "Ajustes de reproducción",
+      "fr": "Réglages de lecture",
+      "pt": "Configurações de reprodução",
+      "zh": "播放设置",
+      "ja": "再生設定",
+      "ru": "Настройки воспроизведения",
+      "ar": "إعدادات التشغيل"
+    },
+    "One step away from music.": {
+      "en": "One step away from music.",
+      "tr": "Çalmaya bir adım kaldı.",
+      "de": "Nur ein Schritt zur Musik.",
+      "es": "A un paso de la música.",
+      "fr": "À un pas de la musique.",
+      "pt": "A um passo da música.",
+      "zh": "离音乐只差一步。",
+      "ja": "音楽まであと一歩。",
+      "ru": "Один шаг до музыки.",
+      "ar": "خطوة واحدة إلى الموسيقى."
+    },
+    "Playback axes": {
+      "en": "Playback axes",
+      "tr": "Çalınacak eksenler",
+      "de": "Wiedergabeachsen",
+      "es": "Ejes de reproducción",
+      "fr": "Axes de lecture",
+      "pt": "Eixos de reprodução",
+      "zh": "演奏轴",
+      "ja": "再生軸",
+      "ru": "Оси воспроизведения",
+      "ar": "محاور التشغيل"
+    },
+    "Online converter": {
+      "en": "Online converter",
+      "tr": "Çevrimiçi dönüştürücü"
+    },
+    "Running online": {
+      "en": "Running online",
+      "tr": "Çevrimiçi çalışıyor"
+    },
+    "Output ready": {
+      "en": "Output ready",
+      "tr": "Çıktı hazır",
+      "de": "Ausgabe bereit",
+      "es": "Salida lista",
+      "fr": "Sortie prête",
+      "pt": "Saída pronta",
+      "zh": "输出就绪",
+      "ja": "出力準備完了",
+      "ru": "Результат готов",
+      "ar": "الناتج جاهز"
+    },
+    "Output duration": {
+      "en": "Output duration",
+      "tr": "Çıktı süresi",
+      "de": "Ausgabedauer",
+      "es": "Duración de salida",
+      "fr": "Durée de sortie",
+      "pt": "Duração da saída",
+      "zh": "输出时长",
+      "ja": "出力時間",
+      "ru": "Длительность",
+      "ar": "مدة الناتج"
+    },
+    "Try the short test first. Bambu Lab transfer methods and native sound support depend on model and firmware; check profile notes.": {
+      "en": "Try the short test first. Bambu Lab transfer methods and native sound support depend on model and firmware; check profile notes.",
+      "tr": "Önce kısa testle dinle. Bambu Lab aktarım yöntemi ve yerleşik ses desteği modele ve firmware’e bağlıdır; seçili profilin notlarını kontrol et."
+    },
+    "Already homed position": {
+      "en": "Already homed position",
+      "tr": "Önceden home alınmış konum",
+      "de": "Bereits referenzierte Position",
+      "es": "Posición ya referenciada",
+      "fr": "Position déjà référencée",
+      "pt": "Posição já referenciada",
+      "zh": "已归零位置",
+      "ja": "原点復帰済みの位置",
+      "ru": "Положение после home",
+      "ar": "موضع تمت مرجعته مسبقًا"
+    },
+    "Preview & export": {
+      "en": "Preview & export",
+      "tr": "Önizle & dışa aktar",
+      "de": "Vorschau & Export",
+      "es": "Vista previa y exportación",
+      "fr": "Aperçu et export",
+      "pt": "Prévia e exportação",
+      "zh": "预览与导出",
+      "ja": "プレビューと書き出し",
+      "ru": "Просмотр и экспорт",
+      "ar": "المعاينة والتصدير"
+    },
+    "Updating preview": {
+      "en": "Updating preview",
+      "tr": "Önizleme güncelleniyor",
+      "de": "Vorschau wird aktualisiert",
+      "es": "Actualizando vista previa",
+      "fr": "Mise à jour de l’aperçu",
+      "pt": "Atualizando prévia",
+      "zh": "正在更新预览",
+      "ja": "プレビュー更新中",
+      "ru": "Обновление просмотра",
+      "ar": "جارٍ تحديث المعاينة"
+    },
+    "Preview ready": {
+      "en": "Preview ready",
+      "tr": "Önizleme hazır",
+      "de": "Vorschau bereit",
+      "es": "Vista previa lista",
+      "fr": "Aperçu prêt",
+      "pt": "Prévia pronta",
+      "zh": "预览就绪",
+      "ja": "プレビュー準備完了",
+      "ru": "Просмотр готов",
+      "ar": "المعاينة جاهزة"
+    },
+    "Preparing preview…": {
+      "en": "Preparing preview…",
+      "tr": "Önizleme hazırlanıyor…",
+      "de": "Vorschau wird vorbereitet…",
+      "es": "Preparando vista previa…",
+      "fr": "Préparation de l’aperçu…",
+      "pt": "Preparando prévia…",
+      "zh": "正在准备预览…",
+      "ja": "プレビュー準備中…",
+      "ru": "Подготовка просмотра…",
+      "ar": "جارٍ إعداد المعاينة…"
+    },
+    "Preview type": {
+      "en": "Preview type",
+      "tr": "Önizleme türü"
+    },
+    "Preview and G-code output": {
+      "en": "Preview and G-code output",
+      "tr": "Önizleme ve G-code çıktısı"
+    },
+    "Stop preview": {
+      "en": "Stop preview",
+      "tr": "Önizlemeyi durdur",
+      "de": "Vorschau stoppen",
+      "es": "Detener vista previa",
+      "fr": "Arrêter l’aperçu",
+      "pt": "Parar prévia",
+      "zh": "停止预览",
+      "ja": "プレビューを停止",
+      "ru": "Остановить просмотр",
+      "ar": "إيقاف المعاينة"
+    },
+    "Custom or modified printer?": {
+      "en": "Custom or modified printer?",
+      "tr": "Özel veya değiştirilmiş yazıcı mı?",
+      "de": "Eigener oder modifizierter Drucker?",
+      "es": "¿Impresora personalizada o modificada?",
+      "fr": "Imprimante personnalisée ou modifiée ?",
+      "pt": "Impressora personalizada ou modificada?",
+      "zh": "自定义或改装打印机？",
+      "ja": "カスタム・改造プリンターですか？",
+      "ru": "Свой или изменённый принтер?",
+      "ar": "طابعة مخصصة أو معدلة؟"
+    },
+    "Original MIDI": {
+      "en": "Original MIDI",
+      "tr": "Özgün MIDI"
+    },
+    "Original octaves, balanced motion.": {
+      "en": "Original octaves, balanced motion.",
+      "tr": "Özgün oktavlar, dengeli hareket.",
+      "de": "Originaloktaven, ausgewogene Bewegung.",
+      "es": "Octavas originales, movimiento equilibrado.",
+      "fr": "Octaves d’origine, mouvement équilibré.",
+      "pt": "Oitavas originais, movimento equilibrado.",
+      "zh": "原始八度，运动均衡。",
+      "ja": "元のオクターブ、バランスのよい動き。",
+      "ru": "Исходные октавы, сбалансированное движение.",
+      "ar": "أوكتافات أصلية وحركة متوازنة."
+    },
+    "First 12 seconds": {
+      "en": "First 12 seconds",
+      "tr": "İlk 12 saniye",
+      "de": "Erste 12 Sekunden",
+      "es": "Primeros 12 segundos",
+      "fr": "12 premières secondes",
+      "pt": "Primeiros 12 segundos",
+      "zh": "前12秒",
+      "ja": "最初の12秒",
+      "ru": "Первые 12 секунд",
+      "ar": "أول 12 ثانية"
+    },
+    "Higher": {
+      "en": "Higher",
+      "tr": "İnce",
+      "de": "Höher",
+      "es": "Aguda",
+      "fr": "Aiguë",
+      "pt": "Aguda",
+      "zh": "高音",
+      "ja": "高い",
+      "ru": "Выше",
+      "ar": "أعلى"
+    },
+    "Refresh the download link by generating G-code again.": {
+      "en": "Refresh the download link by generating G-code again.",
+      "tr": "İndirme bağlantısı yenilenmeli. Sayfayı yenileyip G-code’u yeniden oluştur."
+    },
+    "Imported configuration": {
+      "en": "Imported configuration",
+      "tr": "İçe aktarılan konfigürasyon",
+      "de": "Importierte Konfiguration",
+      "es": "Configuración importada",
+      "fr": "Configuration importée",
+      "pt": "Configuração importada",
+      "zh": "已导入配置",
+      "ja": "読み込んだ設定",
+      "ru": "Импортированная конфигурация",
+      "ar": "إعداد مستورد"
+    },
+    "Could not complete the operation. Try again.": {
+      "en": "Could not complete the operation. Try again.",
+      "tr": "İşlem tamamlanamadı. Yeniden dene.",
+      "de": "Vorgang fehlgeschlagen. Erneut versuchen.",
+      "es": "No se pudo completar la operación. Inténtalo de nuevo.",
+      "fr": "Opération impossible. Réessayez.",
+      "pt": "Não foi possível concluir. Tente novamente.",
+      "zh": "操作未完成，请重试。",
+      "ja": "操作を完了できませんでした。再試行してください。",
+      "ru": "Не удалось завершить действие. Повторите попытку.",
+      "ar": "تعذر إكمال العملية. حاول مجددًا."
+    },
+    "Search song, artist or composer": {
+      "en": "Search song, artist or composer",
+      "tr": "Şarkı, sanatçı veya besteci ara",
+      "de": "Titel, Künstler oder Komponist suchen",
+      "es": "Buscar canción, artista o compositor",
+      "fr": "Rechercher un titre, artiste ou compositeur",
+      "pt": "Buscar música, artista ou compositor",
+      "zh": "搜索歌曲、歌手或作曲家",
+      "ja": "曲名・アーティスト・作曲家を検索",
+      "ru": "Поиск песни, исполнителя или композитора",
+      "ar": "ابحث عن أغنية أو فنان أو ملحّن"
+    },
+    "Settings": {
+      "en": "Settings",
+      "tr": "Ayarlar",
+      "de": "Einstellungen",
+      "es": "Ajustes",
+      "fr": "Paramètres",
+      "pt": "Configurações",
+      "zh": "设置",
+      "ja": "設定",
+      "ru": "Настройки",
+      "ar": "الإعدادات"
+    },
+    "Language": {
+      "en": "Language",
+      "tr": "Dil",
+      "de": "Sprache",
+      "es": "Idioma",
+      "fr": "Langue",
+      "pt": "Idioma",
+      "zh": "语言",
+      "ja": "言語",
+      "ru": "Язык",
+      "ar": "اللغة"
+    },
+    "App preferences": {
+      "en": "App preferences",
+      "tr": "Uygulama tercihleri",
+      "de": "App-Einstellungen",
+      "es": "Preferencias de la aplicación",
+      "fr": "Préférences de l’application",
+      "pt": "Preferências do aplicativo",
+      "zh": "应用偏好设置",
+      "ja": "アプリの環境設定",
+      "ru": "Параметры приложения",
+      "ar": "تفضيلات التطبيق"
+    },
+    "Choose your language. Changes apply immediately.": {
+      "en": "Choose your language. Changes apply immediately.",
+      "tr": "Dilini seç. Değişiklikler hemen uygulanır.",
+      "de": "Wähle deine Sprache. Änderungen gelten sofort.",
+      "es": "Elige tu idioma. Los cambios se aplican al instante.",
+      "fr": "Choisissez votre langue. Les changements sont immédiats.",
+      "pt": "Escolha seu idioma. As alterações são imediatas.",
+      "zh": "选择语言，更改立即生效。",
+      "ja": "言語を選択すると、すぐに反映されます。",
+      "ru": "Выберите язык. Изменения применяются сразу.",
+      "ar": "اختر لغتك. تُطبّق التغييرات فورًا."
+    },
+    "Your language is saved on this computer.": {
+      "en": "Your language is saved on this computer.",
+      "tr": "Dil tercihin bu bilgisayarda kaydedilir.",
+      "de": "Deine Sprache wird auf diesem Computer gespeichert.",
+      "es": "Tu idioma se guarda en este equipo.",
+      "fr": "Votre langue est enregistrée sur cet ordinateur.",
+      "pt": "Seu idioma é salvo neste computador.",
+      "zh": "语言设置保存在此计算机上。",
+      "ja": "言語設定はこのパソコンに保存されます。",
+      "ru": "Выбранный язык сохраняется на этом компьютере.",
+      "ar": "تُحفظ اللغة على هذا الكمبيوتر."
+    },
+    "Technical details and original source attribution may appear in English.": {
+      "en": "Technical details and original source attribution may appear in English.",
+      "tr": "Teknik ayrıntılar ve özgün kaynak künyeleri İngilizce gösterilebilir.",
+      "de": "Technische Details und Quellenangaben können auf Englisch erscheinen.",
+      "es": "Los detalles técnicos y las fuentes originales pueden aparecer en inglés.",
+      "fr": "Les détails techniques et les sources d’origine peuvent apparaître en anglais.",
+      "pt": "Detalhes técnicos e fontes originais podem aparecer em inglês.",
+      "zh": "技术详情和原始来源说明可能以英语显示。",
+      "ja": "技術情報や元の出典は英語で表示される場合があります。",
+      "ru": "Технические сведения и исходные ссылки могут отображаться на английском.",
+      "ar": "قد تظهر التفاصيل التقنية وبيانات المصادر الأصلية بالإنجليزية."
+    },
+    "Done": {
+      "en": "Done",
+      "tr": "Tamam",
+      "de": "Fertig",
+      "es": "Listo",
+      "fr": "Terminé",
+      "pt": "Concluído",
+      "zh": "完成",
+      "ja": "完了",
+      "ru": "Готово",
+      "ar": "تم"
+    },
+    "Source ↗": {
+      "en": "Source ↗",
+      "tr": "Kaynak ↗",
+      "de": "Quelle ↗",
+      "es": "Fuente ↗",
+      "fr": "Source ↗",
+      "pt": "Fonte ↗",
+      "zh": "来源 ↗",
+      "ja": "出典 ↗",
+      "ru": "Источник ↗",
+      "ar": "المصدر ↗"
+    },
+    "Electronic": {
+      "en": "Electronic",
+      "tr": "Elektronik",
+      "de": "Elektronisch",
+      "es": "Electrónica",
+      "fr": "Électronique",
+      "pt": "Eletrônica",
+      "zh": "电子",
+      "ja": "エレクトロニック",
+      "ru": "Электронная",
+      "ar": "إلكترونية"
+    },
+    "Film / TV": {
+      "en": "Film / TV",
+      "tr": "Film / Dizi",
+      "de": "Film / TV",
+      "es": "Cine / TV",
+      "fr": "Cinéma / TV",
+      "pt": "Cinema / TV",
+      "zh": "影视",
+      "ja": "映画・テレビ",
+      "ru": "Кино / ТВ",
+      "ar": "أفلام / تلفاز"
+    },
+    "License unspecified": {
+      "en": "License unspecified",
+      "tr": "Lisans belirtilmemiş",
+      "de": "Lizenz nicht angegeben",
+      "es": "Licencia no especificada",
+      "fr": "Licence non précisée",
+      "pt": "Licença não especificada",
+      "zh": "未注明许可",
+      "ja": "ライセンス記載なし",
+      "ru": "Лицензия не указана",
+      "ar": "الترخيص غير محدد"
+    },
+    "Original": {
+      "en": "Original",
+      "tr": "Orijinal",
+      "de": "Original",
+      "es": "Original",
+      "fr": "Originale",
+      "pt": "Original",
+      "zh": "原调",
+      "ja": "原音",
+      "ru": "Исходная",
+      "ar": "أصلي"
+    },
+    "X motion": {
+      "en": "X motion",
+      "tr": "X hareketi",
+      "de": "X-Bewegung",
+      "es": "Movimiento X",
+      "fr": "Mouvement X",
+      "pt": "Movimento X",
+      "zh": "X轴运动",
+      "ja": "X移動",
+      "ru": "Движение X",
+      "ar": "حركة X"
+    },
+    "File saved: {name}": {
+      "en": "File saved: {name}",
+      "tr": "Dosya kaydedildi: {name}",
+      "de": "Datei gespeichert: {name}",
+      "es": "Archivo guardado: {name}",
+      "fr": "Fichier enregistré : {name}",
+      "pt": "Arquivo salvo: {name}",
+      "zh": "文件已保存：{name}",
+      "ja": "保存しました：{name}",
+      "ru": "Файл сохранён: {name}",
+      "ar": "تم حفظ الملف: {name}"
+    },
+    "Up to {value} mm/s": {
+      "en": "Up to {value} mm/s",
+      "tr": "{value} mm/sn’ye kadar",
+      "de": "Bis {value} mm/s",
+      "es": "Hasta {value} mm/s",
+      "fr": "Jusqu’à {value} mm/s",
+      "pt": "Até {value} mm/s",
+      "zh": "最高{value} mm/s",
+      "ja": "最大{value} mm/s",
+      "ru": "До {value} мм/с",
+      "ar": "حتى {value} mm/s"
+    },
+    "{count} / {total} tracks": {
+      "en": "{count} / {total} tracks",
+      "tr": "{count} / {total} eser",
+      "de": "{count} / {total} Titel",
+      "es": "{count} / {total} pistas",
+      "fr": "{count} / {total} morceaux",
+      "pt": "{count} / {total} músicas",
+      "zh": "{count} / {total} 首",
+      "ja": "{count} / {total} 曲",
+      "ru": "{count} / {total} композиций",
+      "ar": "{count} / {total} مقطوعة"
+    },
+    "{size} KB · {tracks} MIDI tracks": {
+      "en": "{size} KB · {tracks} MIDI tracks",
+      "tr": "{size} KB · {tracks} MIDI izi",
+      "de": "{size} KB · {tracks} MIDI-Spuren",
+      "es": "{size} KB · {tracks} pistas MIDI",
+      "fr": "{size} Ko · {tracks} pistes MIDI",
+      "pt": "{size} KB · {tracks} faixas MIDI",
+      "zh": "{size} KB · {tracks} 条MIDI轨道",
+      "ja": "{size} KB・{tracks} MIDIトラック",
+      "ru": "{size} КБ · {tracks} MIDI-дорожек",
+      "ar": "{size} KB · {tracks} مسارات MIDI"
+    },
+    "{notes} NOTES · {duration} SOURCE": {
+      "en": "{notes} NOTES · {duration} SOURCE",
+      "tr": "{notes} NOTA · {duration} KAYNAK",
+      "de": "{notes} NOTEN · {duration} QUELLE",
+      "es": "{notes} NOTAS · {duration} ORIGINAL",
+      "fr": "{notes} NOTES · {duration} SOURCE",
+      "pt": "{notes} NOTAS · {duration} ORIGINAL",
+      "zh": "{notes} 个音符 · 原时长{duration}",
+      "ja": "{notes} 音符・元の長さ {duration}",
+      "ru": "{notes} НОТ · ИСХОДНАЯ {duration}",
+      "ar": "{notes} نغمات · المصدر {duration}"
+    },
+    "Save {duration} test": {
+      "en": "Save {duration} test",
+      "tr": "{duration} testi indir",
+      "de": "Test ({duration}) speichern",
+      "es": "Guardar prueba de {duration}",
+      "fr": "Enregistrer le test de {duration}",
+      "pt": "Salvar teste de {duration}",
+      "zh": "保存{duration}测试",
+      "ja": "{duration}のテストを保存",
+      "ru": "Сохранить тест {duration}",
+      "ar": "حفظ اختبار {duration}"
+    },
+    "G-code for {printer}": {
+      "en": "G-code for {printer}",
+      "tr": "{printer} için G-code",
+      "de": "G-code für {printer}",
+      "es": "G-code para {printer}",
+      "fr": "G-code pour {printer}",
+      "pt": "G-code para {printer}",
+      "zh": "{printer}的G-code",
+      "ja": "{printer}用G-code",
+      "ru": "G-code для {printer}",
+      "ar": "G-code لطابعة {printer}"
+    },
+    "{width} × {height} mm motion area": {
+      "en": "{width} × {height} mm motion area",
+      "tr": "{width} × {height} mm hareket alanı",
+      "de": "{width} × {height} mm Bewegungsbereich",
+      "es": "Área de movimiento de {width} × {height} mm",
+      "fr": "Zone de mouvement de {width} × {height} mm",
+      "pt": "Área de movimento de {width} × {height} mm",
+      "zh": "{width} × {height} mm运动区域",
+      "ja": "{width} × {height} mmの移動範囲",
+      "ru": "Область движения {width} × {height} мм",
+      "ar": "مساحة حركة {width} × {height} mm"
+    },
+    "Could not save the file. Try again.": {
+      "en": "Could not save the file. Try again.",
+      "tr": "Dosya kaydedilemedi. Yeniden dene.",
+      "de": "Datei konnte nicht gespeichert werden. Erneut versuchen.",
+      "es": "No se pudo guardar el archivo. Inténtalo de nuevo.",
+      "fr": "Impossible d’enregistrer le fichier. Réessayez.",
+      "pt": "Não foi possível salvar. Tente novamente.",
+      "zh": "无法保存文件，请重试。",
+      "ja": "保存できませんでした。もう一度お試しください。",
+      "ru": "Не удалось сохранить файл. Повторите попытку.",
+      "ar": "تعذر حفظ الملف. حاول مجددًا."
+    },
+    "Reading MIDI…": {
+      "en": "Reading MIDI…",
+      "tr": "MIDI okunuyor…",
+      "de": "MIDI wird gelesen…",
+      "es": "Leyendo MIDI…",
+      "fr": "Lecture du MIDI…",
+      "pt": "Lendo MIDI…",
+      "zh": "正在读取MIDI…",
+      "ja": "MIDIを読み込み中…",
+      "ru": "Чтение MIDI…",
+      "ar": "جارٍ قراءة MIDI…"
+    },
+    "This is not a MIDI file. Choose a .mid or .midi file.": {
+      "en": "This is not a MIDI file. Choose a .mid or .midi file.",
+      "tr": "Bu dosya bir MIDI dosyası değil. .mid veya .midi dosyası seç."
+    },
+    "This MIDI has no playable notes. Percussion-only files are not supported.": {
+      "en": "This MIDI has no playable notes. Percussion-only files are not supported.",
+      "tr": "Bu MIDI'de çalınabilir nota bulunamadı. Yalnızca vurmalı ses içeren dosyalar desteklenmiyor."
+    },
+    "This MIDI is too dense. Select a shorter section.": {
+      "en": "This MIDI is too dense. Select a shorter section.",
+      "tr": "Bu MIDI taslak için çok yoğun. Daha kısa bir bölüm seç."
+    },
+    "Invalid sound-generation mode.": {
+      "en": "Invalid sound-generation mode.",
+      "tr": "Geçersiz ses üretim modu."
+    },
+    "Invalid setting. Refresh and try again.": {
+      "en": "Invalid setting. Refresh and try again.",
+      "tr": "Geçersiz ayar. Sayfayı yenileyip yeniden dene."
+    },
+    "This MIDI exceeds the printer speed or acceleration limits. Choose a slower tempo or a narrower note range.": {
+      "en": "This MIDI exceeds the printer speed or acceleration limits. Choose a slower tempo or a narrower note range.",
+      "tr": "Bu MIDI bu yazıcının hız/ivme sınırlarına sığmıyor. Daha yavaş tempo veya daha dar nota aralığı seç."
+    },
+    "FOC step-servo profile: movement speed is fixed to Slow and tempo to Slow (75%).": {
+      "en": "FOC step-servo profile: movement speed is fixed to Slow and tempo to Slow (75%).",
+      "tr": "FOC step-servo profili: hareket hızı Yavaş, tempo Yavaş (%75) olarak sabit."
+    },
+    "Only X plays the main melody; Y and Z stay still. Speed is calculated to preserve note intervals.": {
+      "en": "Only X plays the main melody; Y and Z stay still. Speed is calculated to preserve note intervals.",
+      "tr": "Müzikte yalnızca X ekseni ana melodiyi çalar; Y ve Z sabit kalır. Hız, nota aralıkları korunarak hesaplanır."
+    },
+    "Y moves faster than X in each music move; CoreXY motor notes and note durations are preserved. Speed and tempo can be adjusted separately.": {
+      "en": "Y moves faster than X in each music move; CoreXY motor notes and note durations are preserved. Speed and tempo can be adjusted separately.",
+      "tr": "Her müzik hareketinde Y, X'ten hızlı ilerler; CoreXY motor notaları ve nota süreleri korunur. Hız ve tempo ayrı ayarlanabilir."
+    },
+    "Homing uses normal machine limits. Only the following lift to Z20 mm uses 3 mm/s. Normal limits are restored at the end; Z stays still during music.": {
+      "en": "Homing uses normal machine limits. Only the following lift to Z20 mm uses 3 mm/s. Normal limits are restored at the end; Z stays still during music.",
+      "tr": "Home normal yazıcı limitlerinde yapılır; yalnızca sonraki Z20 mm yükseltmesi 3 mm/sn'dir. Dosya sonunda normal limitler geri yüklenir; müzik sırasında Z sabit kalır."
+    },
+    "Install the slow-Z configuration once to also slow the fixed-speed Z lift inside stock homing. Internal firmware homing moves have not been physically tested.": {
+      "en": "Install the slow-Z configuration once to also slow the fixed-speed Z lift inside stock homing. Internal firmware homing moves have not been physically tested.",
+      "tr": "Stok homing içindeki sabit hızlı Z kaldırmasını da yavaşlatmak için yavaş Z ayar dosyası bir kez kurulmalıdır; firmware'in iç homing hareketleri fiziksel olarak test edilmedi."
+    },
+    "Pitch bends are reduced to fixed notes.": {
+      "en": "Pitch bends are reduced to fixed notes.",
+      "tr": "Perde bükmeleri sabit notalara indirgenir."
+    },
+    "Polyphonic sections were arranged for two motor voices.": {
+      "en": "Polyphonic sections were arranged for two motor voices.",
+      "tr": "Çok sesli bölümler iki motor sesine düzenlendi."
+    },
+    "MIDI Type 2 with independent timelines is not supported.": {
+      "en": "MIDI Type 2 with independent timelines is not supported.",
+      "tr": "Bağımsız zaman çizelgeli MIDI Type 2 bu taslakta desteklenmiyor."
+    },
+    "Could not read MIDI. Try exporting it again from a MIDI editor.": {
+      "en": "Could not read MIDI. Try exporting it again from a MIDI editor.",
+      "tr": "MIDI okunamadı. Dosyayı bir MIDI düzenleyicisinden yeniden dışa aktarmayı dene."
+    },
+    "The printer profile does not match the selection.": {
+      "en": "The printer profile does not match the selection.",
+      "tr": "Yazıcı profili seçimle eşleşmiyor."
+    },
+    "Invalid melody setting.": {
+      "en": "Invalid melody setting.",
+      "tr": "Geçersiz melodi ayarı."
+    },
+    "Too many simultaneous notes. Select a shorter section.": {
+      "en": "Too many simultaneous notes. Select a shorter section.",
+      "tr": "Bu MIDI çok fazla eşzamanlı nota içeriyor. Daha kısa bir bölüm seç."
+    },
+    " semitones": {
+      "en": " semitones",
+      "tr": " yarım ses"
+    },
+    "To fit printer limits, the whole score was shifted ": {
+      "en": "To fit printer limits, the whole score was shifted ",
+      "tr": "Yazıcı sınırlarına uyması için eserin tamamı "
+    },
+    " down; total pitch change: ": {
+      "en": " down; total pitch change: ",
+      "tr": " aşağı alındı; toplam perde değişimi "
+    },
+    " semitones.": {
+      "en": " semitones.",
+      "tr": " yarım ses."
+    },
+    "The speed ceiling for this printer is ": {
+      "en": "The speed ceiling for this printer is ",
+      "tr": "Hız üst sınırı bu yazıcı için "
+    },
+    " mm/s.": {
+      "en": " mm/s.",
+      "tr": " mm/sn ile sınırlandı."
+    },
+    " percussion notes were excluded from the melody.": {
+      "en": " percussion notes were excluded from the melody.",
+      "tr": " vurmalı nota melodiden ayrıldı."
+    },
+    "Could not plan motion for this MIDI. Try slower movement and tempo.": {
+      "en": "Could not plan motion for this MIDI. Try slower movement and tempo.",
+      "tr": "Bu MIDI için hareket planı oluşturulamadı. Daha yavaş hız ve tempo seçmeyi dene."
+    },
+    "MIDI files may be up to 10 minutes long. Select a shorter section.": {
+      "en": "MIDI files may be up to 10 minutes long. Select a shorter section.",
+      "tr": "Taslak en fazla 10 dakikalık MIDI dosyalarını işler. Daha kısa bir bölüm seç."
+    },
+    "Home the printer first, keep motors enabled and leave at least 20 mm nozzle-to-bed clearance. This output contains no homing or Z moves.": {
+      "en": "Home the printer first, keep motors enabled and leave at least 20 mm nozzle-to-bed clearance. This output contains no homing or Z moves.",
+      "tr": "Önceden home edilmiş, motorları etkin ve en az 20 mm nozul–tabla boşluğu olan yazıcı gerekir; çıktı home veya Z hareketi içermez."
+    },
+    "Could not plan FOC sound-range motion. Reduce the tempo or narrow the sound range and try again.": {
+      "en": "Could not plan FOC sound-range motion. Reduce the tempo or narrow the sound range and try again.",
+      "tr": "FOC ses aralığı için hareket planı oluşturulamadı. Tempo veya ses aralığını daraltıp yeniden dene."
+    },
+    "These notes are too short for the settings. Lower tempo or movement speed and try again.": {
+      "en": "These notes are too short for the settings. Lower tempo or movement speed and try again.",
+      "tr": "Bu notalar seçilen ayarlarda çok kısa kalıyor. Tempoyu veya hareket hızını düşürüp yeniden dene."
+    },
+    "Motor steps/mm": {
+      "en": "Motor steps/mm",
+      "tr": "Motor adımı/mm"
+    },
+    "Custom configuration": {
+      "en": "Custom configuration",
+      "tr": "Özel konfigürasyon"
+    },
+    "Unsupported kinematics. Choose CoreXY or Cartesian.": {
+      "en": "Unsupported kinematics. Choose CoreXY or Cartesian.",
+      "tr": "Bu kinematik desteklenmiyor. CoreXY veya Cartesian profil seç."
+    },
+    "Invalid music-axis priority.": {
+      "en": "Invalid music-axis priority.",
+      "tr": "Geçersiz müzik ekseni önceliği."
+    },
+    "Invalid music axis.": {
+      "en": "Invalid music axis.",
+      "tr": "Geçersiz müzik ekseni."
+    },
+    "X-only melody requires a balanced profile with equal motor steps.": {
+      "en": "X-only melody requires a balanced profile with equal motor steps.",
+      "tr": "Yalnızca X melodisi dengeli, eşit motor adımlı bir profil gerektirir."
+    },
+    "Y priority requires CoreXY with equal motor steps.": {
+      "en": "Y priority requires CoreXY with equal motor steps.",
+      "tr": "Y önceliği, eşit motor adımlı CoreXY profil gerektirir."
+    },
+    "max_velocity exceeds the supported 10000 mm/s limit.": {
+      "en": "max_velocity exceeds the supported 10000 mm/s limit.",
+      "tr": "max_velocity uygulamanın desteklediği 10000 mm/sn sınırını aşıyor."
+    },
+    "Music speed limit": {
+      "en": "Music speed limit",
+      "tr": "Müzik hız sınırı"
+    },
+    "Music acceleration limit": {
+      "en": "Music acceleration limit",
+      "tr": "Müzik ivme sınırı"
+    },
+    "Invalid printer profile. Choose a printer from the list.": {
+      "en": "Invalid printer profile. Choose a printer from the list.",
+      "tr": "Geçersiz yazıcı profili. Listeden bir yazıcı seç."
+    },
+    "printer.cfg is empty or unreadable.": {
+      "en": "printer.cfg is empty or unreadable.",
+      "tr": "printer.cfg dosyası boş veya okunamıyor."
+    },
+    "Choose a .cfg printer configuration file.": {
+      "en": "Choose a .cfg printer configuration file.",
+      "tr": "Lütfen .cfg uzantılı bir yazıcı konfigürasyonu seç."
+    },
+    "Only CoreXY and Cartesian are supported. Check [printer] kinematics.": {
+      "en": "Only CoreXY and Cartesian are supported. Check [printer] kinematics.",
+      "tr": "Yalnızca CoreXY ve Cartesian kinematik desteklenir; [printer] kinematics değerini kontrol et."
+    },
+    "Custom printer · ": {
+      "en": "Custom printer · ",
+      "tr": "Özel yazıcı · "
+    },
+    "Created from local printer.cfg values; not physically tested.": {
+      "en": "Created from local printer.cfg values; not physically tested.",
+      "tr": "Yerel printer.cfg değerlerinden oluşturuldu; fiziksel test yapılmadı."
+    },
+    "Home all axes first, keep motors enabled and leave at least 20 mm clearance. No automatic homing or Z moves are generated.": {
+      "en": "Home all axes first, keep motors enabled and leave at least 20 mm clearance. No automatic homing or Z moves are generated.",
+      "tr": "Tüm eksenleri önceden home al, motorları etkin tut ve en az 20 mm nozul–tabla boşluğu bırak. Otomatik home ve Z hareketi üretilmez."
+    },
+    "Includes and macros are never executed. Supply all required numeric values in this file.": {
+      "en": "Includes and macros are never executed. Supply all required numeric values in this file.",
+      "tr": "Include dosyaları ve makrolar çalıştırılmaz; gereken sayısal değerler bu dosyada bulunmalıdır."
+    },
+    " must be finite and within the valid range.": {
+      "en": " must be finite and within the valid range.",
+      "tr": " sonlu ve geçerli aralıkta olmalı."
+    },
+    " must be a positive integer.": {
+      "en": " must be a positive integer.",
+      "tr": " pozitif tam sayı olmalı."
+    },
+    "Bambu Lab requires a verified native music profile.": {
+      "en": "Bambu Lab requires a verified native music profile.",
+      "tr": "Bambu Lab için yalnızca doğrulanmış yerleşik müzik profili kullanılabilir."
+    },
+    "minimum_cruise_ratio must be at least 0 and less than 1.": {
+      "en": "minimum_cruise_ratio must be at least 0 and less than 1.",
+      "tr": "minimum_cruise_ratio, 0 dahil ve 1 hariç aralığında olmalı."
+    },
+    "Printer profile not found. Choose a printer from the list.": {
+      "en": "Printer profile not found. Choose a printer from the list.",
+      "tr": "Yazıcı profili bulunamadı. Listeden bir yazıcı seç."
+    },
+    "This model needs a complete printer.cfg. Import it from printer selection.": {
+      "en": "This model needs a complete printer.cfg. Import it from printer selection.",
+      "tr": "Bu model için eksiksiz printer.cfg gerekli. Yazıcı seçiminden konfigürasyonunu içe aktar."
+    },
+    "Could not read printer.cfg. Check section and key syntax and supply the complete configuration.": {
+      "en": "Could not read printer.cfg. Check section and key syntax and supply the complete configuration.",
+      "tr": "printer.cfg okunamadı. Bölüm ve anahtar biçimlerini kontrol et; eksiksiz konfigürasyonu yükle."
+    },
+    ". Include files are not opened automatically; supply every required section and value in printer.cfg.": {
+      "en": ". Include files are not opened automatically; supply every required section and value in printer.cfg.",
+      "tr": ". Include dosyaları otomatik açılmaz; bu bölümlerin tüm değerlerini içeren printer.cfg yükle."
+    },
+    " requires a numeric value.": {
+      "en": " requires a numeric value.",
+      "tr": " için sayısal bir değer gerekli."
+    },
+    " must use the form 80:16 or 80:16, 50:20.": {
+      "en": " must use the form 80:16 or 80:16, 50:20.",
+      "tr": ", 80:16 veya 80:16, 50:20 biçiminde olmalı."
+    },
+    " position is outside the supported ±10000 mm range.": {
+      "en": " position is outside the supported ±10000 mm range.",
+      "tr": " konumu uygulamanın desteklediği ±10000 mm aralığının dışında."
+    },
+    " position_min must be less than position_max.": {
+      "en": " position_min must be less than position_max.",
+      "tr": " position_min, position_max değerinden küçük olmalı."
+    },
+    "Duplicate printer profile in catalog.": {
+      "en": "Duplicate printer profile in catalog.",
+      "tr": "Yazıcı kataloğunda yinelenen profil var."
+    },
+    "Could not read printer profile catalog.": {
+      "en": "Could not read printer profile catalog.",
+      "tr": "Yazıcı profil kataloğu okunamadı."
+    },
+    "Native music is unverified for this Bambu Lab model. Klipper commands or printer.cfg cannot enable output.": {
+      "en": "Native music is unverified for this Bambu Lab model. Klipper commands or printer.cfg cannot enable output.",
+      "tr": "Bu Bambu Lab modelinde yerleşik müzik desteği doğrulanmadı; Klipper komutları veya printer.cfg ile çıktı oluşturulamaz."
+    },
+    "This printer kinematics is unsupported. Choose CoreXY or Cartesian.": {
+      "en": "This printer kinematics is unsupported. Choose CoreXY or Cartesian.",
+      "tr": "Bu yazıcının kinematiği desteklenmiyor. CoreXY veya Cartesian profil seç."
+    },
+    "Missing section: ": {
+      "en": "Missing section: ",
+      "tr": "Eksik bölüm: "
+    },
+    " is missing. Supply the complete configuration, including values from includes.": {
+      "en": " is missing. Supply the complete configuration, including values from includes.",
+      "tr": " eksik. Include içindeki değerleri de içeren eksiksiz konfigürasyonu yükle."
+    },
+    "Klipper defaults used: ": {
+      "en": "Klipper defaults used: ",
+      "tr": "Klipper varsayılanları kullanıldı: "
+    },
+    " motion area is too narrow for a safe music path; it must be wider than 80 mm.": {
+      "en": " motion area is too narrow for a safe music path; it must be wider than 80 mm.",
+      "tr": " hareket alanı güvenli müzik yolu için çok dar (80 mm'den geniş olmalı)."
+    },
+    "Bambu native motor-sound mode: no XY path or movement speed is generated. Speed selection changes pitch.": {
+      "en": "Bambu native motor-sound mode: no XY path or movement speed is generated. Speed selection changes pitch.",
+      "tr": "Bambu yerel motor sesi modu: XY yolu veya mm/sn hareket hızı üretilmez; hız seçimi sesin oktavını değiştirir."
+    },
+    "The Z sound channel is off (E0 F0 N0). There are no homing, Z positioning, heating or extrusion commands.": {
+      "en": "The Z sound channel is off (E0 F0 N0). There are no homing, Z positioning, heating or extrusion commands.",
+      "tr": "Z ses kanalı kapalıdır (E0 F0 N0); home, Z konumlandırma, ısıtma ve filament sürme komutu yoktur."
+    },
+    "Enable Sound / Allow Prompt Sound on the printer. Support depends on model and firmware; not physically tested.": {
+      "en": "Enable Sound / Allow Prompt Sound on the printer. Support depends on model and firmware; not physically tested.",
+      "tr": "Yazıcıdaki Ses / Allow Prompt Sound seçeneği açık olmalı. Komut desteği model ve firmware sürümüne bağlıdır; fiziksel test yapılmadı."
+    },
+    "Invalid Bambu sound setting. Refresh and try again.": {
+      "en": "Invalid Bambu sound setting. Refresh and try again.",
+      "tr": "Geçersiz Bambu ses ayarı. Sayfayı yenileyip yeniden dene."
+    },
+    "MIDI duration": {
+      "en": "MIDI duration",
+      "tr": "MIDI süresi"
+    },
+    "MIDI duration is unsuitable for Bambu sound mode.": {
+      "en": "MIDI duration is unsuitable for Bambu sound mode.",
+      "tr": "MIDI süresi Bambu ses modu için uygun değil."
+    },
+    "No playable notes were found in this MIDI.": {
+      "en": "No playable notes were found in this MIDI.",
+      "tr": "Bu MIDI'de çalınabilir nota bulunamadı."
+    },
+    "This MIDI is shorter than the 10 ms sound resolution.": {
+      "en": "This MIDI is shorter than the 10 ms sound resolution.",
+      "tr": "Bu MIDI 10 ms ses çözünürlüğünden kısa."
+    },
+    "No notes fit the 10 ms sound resolution. Choose a slower tempo or longer notes.": {
+      "en": "No notes fit the 10 ms sound resolution. Choose a slower tempo or longer notes.",
+      "tr": "Bu MIDI'de 10 ms ses çözünürlüğüne sığan nota kalmadı. Daha yavaş tempo veya daha uzun notalar seç."
+    },
+    "More than two active voices were reduced to the highest and lowest voices for X/Y.": {
+      "en": "More than two active voices were reduced to the highest and lowest voices for X/Y.",
+      "tr": "İkiden fazla aktif ses, X/Y için en tiz ve en pes sese düzenlendi."
+    },
+    "Invalid Bambu sound start or finish.": {
+      "en": "Invalid Bambu sound start or finish.",
+      "tr": "Bambu ses başlangıcı/bitişi geçersiz."
+    },
+    "Bambu sound section is incomplete or contains extra commands.": {
+      "en": "Bambu sound section is incomplete or contains extra commands.",
+      "tr": "Bambu ses bölümü eksik veya ek komut içeriyor."
+    },
+    "Bambu sound duration does not match the 10 ms timeline.": {
+      "en": "Bambu sound duration does not match the 10 ms timeline.",
+      "tr": "Bambu ses süresi 10 ms zaman çizelgesiyle eşleşmiyor."
+    },
+    " must be finite.": {
+      "en": " must be finite.",
+      "tr": " sonlu olmalı."
+    },
+    "Note start": {
+      "en": "Note start",
+      "tr": "Nota başlangıcı"
+    },
+    "Could not read the MIDI note range.": {
+      "en": "Could not read the MIDI note range.",
+      "tr": "MIDI nota aralığı okunamadı."
+    },
+    "Total pitch shift for the native sound range: ": {
+      "en": "Total pitch shift for the native sound range: ",
+      "tr": "Yerel ses aralığı için toplam perde değişimi "
+    },
+    "In the wide note range, ": {
+      "en": "In the wide note range, ",
+      "tr": "Geniş nota aralığındaki "
+    },
+    " motor notes were octave-shifted into MIDI 24–95 while preserving pitch class.": {
+      "en": " motor notes were octave-shifted into MIDI 24–95 while preserving pitch class.",
+      "tr": " motor sesi, perde sınıfı korunarak 24–95 MIDI aralığına oktavlandı."
+    },
+    "At 10 ms resolution, ": {
+      "en": "At 10 ms resolution, ",
+      "tr": "10 ms çözünürlüğe sığmayan "
+    },
+    " very short note or rest sections were skipped.": {
+      "en": " very short note or rest sections were skipped.",
+      "tr": " çok kısa nota/sessizlik bölümü atlandı."
+    },
+    "Unexpected motion or command found in Bambu sound output.": {
+      "en": "Unexpected motion or command found in Bambu sound output.",
+      "tr": "Bambu ses çıktısında beklenmeyen hareket veya komut bulundu."
+    },
+    "Bambu channel, duration or volume limit exceeded. Z must stay muted.": {
+      "en": "Bambu channel, duration or volume limit exceeded. Z must stay muted.",
+      "tr": "Bambu ses kanalı, süre veya ses düzeyi sınırı aşıldı; Z sessiz kalmalı."
+    },
+    "Bambu output notes or timing do not match the arrangement.": {
+      "en": "Bambu output notes or timing do not match the arrangement.",
+      "tr": "Bambu çıktısındaki nota veya zamanlama düzenlemeden farklı."
+    },
+    " must be numeric.": {
+      "en": " must be numeric.",
+      "tr": " sayısal olmalı."
+    },
+    "Note end": {
+      "en": "Note end",
+      "tr": "Nota bitişi"
+    },
+    "Invalid Bambu sound parameter.": {
+      "en": "Invalid Bambu sound parameter.",
+      "tr": "Bambu ses parametresi geçersiz."
+    },
+    "FOC sound range: the main melody plays on X only; Y and Z stay still. The melodic contour is compressed into the speed range; original pitch intervals are not preserved.": {
+      "en": "FOC sound range: the main melody plays on X only; Y and Z stay still. The melodic contour is compressed into the speed range; original pitch intervals are not preserved.",
+      "tr": "FOC ses aralığı: ana melodi yalnızca X ekseniyle çalar; müzikte Y ve Z sabittir. Melodi çizgisi hız aralığına sıkıştırılır; özgün perde aralıkları korunmaz."
+    },
+    "FOC sound-range mode is not available for this printer.": {
+      "en": "FOC sound-range mode is not available for this printer.",
+      "tr": "Bu yazıcı için FOC ses aralığı modu mevcut değil."
+    },
+    "Invalid FOC speed, tempo or axis selection.": {
+      "en": "Invalid FOC speed, tempo or axis selection.",
+      "tr": "Geçersiz FOC hız, tempo veya eksen seçimi."
+    },
+    "Initial X reference: ": {
+      "en": "Initial X reference: ",
+      "tr": "Başlangıç referansı X "
+    },
+    " mm/s, from K2 Pro A07/A08 listening feedback. Actual sound frequency was not measured.": {
+      "en": " mm/s, from K2 Pro A07/A08 listening feedback. Actual sound frequency was not measured.",
+      "tr": " mm/sn: K2 Pro A07/A08 dinleme geri bildirimi. Gerçek ses frekansı ölçülmedi."
+    },
+    "No FOC sweep is available for this model.": {
+      "en": "No FOC sweep is available for this model.",
+      "tr": "Bu model için FOC taraması yok."
+    },
+    " closely spaced note onsets were merged to keep motor intervals at least 40 ms long.": {
+      "en": " closely spaced note onsets were merged to keep motor intervals at least 40 ms long.",
+      "tr": " çok yakın nota başlangıcı, en az 40 ms'lik motor aralıkları için birleştirildi."
+    },
+    "Sound-range values must be numeric in mm/s.": {
+      "en": "Sound-range values must be numeric in mm/s.",
+      "tr": "Ses aralığı için sayısal mm/sn değerleri gerekli."
+    },
+    " sound range must be within 0.05–": {
+      "en": " sound range must be within 0.05–",
+      "tr": " ses aralığı 0,05–"
+    },
+    " mm/s, with the lower value below the upper value.": {
+      "en": " mm/s, with the lower value below the upper value.",
+      "tr": " mm/sn içinde, alt değer üstten küçük olmalı."
+    },
+    "Invalid KE square_corner_velocity.": {
+      "en": "Invalid KE square_corner_velocity.",
+      "tr": "KE square_corner_velocity geçersiz."
+    },
+    "Invalid KE startup setting: ": {
+      "en": "Invalid KE startup setting: ",
+      "tr": "KE başlangıç ayarı geçersiz: "
+    },
+    "The file restores normal printer limits and homes automatically with G28 X Y. Clear the bed. Stock firmware Z safety behavior applies during homing. Z stays still during music; normal limits are restored at the end.": {
+      "en": "The file restores normal printer limits and homes automatically with G28 X Y. Clear the bed. Stock firmware Z safety behavior applies during homing. Z stays still during music; normal limits are restored at the end.",
+      "tr": "Dosya önce normal yazıcı limitlerini geri yükleyip G28 X Y ile otomatik home alır. Tabla boş olmalı; homing sırasında stok firmware'in Z güvenlik davranışı geçerlidir. Müzikte Z sabittir; bitişte normal limitler geri yüklenir."
+    },
+    "Page not found.": {
+      "en": "Page not found.",
+      "tr": "Bu sayfa bulunamadı."
+    },
+    "This application is available on this computer only.": {
+      "en": "This application is available on this computer only.",
+      "tr": "Bu uygulama yalnızca yerel bilgisayarda açılır."
+    },
+    "Requests must come from this local application.": {
+      "en": "Requests must come from this local application.",
+      "tr": "İstek bu yerel uygulamadan gelmeli."
+    },
+    "Could not read settings. Refresh and try again.": {
+      "en": "Could not read settings. Refresh and try again.",
+      "tr": "Ayarlar okunamadı. Sayfayı yenileyip yeniden dene."
+    },
+    "MIDI session not found. Select your file again.": {
+      "en": "MIDI session not found. Select your file again.",
+      "tr": "MIDI oturumu bulunamadı. Dosyanı yeniden seç."
+    },
+    "Download not found. Generate G-code again.": {
+      "en": "Download not found. Generate G-code again.",
+      "tr": "İndirme bulunamadı. G-code'u yeniden oluştur."
+    },
+    "Setup file not found.": {
+      "en": "Setup file not found.",
+      "tr": "Kurulum dosyası bulunamadı."
+    },
+    "Could not read MIDI selection.": {
+      "en": "Could not read MIDI selection.",
+      "tr": "MIDI seçimi okunamadı."
+    },
+    "This MIDI is not in the library.": {
+      "en": "This MIDI is not in the library.",
+      "tr": "Bu MIDI kitaplıkta bulunamadı."
+    },
+    "Invalid library file.": {
+      "en": "Invalid library file.",
+      "tr": "Geçersiz kitaplık dosyası."
+    },
+    "Could not read printer configuration.": {
+      "en": "Could not read printer configuration.",
+      "tr": "Yazıcı yapılandırması okunamadı."
+    },
+    "Operation not found.": {
+      "en": "Operation not found.",
+      "tr": "Bu işlem bulunamadı."
+    },
+    "A file is still being prepared. Try again in a few seconds.": {
+      "en": "A file is still being prepared. Try again in a few seconds.",
+      "tr": "Bir dosya hâlâ hazırlanıyor. Birkaç saniye sonra yeniden dene."
+    },
+    "Could not complete the operation. Select your MIDI again and retry.": {
+      "en": "Could not complete the operation. Select your MIDI again and retry.",
+      "tr": "İşlem tamamlanamadı. MIDI dosyasını yeniden seçip tekrar dene."
+    },
+    "Invalid save link.": {
+      "en": "Invalid save link.",
+      "tr": "Geçersiz kayıt bağlantısı."
+    },
+    "File not found. Generate G-code again.": {
+      "en": "File not found. Generate G-code again.",
+      "tr": "Dosya bulunamadı. G-code'u yeniden oluştur."
+    },
+    "Return to the 3DMidi window and try again.": {
+      "en": "Return to the 3DMidi window and try again.",
+      "tr": "3DMidi penceresine geri dönüp yeniden dene."
+    },
+    "A 3DMidi desktop session is required.": {
+      "en": "A 3DMidi desktop session is required.",
+      "tr": "3DMidi masaüstü oturumu gerekli."
+    },
+    "Could not save the file. Check the folder permission and filename.": {
+      "en": "Could not save the file. Check the folder permission and filename.",
+      "tr": "Dosya kaydedilemedi. Klasör iznini ve dosya adını kontrol et."
+    },
+    "Verified against the official source configuration. Your hardware and firmware revision must match.": {
+      "en": "Verified against the official source configuration. Your hardware and firmware revision must match.",
+      "tr": "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır."
+    },
+    "Music speed and acceleration ceilings are conservative application limits, not measured acoustic optima or hardware test results.": {
+      "en": "Music speed and acceleration ceilings are conservative application limits, not measured acoustic optima or hardware test results.",
+      "tr": "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir."
+    },
+    "Before starting, home using the printer interface and set a safe nozzle/bed Z clearance. This profile generates no G28 or Z moves.": {
+      "en": "Before starting, home using the printer interface and set a safe nozzle/bed Z clearance. This profile generates no G28 or Z moves.",
+      "tr": "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez."
+    },
+    "Check the K1/K1 Max pulley revision using rotation_distance. The official repository contains both 72 mm and 40 mm profiles.": {
+      "en": "Check the K1/K1 Max pulley revision using rotation_distance. The official repository contains both 72 mm and 40 mm profiles.",
+      "tr": "K1/K1 Max kasnak revizyonunu rotation_distance üzerinden doğrula: resmî depoda hem 72 mm hem 40 mm profil vardır."
+    },
+    "Some K1-family printer_params.cfg files specify 220 mm Z volume. Nominal displayed volume comes from product comparisons; motion limits come from printer.cfg.": {
+      "en": "Some K1-family printer_params.cfg files specify 220 mm Z volume. Nominal displayed volume comes from product comparisons; motion limits come from printer.cfg.",
+      "tr": "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir."
+    },
+    "Music plays on X only; Y and Z stay still. FOC uses X 12–16 mm/s from K2 Pro A07/A08 listening feedback. Speed and tempo remain adjustable.": {
+      "en": "Music plays on X only; Y and Z stay still. FOC uses X 12–16 mm/s from K2 Pro A07/A08 listening feedback. Speed and tempo remain adjustable.",
+      "tr": "Müzik yalnızca X ekseninde çalar; Y ve Z sabittir. FOC modunda K2 Pro A07/A08 dinleme referansı olan X 12–16 mm/sn aralığı kullanılır; hız ve tempo serbesttir."
+    },
+    "Default startup: automatic homing at normal speed, then only a Z20 mm lift at 3 mm/s. Global speed is not reduced; normal limits are restored at the end.": {
+      "en": "Default startup: automatic homing at normal speed, then only a Z20 mm lift at 3 mm/s. Global speed is not reduced; normal limits are restored at the end.",
+      "tr": "Varsayılan başlangıç: normal hızda otomatik home, ardından yalnızca Z20 mm’ye 3 mm/sn yükselme. Genel hız sınırı düşürülmez; dosya sonunda normal limitler geri yüklenir."
+    },
+    "The stock homing macro FORCE_MOVE Z lift can bypass normal speed limits. Install the slow-Z configuration once to slow it too.": {
+      "en": "The stock homing macro FORCE_MOVE Z lift can bypass normal speed limits. Install the slow-Z configuration once to slow it too.",
+      "tr": "Stok homing makrosundaki FORCE_MOVE Z kaldırması normal hız sınırını atlayabilir. Onu da yavaşlatmak için yavaş Z ayarı bir kez kurulmalıdır."
+    },
+    "Music is a single main melody on X; the Y bed and Z stay still. Default speed is Fast; X speed ceilings are 100/180/360 mm/s and acceleration is capped at stock 8000 mm/s².": {
+      "en": "Music is a single main melody on X; the Y bed and Z stay still. Default speed is Fast; X speed ceilings are 100/180/360 mm/s and acceleration is capped at stock 8000 mm/s².",
+      "tr": "Müzik yalnızca X motorunda tek sesli ana melodidir; Y yatağı ve Z müzik boyunca sabit kalır. Varsayılan hız Hızlı; X hız tavanları 100/180/360 mm/sn, ivme en fazla stok 8000 mm/sn²."
+    },
+    "The nominal 270×270×256 mm volume applies without QIDI BOX. XY motion area comes from firmware limits.": {
+      "en": "The nominal 270×270×256 mm volume applies without QIDI BOX. XY motion area comes from firmware limits.",
+      "tr": "270×270×256 mm nominal hacim QIDI BOX kullanılmadığında geçerlidir; XY hareket alanı firmware sınırlarından alınır."
+    },
+    "Cable/Type-C and motor-current revisions differ. Import the device printer.cfg.": {
+      "en": "Cable/Type-C and motor-current revisions differ. Import the device printer.cfg.",
+      "tr": "Kablo/Type-C ve motor akımı revizyonları değişiyor; kullanılan cihazın printer.cfg dosyasını içe aktar."
+    },
+    "A separate numeric motion profile could not be verified from the official source. Import the device printer.cfg.": {
+      "en": "A separate numeric motion profile could not be verified from the official source. Import the device printer.cfg.",
+      "tr": "Resmî kaynak deposunda bu modelin sayısal hareket profili ayrı doğrulanamadı; cihazın printer.cfg dosyası gerekli."
+    },
+    "The official repository contains screen software. Import the device printer.cfg for verified motor and axis values.": {
+      "en": "The official repository contains screen software. Import the device printer.cfg for verified motor and axis values.",
+      "tr": "Resmî depo ekran yazılımını içeriyor; doğrulanmış motor/eksen parametreleri için cihazın printer.cfg dosyası gerekli."
+    },
+    "No verified motion profile has been added for this revision. Import the device printer.cfg.": {
+      "en": "No verified motion profile has been added for this revision. Import the device printer.cfg.",
+      "tr": "Bu revizyon için doğrulanmış hareket profili eklenmedi; cihazın printer.cfg dosyası gerekli."
+    },
+    "Listed as a new model on the manufacturer Plus4 page. Import its own printer.cfg.": {
+      "en": "Listed as a new model on the manufacturer Plus4 page. Import its own printer.cfg.",
+      "tr": "Üretici Plus4 sayfasında yeni model olarak yer alıyor; kendi printer.cfg dosyası gerekli."
+    },
+    "Size, motors, pulleys, controller and firmware vary by build. Import your own printer.cfg.": {
+      "en": "Size, motors, pulleys, controller and firmware vary by build. Import your own printer.cfg.",
+      "tr": "Kurulum boyutu, motor, kasnak, kontrol kartı ve firmware kişiye göre değişir; kendi printer.cfg dosyası gerekli."
+    },
+    "Dimensions and CoreXY/Hybrid/IDEX versions differ. Supply the actual printer.cfg, including kinematics.": {
+      "en": "Dimensions and CoreXY/Hybrid/IDEX versions differ. Supply the actual printer.cfg, including kinematics.",
+      "tr": "Boyut ve CoreXY/Hybrid/IDEX sürümleri değişir; kinematik dahil gerçek printer.cfg gerekli."
+    },
+    "CoreXZ kinematics is not supported by this XY music converter.": {
+      "en": "CoreXZ kinematics is not supported by this XY music converter.",
+      "tr": "CoreXZ kinematiği bu XY müzik dönüştürücüsünde desteklenmiyor."
+    },
+    "Delta horizontal motion uses three tower motors together and is not supported by this XY converter.": {
+      "en": "Delta horizontal motion uses three tower motors together and is not supported by this XY converter.",
+      "tr": "Delta kinematiğinde yatay hareket üç kule motorunu birlikte kullanır; bu XY dönüştürücü desteklemiyor."
+    },
+    "The official Bambu Studio startup profile includes M1006 sound commands. No physical device or firmware sound test has been performed.": {
+      "en": "The official Bambu Studio startup profile includes M1006 sound commands. No physical device or firmware sound test has been performed.",
+      "tr": "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı."
+    },
+    "Bambu native sound uses X/Y sound channels with Z muted. No XY path, homing or Z positioning commands are generated.": {
+      "en": "Bambu native sound uses X/Y sound channels with Z muted. No XY path, homing or Z positioning commands are generated.",
+      "tr": "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez."
+    },
+    "Speed changes pitch in this mode; it is not movement speed in mm/s.": {
+      "en": "Speed changes pitch in this mode; it is not movement speed in mm/s.",
+      "tr": "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir."
+    },
+    "Bambu Lab does not run Klipper. This output contains no Klipper SAVE_GCODE_STATE or TURN_OFF_HEATERS commands.": {
+      "en": "Bambu Lab does not run Klipper. This output contains no Klipper SAVE_GCODE_STATE or TURN_OFF_HEATERS commands.",
+      "tr": "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez."
+    },
+    "The official Bambu Studio startup profile contains no M1006 sound sequence. Native sound support is unverified and this model cannot be selected.": {
+      "en": "The official Bambu Studio startup profile contains no M1006 sound sequence. Native sound support is unverified and this model cannot be selected.",
+      "tr": "Resmî Bambu Studio başlangıç profilinde M1006 ses dizisi bulunmadığı için bu modelin yerel ses desteği doğrulanamadı; çıktı için seçilemez."
+    },
+    "This is not a missing printer.cfg. Closed Bambu firmware needs verified sound-command support.": {
+      "en": "This is not a missing printer.cfg. Closed Bambu firmware needs verified sound-command support.",
+      "tr": "Bu bir printer.cfg eksikliği değildir. Kapalı Bambu firmware için doğrulanmış ses komutu desteği gerekir."
+    },
+    "Displayed Z height of 250 mm is the official slicer printable_height and may differ from marketed nominal volume. Sound mode does not move within this limit.": {
+      "en": "Displayed Z height of 250 mm is the official slicer printable_height and may differ from marketed nominal volume. Sound mode does not move within this limit.",
+      "tr": "Gösterilen 250 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; pazarlanan nominal hacimden farklı olabilir. Ses modu bu sınırda hareket üretmez."
+    },
+    "M1006 is active in the official 20251031 X1 startup template. Support in older firmware may differ.": {
+      "en": "M1006 is active in the official 20251031 X1 startup template. Support in older firmware may differ.",
+      "tr": "M1006 dizisi resmî 20251031 tarihli X1 başlangıç şablonunda etkin durumdadır; önceki firmware sürümlerinde destek farklı olabilir."
+    },
+    "Displayed Z height of 261 mm is the official slicer printable_height. Sound mode does not move within this limit.": {
+      "en": "Displayed Z height of 261 mm is the official slicer printable_height. Sound mode does not move within this limit.",
+      "tr": "Gösterilen 261 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; ses modu bu sınırda hareket üretmez."
+    },
+    "User-supplied file; redistribution permission unspecified": {
+      "en": "User-supplied file; redistribution permission unspecified",
+      "tr": "Kullanıcı dosyası; yeniden dağıtım izni belirtilmedi"
+    },
+    "{value} semitones": {
+      "en": "{value} semitones",
+      "tr": "{value} yarım ses",
+      "de": "{value} Halbtöne",
+      "es": "{value} semitonos",
+      "fr": "{value} demi-tons",
+      "pt": "{value} semitons",
+      "zh": "{value}个半音",
+      "ja": "{value}半音",
+      "ru": "{value} полутонов",
+      "ar": "{value} أنصاف نغمات"
+    },
+    "Melody plays {shift} higher.": {
+      "en": "Melody plays {shift} higher.",
+      "tr": "Melodi {shift} daha tiz çalar.",
+      "de": "Die Melodie spielt {shift} höher.",
+      "es": "La melodía suena {shift} más aguda.",
+      "fr": "La mélodie joue {shift} plus haut.",
+      "pt": "A melodia toca {shift} acima.",
+      "zh": "旋律升高{shift}。",
+      "ja": "メロディーを{shift}高く再生します。",
+      "ru": "Мелодия звучит на {shift} выше.",
+      "ar": "يُعزف اللحن أعلى بمقدار {shift}."
+    },
+    "Melody plays {shift} lower.": {
+      "en": "Melody plays {shift} lower.",
+      "tr": "Melodi {shift} daha kalın çalar.",
+      "de": "Die Melodie spielt {shift} tiefer.",
+      "es": "La melodía suena {shift} más grave.",
+      "fr": "La mélodie joue {shift} plus bas.",
+      "pt": "A melodia toca {shift} abaixo.",
+      "zh": "旋律降低{shift}。",
+      "ja": "メロディーを{shift}低く再生します。",
+      "ru": "Мелодия звучит на {shift} ниже.",
+      "ar": "يُعزف اللحن أخفض بمقدار {shift}."
+    },
+    "{duration} music · {acceleration} mm/s² · {axes}": {
+      "en": "{duration} music · {acceleration} mm/s² · {axes}",
+      "tr": "{duration} müzik · {acceleration} mm/sn² · {axes}",
+      "de": "{duration} Musik · {acceleration} mm/s² · {axes}",
+      "es": "{duration} de música · {acceleration} mm/s² · {axes}",
+      "fr": "{duration} de musique · {acceleration} mm/s² · {axes}",
+      "pt": "{duration} de música · {acceleration} mm/s² · {axes}",
+      "zh": "{duration}音乐 · {acceleration} mm/s² · {axes}",
+      "ja": "音楽 {duration}・{acceleration} mm/s²・{axes}",
+      "ru": "{duration} музыки · {acceleration} мм/с² · {axes}",
+      "ar": "{duration} موسيقى · {acceleration} mm/s² · {axes}"
+    },
+    "{duration} music · X/Y sound channels · Z muted": {
+      "en": "{duration} music · X/Y sound channels · Z muted",
+      "tr": "{duration} müzik · X/Y ses kanalları · Z sessiz",
+      "de": "{duration} Musik · X/Y-Klangkanäle · Z stumm",
+      "es": "{duration} de música · canales X/Y · Z silenciado",
+      "fr": "{duration} de musique · canaux X/Y · Z muet",
+      "pt": "{duration} de música · canais X/Y · Z mudo",
+      "zh": "{duration}音乐 · X/Y发声通道 · Z静音",
+      "ja": "音楽 {duration}・X/Y音声・Zミュート",
+      "ru": "{duration} музыки · каналы X/Y · Z выключен",
+      "ar": "{duration} موسيقى · قنوات X/Y · Z صامت"
+    },
+    "Gcode files": {
+      "en": "Gcode files",
+      "tr": "Gcode dosyaları",
+      "de": "Gcode Dateien",
+      "es": "Archivos Gcode",
+      "fr": "Fichiers Gcode",
+      "pt": "Arquivos Gcode",
+      "zh": "Gcode文件",
+      "ja": "Gcodeファイル",
+      "ru": "Файлы Gcode",
+      "ar": "ملفات Gcode"
+    },
+    "JSON report": {
+      "en": "JSON report",
+      "tr": "JSON raporu",
+      "de": "JSON Bericht",
+      "es": "Informe JSON",
+      "fr": "Rapport JSON",
+      "pt": "Relatório JSON",
+      "zh": "JSON报告",
+      "ja": "JSONレポート",
+      "ru": "Отчёт JSON",
+      "ar": "تقرير JSON"
+    },
+    "Could not save language preference.": {
+      "en": "Could not save language preference.",
+      "tr": "Dil tercihi kaydedilemedi.",
+      "de": "Spracheinstellung konnte nicht gespeichert werden.",
+      "es": "No se pudo guardar el idioma.",
+      "fr": "Impossible d’enregistrer la langue.",
+      "pt": "Não foi possível salvar o idioma.",
+      "zh": "无法保存语言设置。",
+      "ja": "言語設定を保存できませんでした。",
+      "ru": "Не удалось сохранить язык.",
+      "ar": "تعذر حفظ تفضيل اللغة."
+    },
+    "3DMidi is already running. Switch to its open window.": {
+      "en": "3DMidi is already running. Switch to its open window.",
+      "tr": "3DMidi zaten açık. Açık pencereye geçebilirsin.",
+      "de": "3DMidi läuft bereits. Wechsle zum offenen Fenster.",
+      "es": "3DMidi ya está abierto. Cambia a su ventana.",
+      "fr": "3DMidi est déjà ouvert. Passez à sa fenêtre.",
+      "pt": "3DMidi já está aberto. Vá para a janela existente.",
+      "zh": "3DMidi已在运行，请切换到已打开的窗口。",
+      "ja": "3DMidiは起動済みです。開いているウィンドウに切り替えてください。",
+      "ru": "3DMidi уже запущен. Перейдите в открытое окно.",
+      "ar": "3DMidi يعمل بالفعل. انتقل إلى نافذته المفتوحة."
+    },
+    "Could not start 3DMidi. Make sure Microsoft Edge WebView2 Runtime is installed.": {
+      "en": "Could not start 3DMidi. Make sure Microsoft Edge WebView2 Runtime is installed.",
+      "tr": "3DMidi açılamadı. Microsoft Edge WebView2 Runtime’ın kurulu olduğunu kontrol et.",
+      "de": "3DMidi konnte nicht starten. Prüfe die Installation von Microsoft Edge WebView2 Runtime.",
+      "es": "No se pudo iniciar 3DMidi. Comprueba que Microsoft Edge WebView2 Runtime esté instalado.",
+      "fr": "Impossible de démarrer 3DMidi. Vérifiez l’installation de Microsoft Edge WebView2 Runtime.",
+      "pt": "Não foi possível iniciar 3DMidi. Verifique a instalação do Microsoft Edge WebView2 Runtime.",
+      "zh": "无法启动3DMidi，请确认已安装Microsoft Edge WebView2 Runtime。",
+      "ja": "3DMidiを起動できません。Microsoft Edge WebView2 Runtimeをインストールしてください。",
+      "ru": "Не удалось запустить 3DMidi. Убедитесь, что установлен Microsoft Edge WebView2 Runtime.",
+      "ar": "تعذر بدء 3DMidi. تأكد من تثبيت Microsoft Edge WebView2 Runtime."
+    }
+  },
+  "source_aliases": {
+    " X daha yavaş, Y daha hızlı hareket eder.": " X moves more slowly; Y moves faster.",
+    " · FOC step-servo · Yavaş / Yavaş": " · FOC step-servo · Slow / Slow",
+    " · Y hızlı / X yavaş · Ayarlar serbest": " · Fast Y / slow X · Adjustable settings",
+    " · Yalnızca X · Ayarlar serbest": " · X only · Adjustable settings",
+    " İÇİN G-CODE": " G-CODE",
+    ".MID / .MIDI · EN FAZLA 4 MB": ".MID / .MIDI · UP TO 4 MB",
+    "180 mm/sn’ye kadar": "Up to 180 mm/s",
+    "3D YAZICILAR İÇİN MOTOR MÜZİĞİ": "MOTOR MUSIC FOR 3D PRINTERS",
+    "8 sn testi indir": "Save 8-second test",
+    "Ana gezinme": "Main navigation",
+    "Ana melodi yalnızca X ekseninde çalar; Y ve Z sabittir. Önizleme MIDI referansıdır.": "The main melody plays on X only. Y and Z stay still. The preview is a MIDI reference.",
+    "Ayarları kontrol et": "Check settings",
+    "BAMBU LAB · Yerleşik müzik": "BAMBU LAB · Built-in music",
+    "BPM": "BPM",
+    "Bas / oktav": "Bass / octave",
+    "Başlangıç seçenekleri": "Startup options",
+    "Başlangıç yöntemi": "Startup method",
+    "Başlatmadan önce tabla boş, yazıcı soğuk ve nozul–tabla arası en az 20 mm olmalı. Dosya bu boşluğu oluşturmaz.": "Before starting, clear the bed, let the printer cool and leave at least 20 mm between nozzle and bed. This file does not create that clearance.",
+    "Başlatmadan önce tüm eksenler home alınmış, motorlar etkin ve nozul–tabla arası en az 20 mm olmalı. Bu profil otomatik home komutu göndermez.": "Home all axes first, keep the motors enabled and leave at least 20 mm nozzle-to-bed clearance. This profile does not home automatically.",
+    "Bir melodinin hareketini gör.": "See a melody in motion.",
+    "Bir oktav daha kalın, daha sakin hareket.": "One octave lower, gentler motion.",
+    "Bir oktav daha tiz, daha canlı hareket.": "One octave higher, livelier motion.",
+    "Bu FOC step-servo profilinde tempo Yavaş (%75) olarak sabittir.": "This FOC step-servo profile fixes tempo to Slow (75%).",
+    "Bu aramaya uygun eser bulunamadı.": "No matching tracks.",
+    "Bu aramaya uygun yazıcı bulunamadı.": "No matching printers.",
+    "Bu ayarları gözden geçir.": "Review these settings.",
+    "Bu başlangıç seçeneği otomatik home kullanmaz. Tüm eksenler önceden home alınmış, motorlar etkin ve nozul–tabla arası en az 20 mm olmalı.": "This startup does not home automatically. Home all axes first, keep the motors enabled and leave at least 20 mm nozzle-to-bed clearance.",
+    "Bu bilgisayarda çalışıyor": "Running on this computer",
+    "Bu kinematik desteklenmiyor · Seçilemez": "Unsupported kinematics · Unavailable",
+    "BİR MELODİYLE BAŞLA": "START WITH A MELODY",
+    "Dosya G28 X Y ile otomatik home alır. Öncesinde ve müzik sonunda normal makine limitleri geri yüklenir. Tabla boş olmalı; homing sırasında stok Z güvenlik davranışı geçerlidir.": "The file homes automatically with G28 X Y. Normal machine limits are restored before homing and after music. Clear the bed; stock Z safety behavior applies during homing.",
+    "Dosya çok büyük. En fazla 4 MB MIDI seçebilirsin.": "File too large. Choose a MIDI file up to 4 MB.",
+    "Dosyalar bu bilgisayarda hazırdır. Kaynak, lisans durumu ve varsa yazıcı için yapılan düzenleme her eserin yanında gösterilir.": "These files are bundled locally. Each track includes source, license status and arrangement details.",
+    "Dosyaların çalmaya hazır.": "Your files are ready to play.",
+    "Dosyanı seçip ayarlarını yaptıktan sonra oluştur.": "Choose a file and adjust the settings, then generate.",
+    "Dosyayı doğrudan başlatabilirsin; önce otomatik X/Y home yapılır. Tabla boş olmalı. Homing sırasında stok Z güvenlik davranışı geçerlidir; müzikte Z sabittir.": "You can start this file directly. It homes X/Y first. Clear the bed. Stock Z safety behavior applies during homing; Z stays still during music.",
+    "Dönüştürücü": "Converter",
+    "Düzenleme": "Arrangement",
+    "FOC ses aralığı": "FOC sound range",
+    "FOC ses aralığı: yalnızca X ekseni çalar; Y ve Z sabittir. Dinletim MIDI referansıdır; gerçek motor perdesi farklı olabilir.": "FOC sound range: X plays; Y and Z stay still. The preview is a MIDI reference; actual motor pitch may differ.",
+    "FOC step-servo profili": "FOC step-servo profile",
+    "FOC step-servo profili: Yavaş / Yavaş olarak sabit.": "FOC step-servo profile: fixed Slow / Slow.",
+    "FOC step-servo · Yavaş / Yavaş": "FOC step-servo · Slow / Slow",
+    "FOC · Yalnızca X": "FOC · X only",
+    "FOC · yalnızca X melodisi": "FOC · X melody only",
+    "G-code hazır. Önce kısa test dosyasını deneyebilirsin.": "G-code is ready. Try the short test first.",
+    "G-code oluştur": "Generate G-code",
+    "G-code oluşturulduğunda hareket yolu görünecek.": "The motion path appears after generating G-code.",
+    "G-code’u oluştur ve indir.": "Generate and save G-code.",
+    "HAREKETİN ENSTRÜMANI": "THE INSTRUMENT IN MOTION",
+    "Hareket hızı": "Movement speed",
+    "Hareket hızı ve tempo Yavaş’a sabitlenmiştir.": "Movement speed and tempo are fixed to Slow.",
+    "Hareket sınırları ve nota zamanları kontrol edildi. Önce kısa testi dinle.": "Motion limits and note timing checked. Try the short test first.",
+    "Hareketler hesaplanıyor.": "Calculating motion.",
+    "Hareketler planlanıyor": "Planning motion",
+    "Home normal hızında çalışır; yalnızca ardından Z20 mm’ye yükselme 3 mm/sn ile yapılır. Genel hız sınırı düşürülmez; dosya sonunda normal limitler geri yüklenir.": "Homing uses normal machine limits. Only the following lift to Z20 mm uses 3 mm/s. Global speed is not reduced; normal limits are restored at the end.",
+    "Home normal hızında çalışır; yalnızca sonraki Z20 mm yükseltmesi 3 mm/sn’dir. Müzikte Z sabittir. Tabla boş olmalı.": "Homing runs at normal speed. Only the following Z20 mm lift uses 3 mm/s. Z stays still during music. Clear the bed.",
+    "Hız ve tempo seçimine göre notalar hazırlanır.": "Notes follow your speed and tempo settings.",
+    "Hızlandırılmış · %125": "Faster · 125%",
+    "Hızlı": "Fast",
+    "Isıtma ve filament sürme yok": "No heating or extrusion",
+    "Isıtma/filament komutu üretilmez; stok homing davranışı firmware’e bağlı": "No heating/extrusion commands; stock homing depends on firmware",
+    "K2 · X/Y otomatik home": "K2 · Automatic X/Y home",
+    "Kalın": "Lower",
+    "Kapat": "Close",
+    "Kaynak konfigürasyonu": "Source configuration",
+    "Kaynak lisansına bak": "See source license",
+    "Kaynak nota": "Source notes",
+    "Kitaplık yükleniyor…": "Loading library…",
+    "Kitaplıkta ara": "Search library",
+    "Klasik": "Classical",
+    "Klipper CoreXY / Cartesian için eksiksiz printer.cfg içe aktar.": "Import a complete printer.cfg for Klipper CoreXY / Cartesian.",
+    "Klipper profilleri kaynak konfigürasyonlarına, Bambu Lab profilleri resmî müzik şablonlarına dayanır. Desteği doğrulanmayan modeller seçilemez. Yeni modellerde fiziksel test yapılmadı.": "Klipper profiles use source configurations. Bambu Lab profiles use official music templates. Unverified models cannot be selected. New models have not been physically tested.",
+    "Klipper çıktısında hareket sınırları ve zamanlama çevrimdışı planlayıcıyla; Bambu Lab çıktısında yerleşik müzik komutları ve süreleri kontrol edilir. Bambu Lab yerleşik modunda konumlandırma veya home komutu üretilmez ve Z ses kanalı kapalıdır. V3 KE’nin otomatik başlangıcında home ve Z20 mm’ye 3 mm/sn yükseltme yapılır. Stok home içindeki ilk Z kaldırmasını da yavaşlatmak için yavaş Z ayarı bir kez kurulmalı; tabla boş olmalı. Stok homing davranışı firmware’e bağlıdır. K2, K2 Pro ve K2 Plus çıktıları normal makine limitleriyle otomatik X/Y home alır; tabla boş olmalı, homing sırasında stok Z güvenlik davranışı geçerlidir. Diğer Klipper başlangıçlarında önceden hazırlanmış, motorları etkin, soğuk ve en az 20 mm nozul–tabla boşluğu olan yazıcı gerekir; U1’in otomatik X/Y home seçeneğinde de bu boşluk gereklidir. Kontroller fiziksel veya akustik test değildir.": "Motion limits and timing are checked offline. Bambu uses native music commands, with no positioning or homing and a muted Z sound channel. V3 KE homes normally, then lifts to Z20 mm at 3 mm/s; slowing the stock initial Z hop requires the optional slow-Z configuration. K2 models home X/Y at normal machine limits. Stock homing behavior depends on firmware. Other Klipper profiles require prior homing, enabled motors, a cool printer and at least 20 mm nozzle-to-bed clearance. U1 automatic X/Y homing also requires this clearance. These checks are not physical or acoustic tests.",
+    "Klipper’da hız seçimi hedef oktavı ve hareket tavanını belirler. Bambu Lab’de Kalın / Orijinal / İnce, melodinin ses aralığını değiştirir. Tempo her iki yöntemde de ritmi ölçekler.": "For Klipper, speed selects the pitch range and motion ceiling. For Bambu Lab, Lower / Original / Higher changes pitch. Tempo scales the rhythm in either mode.",
+    "Kodu incele": "Inspect code",
+    "Konfigürasyon gerekli · Seçilemez": "Configuration required · Unavailable",
+    "Konfigürasyon okunuyor…": "Reading configuration…",
+    "Konfigürasyon profili": "Configuration profile",
+    "Kontrol raporu": "Validation report",
+    "Konumlandırma yolu yok; X/Y ses kanalları kullanılır, Z sessiz.": "No positioning path: X/Y sound channels are used; Z is muted.",
+    "Konumlandırma, home, ısıtma ve filament sürme komutu yok. Dosyayı aktarırken seçili modelin profil notlarını izle.": "No positioning, homing, heating or extrusion commands. Follow the selected model's transfer notes.",
+    "Kurulum adımları": "Setup instructions",
+    "Kısa test dosyası indiriliyor.": "Saving short test…",
+    "Lütfen .mid veya .midi dosyası seç.": "Choose a .mid or .midi file.",
+    "Lütfen printer.cfg biçiminde bir dosya seç.": "Choose a printer.cfg file.",
+    "MIDI": "MIDI",
+    "MIDI STUDIO": "3DMidi",
+    "MIDI Studio": "3DMidi",
+    "MIDI Studio ana sayfa": "3DMidi home",
+    "MIDI arşivi": "MIDI archive",
+    "MIDI bekleniyor": "Waiting for MIDI",
+    "MIDI dosyan bu bilgisayarda işlenir.": "Your MIDI is processed on this computer.",
+    "MIDI dosyanı buraya bırak": "Drop a MIDI file here",
+    "MIDI dosyası": "MIDI file",
+    "MIDI dosyasını kaldır": "Remove MIDI file",
+    "MIDI kitaplığı": "MIDI library",
+    "MIDI kitaplığı.": "MIDI library.",
+    "MIDI melodi referansı": "MIDI melody reference",
+    "MIDI notalarının zaman çizelgesi": "MIDI note timeline",
+    "MIDI seçtiğinde notalar burada belirecek.": "Select a MIDI to see its notes here.",
+    "MIDI ve dönüştürme ayarları": "MIDI and conversion settings",
+    "MIDI, seçili yazıcının XY motorları için düzenlenir. Gerçek motor sesi sentetik önizlemeden farklı olabilir.": "MIDI is arranged for the selected printer's XY motors. Actual motor sound may differ from the preview.",
+    "MIDI’den yazıcı müziğine": "From MIDI to printer music",
+    "Mario ile hızlı dene": "Try Mario",
+    "Marka veya model ara": "Search brand or model",
+    "Melodi": "Melody",
+    "Melodi + alt oktav": "Melody + lower octave",
+    "Melodi + bas": "Melody + bass",
+    "Melodi özgün ses aralığında çalar.": "The melody plays in its original pitch range.",
+    "Melodin hazır.": "Your melody is ready.",
+    "Melodin hazır. Sırada hareket var.": "Melody ready. Next comes motion.",
+    "Müzik komutları hazırlanıyor.": "Preparing music commands.",
+    "Müzik türü": "Genre",
+    "Müzik yalnızca X ekseninde çalar; Y ve Z sabittir. 12–16 mm/sn başlangıç aralığı K2 Pro A07/A08 dinleme testinden alınmıştır. Aralığı değiştirebilirsin; özgün perde aralıkları sıkıştırılır, gerçek ses perdesi ölçülmedi.": "Music plays on X only; Y and Z stay still. The initial 12–16 mm/s range comes from K2 Pro A07/A08 listening feedback. Adjust it as needed. Pitch intervals are compressed; actual pitch has not been measured.",
+    "Müzik şablonu doğrulandı · Fiziksel test yok": "Music template verified · No physical test",
+    "Müzikte yalnızca X ekseni hareket eder; Y ve Z sabittir.": "Only X moves during music. Y and Z stay still.",
+    "Nasıl çalışır?": "How it works",
+    "Nota frekansı · yalnızca X": "Note frequency · X only",
+    "Notalar harekete dönüşüyor…": "Turning notes into motion…",
+    "Notalar müziğe dönüşüyor…": "Turning notes into music…",
+    "Notalar ve tempo bilgisi alınıyor": "Reading notes and tempo",
+    "Notalardan yazıcı müziğine.": "Turn notes into printer music.",
+    "Oluşturulan G-code": "Generated G-code",
+    "Oluşturulduğunda görünür": "Visible after generation",
+    "Orijinal · %100": "Original · 100%",
+    "Orta": "Medium",
+    "Otomatik başlangıç standart G28 X Y kullanır; homing sırasında yazıcının normal Z davranışı geçerlidir. En az 20 mm fiziksel nozul–tabla boşluğu gerekir.": "Automatic startup uses standard G28 X Y. Stock Z behavior applies during homing. At least 20 mm physical nozzle-to-bed clearance is required.",
+    "Otomatik home + yavaş Z": "Automatic home + slow Z",
+    "Oyun": "Games",
+    "Pop, rock, elektronik, film ve oyun melodileri. Bir eser seçip yazıcın için G-code oluştur.": "Pop, rock, electronic, film and game melodies. Choose a track and generate G-code for your printer.",
+    "Profil bilgileri yükleniyor…": "Loading profile details…",
+    "Profil kaynağı ↗": "Profile source ↗",
+    "Profil notları": "Profile notes",
+    "Profil yükleniyor": "Loading profile",
+    "Profiller yükleniyor…": "Loading profiles…",
+    "SNAPMAKER U1 İÇİN G-CODE": "SNAPMAKER U1 G-CODE",
+    "STUDIO": "3DMidi",
+    "Sentetik nota önizlemesini dinle": "Play synthetic note preview",
+    "Sentetik önizleme": "Synthetic preview",
+    "Ses aralığı": "Pitch range",
+    "Ses aralığını ve tempoyu ayarla.": "Adjust pitch range and tempo.",
+    "Ses hız aralıkları ve zamanlama kontrol edildi. Gerçek perde ölçülmedi; önce kısa testi dinle.": "Sound-speed ranges and timing checked. Actual pitch is unmeasured; try the short test first.",
+    "Ses kanalları": "Sound channels",
+    "Ses kanalları, nota süreleri ve çıktı komutları kontrol ediliyor.": "Checking sound channels, note timing and output commands.",
+    "Ses önizlemesi açılamadı. G-code dönüştürmeye devam edebilirsin.": "Audio preview could not start. You can still generate G-code.",
+    "Ses üretimi": "Sound generation",
+    "Sesler hazırlanıyor": "Preparing sounds",
+    "Seç": "Select",
+    "Seçili": "Selected",
+    "Seçili profil": "Selected profile",
+    "Seçili yazıcı": "Selected printer",
+    "Snapmaker U1": "Snapmaker U1",
+    "Stok home, ilk Z kaldırmasını sabit hızla yapar. Bu hareketi de yavaşlatmak için yavaş Z ayarını yazıcıya bir kez ekle. Sonraki müzik dosyalarını doğrudan başlatabilirsin.": "Stock homing lifts Z at a fixed speed. Install the slow-Z configuration once to slow that lift too. Later music files can start directly.",
+    "Tam G-code’u indir": "Save full G-code",
+    "Tam dosyanın ilk 120 satırı": "First 120 lines of the full file",
+    "Tempo": "Tempo",
+    "Tempo ritmi değiştirir; hareket hızı seçimini korur.": "Tempo changes rhythm independently of movement speed.",
+    "Tüm türler": "All genres",
+    "U1 varsayılandır. Klipper profilleri XY hareketleriyle müzik oluşturur; desteklenen Bambu Lab profilleri yazıcının yerleşik müzik komutlarını kullanır.": "U1 is the default. Klipper profiles make music through XY motion; supported Bambu Lab profiles use built-in music commands.",
+    "U1’de hız seçimi tempoyu aynı seviyeye getirir. Tempoyu ayrıca değiştirebilirsin.": "On U1, selecting a speed matches the tempo level. You can adjust tempo separately.",
+    "V3 KE: yavaş Z kurulumu": "V3 KE: slow-Z setup",
+    "Varsayılan profil": "Default profile",
+    "Varsayılan seçim": "Default selection",
+    "X / Y hız aralığı": "X / Y speed range",
+    "X alt · mm/sn": "X minimum · mm/s",
+    "X hız aralığı": "X speed range",
+    "X ses aralığı": "X sound range",
+    "X ses hızı": "X sound speed",
+    "X üst · mm/sn": "X maximum · mm/s",
+    "X/Y otomatik home": "Automatic X/Y home",
+    "XY MOTORLARI": "XY MOTORS",
+    "XY hareketi": "XY motion",
+    "XY hız aralığı": "XY speed range",
+    "XY yolu, nota zamanları ve çıktı sınırları kontrol ediliyor.": "Checking XY path, note timing and output limits.",
+    "Y ses aralığı taramasını indir": "Save Y sound-range sweep",
+    "Y ve Z, müzikte sabit.": "Y and Z stay still during music.",
+    "Y öncelikli · Hız/tempo serbest": "Y priority · Adjustable speed/tempo",
+    "YALNIZCA X HAREKETİ": "X MOTION ONLY",
+    "YAZICI PROFİLİ": "PRINTER PROFILE",
+    "Yalnızca X melodisi": "X melody only",
+    "Yalnızca X · Hız/tempo serbest": "X only · Adjustable speed/tempo",
+    "Yalnızca X · Y sabit": "X only · Y stays still",
+    "Yavaş": "Slow",
+    "Yavaş Z ayarını indir": "Save slow-Z configuration",
+    "Yavaş: aralığın alt bölümü · Orta: tam aralık · Hızlı: üst bölümü. Melodi çizgisi bu ses aralıklarına uyarlanır.": "Slow: lower range · Medium: full range · Fast: upper range. The melody is fitted into these sound ranges.",
+    "Yavaşlatılmış · %75": "Slower · 75%",
+    "Yazıcı ara": "Search printers",
+    "Yazıcı değiştir": "Change printer",
+    "Yazıcı konfigürasyonu içe aktarıldı.": "Printer configuration imported.",
+    "Yazıcı profili müzik yöntemini belirler: Klipper için XY hareketi, desteklenen Bambu Lab modelleri için yerleşik motor sesi. Snapmaker U1 varsayılandır.": "The printer profile selects the music method: XY motion for Klipper, native motor sound for supported Bambu Lab models. Snapmaker U1 is the default.",
+    "Yazıcı profili oluşturulamadı.": "Could not create printer profile.",
+    "Yazıcı ve MIDI kitaplığı yüklenemedi. Uygulama sunucusunu kontrol edip sayfayı yenile.": "Could not load printers and MIDI library. Restart the application and try again.",
+    "Yazıcını seç.": "Choose your printer.",
+    "Yazıcını seç. MIDI’ni ayarla. Melodini çaldır.": "Choose a printer. Adjust your MIDI. Play your melody.",
+    "Yazıcını ve MIDI’ni seç.": "Choose your printer and MIDI.",
+    "Yazıcının melodisi.": "Your printer has a melody.",
+    "Yerel çalışma": "Local processing",
+    "Yerleşik X/Y ses kanalları kullanılır. Konumlandırma ve home komutu üretilmez; Z ses kanalı sessiz tutulur.": "Native X/Y sound channels are used. No positioning or homing commands; the Z sound channel stays muted.",
+    "Yerleşik motor müziği": "Built-in motor music",
+    "Yerleşik müzik desteği doğrulanmadı · Seçilemez": "Native music support unverified · Unavailable",
+    "Yerleşik müzik komutları ve süreleri kontrol edildi. Önce kısa testi dinle.": "Native music commands and timing checked. Try the short test first.",
+    "Yerleşik müzik · firmware’e bağlı": "Built-in music · Firmware dependent",
+    "Yerleşik müzik · konumlandırma yok": "Built-in music · No positioning",
+    "Yükle": "Load",
+    "Z": "Z",
+    "Z ses kanalı kapalı.": "Z sound channel is off.",
+    "Z, müzikte hareket etmez.": "Z does not move during music.",
+    "dk:sn": "min:sec",
+    "kalın": "lower",
+    "mm/sn": "mm/s",
+    "printer.cfg seç": "Choose printer.cfg",
+    "veya dosya seçmek için tıkla": "or click to choose a file",
+    "ÇALIŞAN TASLAK": "WORKING PREVIEW",
+    "Çalma ayarları": "Playback settings",
+    "Çalmaya bir adım kaldı.": "One step away from music.",
+    "Çalınacak eksenler": "Playback axes",
+    "Çevrimiçi dönüştürücü": "Online converter",
+    "Çevrimiçi çalışıyor": "Running online",
+    "Çıktı hazır": "Output ready",
+    "Çıktı süresi": "Output duration",
+    "Önce kısa testle dinle. Bambu Lab aktarım yöntemi ve yerleşik ses desteği modele ve firmware’e bağlıdır; seçili profilin notlarını kontrol et.": "Try the short test first. Bambu Lab transfer methods and native sound support depend on model and firmware; check profile notes.",
+    "Önceden home alınmış konum": "Already homed position",
+    "Önizle & dışa aktar": "Preview & export",
+    "Önizleme güncelleniyor": "Updating preview",
+    "Önizleme hazır": "Preview ready",
+    "Önizleme hazırlanıyor…": "Preparing preview…",
+    "Önizleme türü": "Preview type",
+    "Önizleme ve G-code çıktısı": "Preview and G-code output",
+    "Önizlemeyi durdur": "Stop preview",
+    "Özel veya değiştirilmiş yazıcı mı?": "Custom or modified printer?",
+    "Özgün MIDI": "Original MIDI",
+    "Özgün oktavlar, dengeli hareket.": "Original octaves, balanced motion.",
+    "İlk 12 saniye": "First 12 seconds",
+    "İnce": "Higher",
+    "İndirme bağlantısı yenilenmeli. Sayfayı yenileyip G-code’u yeniden oluştur.": "Refresh the download link by generating G-code again.",
+    "İçe aktarılan konfigürasyon": "Imported configuration",
+    "İşlem tamamlanamadı. Yeniden dene.": "Could not complete the operation. Try again.",
+    "Şarkı, sanatçı veya besteci ara": "Search song, artist or composer",
+    "Bu dosya bir MIDI dosyası değil. .mid veya .midi dosyası seç.": "This is not a MIDI file. Choose a .mid or .midi file.",
+    "Bu MIDI'de çalınabilir nota bulunamadı. Yalnızca vurmalı ses içeren dosyalar desteklenmiyor.": "This MIDI has no playable notes. Percussion-only files are not supported.",
+    "Bu MIDI taslak için çok yoğun. Daha kısa bir bölüm seç.": "This MIDI is too dense. Select a shorter section.",
+    "Geçersiz ses üretim modu.": "Invalid sound-generation mode.",
+    "Geçersiz ayar. Sayfayı yenileyip yeniden dene.": "Invalid setting. Refresh and try again.",
+    "Bu MIDI bu yazıcının hız/ivme sınırlarına sığmıyor. Daha yavaş tempo veya daha dar nota aralığı seç.": "This MIDI exceeds the printer speed or acceleration limits. Choose a slower tempo or a narrower note range.",
+    "FOC step-servo profili: hareket hızı Yavaş, tempo Yavaş (%75) olarak sabit.": "FOC step-servo profile: movement speed is fixed to Slow and tempo to Slow (75%).",
+    "Müzikte yalnızca X ekseni ana melodiyi çalar; Y ve Z sabit kalır. Hız, nota aralıkları korunarak hesaplanır.": "Only X plays the main melody; Y and Z stay still. Speed is calculated to preserve note intervals.",
+    "Her müzik hareketinde Y, X'ten hızlı ilerler; CoreXY motor notaları ve nota süreleri korunur. Hız ve tempo ayrı ayarlanabilir.": "Y moves faster than X in each music move; CoreXY motor notes and note durations are preserved. Speed and tempo can be adjusted separately.",
+    "Home normal yazıcı limitlerinde yapılır; yalnızca sonraki Z20 mm yükseltmesi 3 mm/sn'dir. Dosya sonunda normal limitler geri yüklenir; müzik sırasında Z sabit kalır.": "Homing uses normal machine limits. Only the following lift to Z20 mm uses 3 mm/s. Normal limits are restored at the end; Z stays still during music.",
+    "Stok homing içindeki sabit hızlı Z kaldırmasını da yavaşlatmak için yavaş Z ayar dosyası bir kez kurulmalıdır; firmware'in iç homing hareketleri fiziksel olarak test edilmedi.": "Install the slow-Z configuration once to also slow the fixed-speed Z lift inside stock homing. Internal firmware homing moves have not been physically tested.",
+    "Perde bükmeleri sabit notalara indirgenir.": "Pitch bends are reduced to fixed notes.",
+    "Çok sesli bölümler iki motor sesine düzenlendi.": "Polyphonic sections were arranged for two motor voices.",
+    "Bağımsız zaman çizelgeli MIDI Type 2 bu taslakta desteklenmiyor.": "MIDI Type 2 with independent timelines is not supported.",
+    "MIDI okunamadı. Dosyayı bir MIDI düzenleyicisinden yeniden dışa aktarmayı dene.": "Could not read MIDI. Try exporting it again from a MIDI editor.",
+    "Yazıcı profili seçimle eşleşmiyor.": "The printer profile does not match the selection.",
+    "Geçersiz melodi ayarı.": "Invalid melody setting.",
+    "Bu MIDI çok fazla eşzamanlı nota içeriyor. Daha kısa bir bölüm seç.": "Too many simultaneous notes. Select a shorter section.",
+    " yarım ses": " semitones",
+    "Yazıcı sınırlarına uyması için eserin tamamı ": "To fit printer limits, the whole score was shifted ",
+    " aşağı alındı; toplam perde değişimi ": " down; total pitch change: ",
+    " yarım ses.": " semitones.",
+    "Hız üst sınırı bu yazıcı için ": "The speed ceiling for this printer is ",
+    " mm/sn ile sınırlandı.": " mm/s.",
+    " vurmalı nota melodiden ayrıldı.": " percussion notes were excluded from the melody.",
+    "Bu MIDI için hareket planı oluşturulamadı. Daha yavaş hız ve tempo seçmeyi dene.": "Could not plan motion for this MIDI. Try slower movement and tempo.",
+    "Taslak en fazla 10 dakikalık MIDI dosyalarını işler. Daha kısa bir bölüm seç.": "MIDI files may be up to 10 minutes long. Select a shorter section.",
+    "Önceden home edilmiş, motorları etkin ve en az 20 mm nozul–tabla boşluğu olan yazıcı gerekir; çıktı home veya Z hareketi içermez.": "Home the printer first, keep motors enabled and leave at least 20 mm nozzle-to-bed clearance. This output contains no homing or Z moves.",
+    "FOC ses aralığı için hareket planı oluşturulamadı. Tempo veya ses aralığını daraltıp yeniden dene.": "Could not plan FOC sound-range motion. Reduce the tempo or narrow the sound range and try again.",
+    "Bu notalar seçilen ayarlarda çok kısa kalıyor. Tempoyu veya hareket hızını düşürüp yeniden dene.": "These notes are too short for the settings. Lower tempo or movement speed and try again.",
+    "Motor adımı/mm": "Motor steps/mm",
+    "Özel konfigürasyon": "Custom configuration",
+    "Bu kinematik desteklenmiyor. CoreXY veya Cartesian profil seç.": "Unsupported kinematics. Choose CoreXY or Cartesian.",
+    "Geçersiz müzik ekseni önceliği.": "Invalid music-axis priority.",
+    "Geçersiz müzik ekseni.": "Invalid music axis.",
+    "Yalnızca X melodisi dengeli, eşit motor adımlı bir profil gerektirir.": "X-only melody requires a balanced profile with equal motor steps.",
+    "Y önceliği, eşit motor adımlı CoreXY profil gerektirir.": "Y priority requires CoreXY with equal motor steps.",
+    "max_velocity uygulamanın desteklediği 10000 mm/sn sınırını aşıyor.": "max_velocity exceeds the supported 10000 mm/s limit.",
+    "Müzik hız sınırı": "Music speed limit",
+    "Müzik ivme sınırı": "Music acceleration limit",
+    "Geçersiz yazıcı profili. Listeden bir yazıcı seç.": "Invalid printer profile. Choose a printer from the list.",
+    "printer.cfg dosyası boş veya okunamıyor.": "printer.cfg is empty or unreadable.",
+    "Lütfen .cfg uzantılı bir yazıcı konfigürasyonu seç.": "Choose a .cfg printer configuration file.",
+    "Yalnızca CoreXY ve Cartesian kinematik desteklenir; [printer] kinematics değerini kontrol et.": "Only CoreXY and Cartesian are supported. Check [printer] kinematics.",
+    "Özel yazıcı · ": "Custom printer · ",
+    "Yerel printer.cfg değerlerinden oluşturuldu; fiziksel test yapılmadı.": "Created from local printer.cfg values; not physically tested.",
+    "Tüm eksenleri önceden home al, motorları etkin tut ve en az 20 mm nozul–tabla boşluğu bırak. Otomatik home ve Z hareketi üretilmez.": "Home all axes first, keep motors enabled and leave at least 20 mm clearance. No automatic homing or Z moves are generated.",
+    "Include dosyaları ve makrolar çalıştırılmaz; gereken sayısal değerler bu dosyada bulunmalıdır.": "Includes and macros are never executed. Supply all required numeric values in this file.",
+    " sonlu ve geçerli aralıkta olmalı.": " must be finite and within the valid range.",
+    " pozitif tam sayı olmalı.": " must be a positive integer.",
+    "Bambu Lab için yalnızca doğrulanmış yerleşik müzik profili kullanılabilir.": "Bambu Lab requires a verified native music profile.",
+    "minimum_cruise_ratio, 0 dahil ve 1 hariç aralığında olmalı.": "minimum_cruise_ratio must be at least 0 and less than 1.",
+    "Yazıcı profili bulunamadı. Listeden bir yazıcı seç.": "Printer profile not found. Choose a printer from the list.",
+    "Bu model için eksiksiz printer.cfg gerekli. Yazıcı seçiminden konfigürasyonunu içe aktar.": "This model needs a complete printer.cfg. Import it from printer selection.",
+    "printer.cfg okunamadı. Bölüm ve anahtar biçimlerini kontrol et; eksiksiz konfigürasyonu yükle.": "Could not read printer.cfg. Check section and key syntax and supply the complete configuration.",
+    ". Include dosyaları otomatik açılmaz; bu bölümlerin tüm değerlerini içeren printer.cfg yükle.": ". Include files are not opened automatically; supply every required section and value in printer.cfg.",
+    " için sayısal bir değer gerekli.": " requires a numeric value.",
+    ", 80:16 veya 80:16, 50:20 biçiminde olmalı.": " must use the form 80:16 or 80:16, 50:20.",
+    " konumu uygulamanın desteklediği ±10000 mm aralığının dışında.": " position is outside the supported ±10000 mm range.",
+    " position_min, position_max değerinden küçük olmalı.": " position_min must be less than position_max.",
+    "Yazıcı kataloğunda yinelenen profil var.": "Duplicate printer profile in catalog.",
+    "Yazıcı profil kataloğu okunamadı.": "Could not read printer profile catalog.",
+    "Bu Bambu Lab modelinde yerleşik müzik desteği doğrulanmadı; Klipper komutları veya printer.cfg ile çıktı oluşturulamaz.": "Native music is unverified for this Bambu Lab model. Klipper commands or printer.cfg cannot enable output.",
+    "Bu yazıcının kinematiği desteklenmiyor. CoreXY veya Cartesian profil seç.": "This printer kinematics is unsupported. Choose CoreXY or Cartesian.",
+    "Eksik bölüm: ": "Missing section: ",
+    " eksik. Include içindeki değerleri de içeren eksiksiz konfigürasyonu yükle.": " is missing. Supply the complete configuration, including values from includes.",
+    "Klipper varsayılanları kullanıldı: ": "Klipper defaults used: ",
+    " hareket alanı güvenli müzik yolu için çok dar (80 mm'den geniş olmalı).": " motion area is too narrow for a safe music path; it must be wider than 80 mm.",
+    "Bambu yerel motor sesi modu: XY yolu veya mm/sn hareket hızı üretilmez; hız seçimi sesin oktavını değiştirir.": "Bambu native motor-sound mode: no XY path or movement speed is generated. Speed selection changes pitch.",
+    "Z ses kanalı kapalıdır (E0 F0 N0); home, Z konumlandırma, ısıtma ve filament sürme komutu yoktur.": "The Z sound channel is off (E0 F0 N0). There are no homing, Z positioning, heating or extrusion commands.",
+    "Yazıcıdaki Ses / Allow Prompt Sound seçeneği açık olmalı. Komut desteği model ve firmware sürümüne bağlıdır; fiziksel test yapılmadı.": "Enable Sound / Allow Prompt Sound on the printer. Support depends on model and firmware; not physically tested.",
+    "Geçersiz Bambu ses ayarı. Sayfayı yenileyip yeniden dene.": "Invalid Bambu sound setting. Refresh and try again.",
+    "MIDI süresi": "MIDI duration",
+    "MIDI süresi Bambu ses modu için uygun değil.": "MIDI duration is unsuitable for Bambu sound mode.",
+    "Bu MIDI'de çalınabilir nota bulunamadı.": "No playable notes were found in this MIDI.",
+    "Bu MIDI 10 ms ses çözünürlüğünden kısa.": "This MIDI is shorter than the 10 ms sound resolution.",
+    "Bu MIDI'de 10 ms ses çözünürlüğüne sığan nota kalmadı. Daha yavaş tempo veya daha uzun notalar seç.": "No notes fit the 10 ms sound resolution. Choose a slower tempo or longer notes.",
+    "İkiden fazla aktif ses, X/Y için en tiz ve en pes sese düzenlendi.": "More than two active voices were reduced to the highest and lowest voices for X/Y.",
+    "Bambu ses başlangıcı/bitişi geçersiz.": "Invalid Bambu sound start or finish.",
+    "Bambu ses bölümü eksik veya ek komut içeriyor.": "Bambu sound section is incomplete or contains extra commands.",
+    "Bambu ses süresi 10 ms zaman çizelgesiyle eşleşmiyor.": "Bambu sound duration does not match the 10 ms timeline.",
+    " sonlu olmalı.": " must be finite.",
+    "Nota başlangıcı": "Note start",
+    "MIDI nota aralığı okunamadı.": "Could not read the MIDI note range.",
+    "Yerel ses aralığı için toplam perde değişimi ": "Total pitch shift for the native sound range: ",
+    " yarım sese ayarlandı.": " semitones.",
+    "Geniş nota aralığındaki ": "In the wide note range, ",
+    " motor sesi, perde sınıfı korunarak 24–95 MIDI aralığına oktavlandı.": " motor notes were octave-shifted into MIDI 24–95 while preserving pitch class.",
+    "10 ms çözünürlüğe sığmayan ": "At 10 ms resolution, ",
+    " çok kısa nota/sessizlik bölümü atlandı.": " very short note or rest sections were skipped.",
+    "Bambu ses çıktısında beklenmeyen hareket veya komut bulundu.": "Unexpected motion or command found in Bambu sound output.",
+    "Bambu ses kanalı, süre veya ses düzeyi sınırı aşıldı; Z sessiz kalmalı.": "Bambu channel, duration or volume limit exceeded. Z must stay muted.",
+    "Bambu çıktısındaki nota veya zamanlama düzenlemeden farklı.": "Bambu output notes or timing do not match the arrangement.",
+    " sayısal olmalı.": " must be numeric.",
+    "Nota bitişi": "Note end",
+    "Bambu ses parametresi geçersiz.": "Invalid Bambu sound parameter.",
+    "FOC ses aralığı: ana melodi yalnızca X ekseniyle çalar; müzikte Y ve Z sabittir. Melodi çizgisi hız aralığına sıkıştırılır; özgün perde aralıkları korunmaz.": "FOC sound range: the main melody plays on X only; Y and Z stay still. The melodic contour is compressed into the speed range; original pitch intervals are not preserved.",
+    "Bu yazıcı için FOC ses aralığı modu mevcut değil.": "FOC sound-range mode is not available for this printer.",
+    "Geçersiz FOC hız, tempo veya eksen seçimi.": "Invalid FOC speed, tempo or axis selection.",
+    "Başlangıç referansı X ": "Initial X reference: ",
+    " mm/sn: K2 Pro A07/A08 dinleme geri bildirimi. Gerçek ses frekansı ölçülmedi.": " mm/s, from K2 Pro A07/A08 listening feedback. Actual sound frequency was not measured.",
+    "Bu model için FOC taraması yok.": "No FOC sweep is available for this model.",
+    " çok yakın nota başlangıcı, en az 40 ms'lik motor aralıkları için birleştirildi.": " closely spaced note onsets were merged to keep motor intervals at least 40 ms long.",
+    "Ses aralığı için sayısal mm/sn değerleri gerekli.": "Sound-range values must be numeric in mm/s.",
+    " ses aralığı 0,05–": " sound range must be within 0.05–",
+    " mm/sn içinde, alt değer üstten küçük olmalı.": " mm/s, with the lower value below the upper value.",
+    "KE square_corner_velocity geçersiz.": "Invalid KE square_corner_velocity.",
+    "KE başlangıç ayarı geçersiz: ": "Invalid KE startup setting: ",
+    "Dosya önce normal yazıcı limitlerini geri yükleyip G28 X Y ile otomatik home alır. Tabla boş olmalı; homing sırasında stok firmware'in Z güvenlik davranışı geçerlidir. Müzikte Z sabittir; bitişte normal limitler geri yüklenir.": "The file restores normal printer limits and homes automatically with G28 X Y. Clear the bed. Stock firmware Z safety behavior applies during homing. Z stays still during music; normal limits are restored at the end.",
+    "Bu sayfa bulunamadı.": "Page not found.",
+    "Bu uygulama yalnızca yerel bilgisayarda açılır.": "This application is available on this computer only.",
+    "İstek bu yerel uygulamadan gelmeli.": "Requests must come from this local application.",
+    "Ayarlar okunamadı. Sayfayı yenileyip yeniden dene.": "Could not read settings. Refresh and try again.",
+    "MIDI oturumu bulunamadı. Dosyanı yeniden seç.": "MIDI session not found. Select your file again.",
+    "İndirme bulunamadı. G-code'u yeniden oluştur.": "Download not found. Generate G-code again.",
+    "Kurulum dosyası bulunamadı.": "Setup file not found.",
+    "MIDI seçimi okunamadı.": "Could not read MIDI selection.",
+    "Bu MIDI kitaplıkta bulunamadı.": "This MIDI is not in the library.",
+    "Geçersiz kitaplık dosyası.": "Invalid library file.",
+    "Yazıcı yapılandırması okunamadı.": "Could not read printer configuration.",
+    "Bu işlem bulunamadı.": "Operation not found.",
+    "Bir dosya hâlâ hazırlanıyor. Birkaç saniye sonra yeniden dene.": "A file is still being prepared. Try again in a few seconds.",
+    "İşlem tamamlanamadı. MIDI dosyasını yeniden seçip tekrar dene.": "Could not complete the operation. Select your MIDI again and retry.",
+    "Geçersiz kayıt bağlantısı.": "Invalid save link.",
+    "Dosya bulunamadı. G-code'u yeniden oluştur.": "File not found. Generate G-code again.",
+    "3DMidi penceresine geri dönüp yeniden dene.": "Return to the 3DMidi window and try again.",
+    "3DMidi masaüstü oturumu gerekli.": "A 3DMidi desktop session is required.",
+    "Dosya kaydedilemedi. Klasör iznini ve dosya adını kontrol et.": "Could not save the file. Check the folder permission and filename.",
+    "Resmî kaynak yapılandırmasıyla doğrulandı; cihaz üzerindeki mekanik/firmware revizyonu aynı olmalıdır.": "Verified against the official source configuration. Your hardware and firmware revision must match.",
+    "Müzik hız/ivme sınırları uygulamanın temkinli üst sınırlarıdır; akustik optimum veya donanım üzerinde test sonucu değildir.": "Music speed and acceleration ceilings are conservative application limits, not measured acoustic optima or hardware test results.",
+    "Başlamadan önce yazıcıyı kendi arayüzünden home et, kafayı/tablayı güvenli Z yüksekliğine getir; bu profil G28 veya Z hareketi üretmez.": "Before starting, home using the printer interface and set a safe nozzle/bed Z clearance. This profile generates no G28 or Z moves.",
+    "K1/K1 Max kasnak revizyonunu rotation_distance üzerinden doğrula: resmî depoda hem 72 mm hem 40 mm profil vardır.": "Check the K1/K1 Max pulley revision using rotation_distance. The official repository contains both 72 mm and 40 mm profiles.",
+    "printer_params.cfg içindeki K1 ailesi Z hacim değişkeni bazı profillerde 220 mm; görünen nominal hacim üreticinin ürün karşılaştırmasından, hareket sınırları printer.cfg içindendir.": "Some K1-family printer_params.cfg files specify 220 mm Z volume. Nominal displayed volume comes from product comparisons; motion limits come from printer.cfg.",
+    "Müzik yalnızca X ekseninde çalar; Y ve Z sabittir. FOC modunda K2 Pro A07/A08 dinleme referansı olan X 12–16 mm/sn aralığı kullanılır; hız ve tempo serbesttir.": "Music plays on X only; Y and Z stay still. FOC uses X 12–16 mm/s from K2 Pro A07/A08 listening feedback. Speed and tempo remain adjustable.",
+    "Varsayılan başlangıç: normal hızda otomatik home, ardından yalnızca Z20 mm’ye 3 mm/sn yükselme. Genel hız sınırı düşürülmez; dosya sonunda normal limitler geri yüklenir.": "Default startup: automatic homing at normal speed, then only a Z20 mm lift at 3 mm/s. Global speed is not reduced; normal limits are restored at the end.",
+    "Stok homing makrosundaki FORCE_MOVE Z kaldırması normal hız sınırını atlayabilir. Onu da yavaşlatmak için yavaş Z ayarı bir kez kurulmalıdır.": "The stock homing macro FORCE_MOVE Z lift can bypass normal speed limits. Install the slow-Z configuration once to slow it too.",
+    "Müzik yalnızca X motorunda tek sesli ana melodidir; Y yatağı ve Z müzik boyunca sabit kalır. Varsayılan hız Hızlı; X hız tavanları 100/180/360 mm/sn, ivme en fazla stok 8000 mm/sn².": "Music is a single main melody on X; the Y bed and Z stay still. Default speed is Fast; X speed ceilings are 100/180/360 mm/s and acceleration is capped at stock 8000 mm/s².",
+    "270×270×256 mm nominal hacim QIDI BOX kullanılmadığında geçerlidir; XY hareket alanı firmware sınırlarından alınır.": "The nominal 270×270×256 mm volume applies without QIDI BOX. XY motion area comes from firmware limits.",
+    "Kablo/Type-C ve motor akımı revizyonları değişiyor; kullanılan cihazın printer.cfg dosyasını içe aktar.": "Cable/Type-C and motor-current revisions differ. Import the device printer.cfg.",
+    "Resmî kaynak deposunda bu modelin sayısal hareket profili ayrı doğrulanamadı; cihazın printer.cfg dosyası gerekli.": "A separate numeric motion profile could not be verified from the official source. Import the device printer.cfg.",
+    "Resmî depo ekran yazılımını içeriyor; doğrulanmış motor/eksen parametreleri için cihazın printer.cfg dosyası gerekli.": "The official repository contains screen software. Import the device printer.cfg for verified motor and axis values.",
+    "Bu revizyon için doğrulanmış hareket profili eklenmedi; cihazın printer.cfg dosyası gerekli.": "No verified motion profile has been added for this revision. Import the device printer.cfg.",
+    "Üretici Plus4 sayfasında yeni model olarak yer alıyor; kendi printer.cfg dosyası gerekli.": "Listed as a new model on the manufacturer Plus4 page. Import its own printer.cfg.",
+    "Kurulum boyutu, motor, kasnak, kontrol kartı ve firmware kişiye göre değişir; kendi printer.cfg dosyası gerekli.": "Size, motors, pulleys, controller and firmware vary by build. Import your own printer.cfg.",
+    "Boyut ve CoreXY/Hybrid/IDEX sürümleri değişir; kinematik dahil gerçek printer.cfg gerekli.": "Dimensions and CoreXY/Hybrid/IDEX versions differ. Supply the actual printer.cfg, including kinematics.",
+    "CoreXZ kinematiği bu XY müzik dönüştürücüsünde desteklenmiyor.": "CoreXZ kinematics is not supported by this XY music converter.",
+    "Delta kinematiğinde yatay hareket üç kule motorunu birlikte kullanır; bu XY dönüştürücü desteklemiyor.": "Delta horizontal motion uses three tower motors together and is not supported by this XY converter.",
+    "Resmî Bambu Studio başlangıç profilinde M1006 ses komutu bulunur; cihaz/firmware üzerinde fiziksel ses testi yapılmadı.": "The official Bambu Studio startup profile includes M1006 sound commands. No physical device or firmware sound test has been performed.",
+    "Bambu yerel ses modu X/Y ses kanallarını kullanır, Z ses kanalı kapalıdır. XY yolu, home veya Z konumlama komutu üretilmez.": "Bambu native sound uses X/Y sound channels with Z muted. No XY path, homing or Z positioning commands are generated.",
+    "Hız ayarı bu modda nota perdesini değiştirir; mm/sn hareket hızı değildir.": "Speed changes pitch in this mode; it is not movement speed in mm/s.",
+    "Bambu Lab Klipper kullanmaz; bu çıktı Klipper SAVE_GCODE_STATE veya TURN_OFF_HEATERS komutlarını içermez.": "Bambu Lab does not run Klipper. This output contains no Klipper SAVE_GCODE_STATE or TURN_OFF_HEATERS commands.",
+    "Resmî Bambu Studio başlangıç profilinde M1006 ses dizisi bulunmadığı için bu modelin yerel ses desteği doğrulanamadı; çıktı için seçilemez.": "The official Bambu Studio startup profile contains no M1006 sound sequence. Native sound support is unverified and this model cannot be selected.",
+    "Bu bir printer.cfg eksikliği değildir. Kapalı Bambu firmware için doğrulanmış ses komutu desteği gerekir.": "This is not a missing printer.cfg. Closed Bambu firmware needs verified sound-command support.",
+    "Gösterilen 250 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; pazarlanan nominal hacimden farklı olabilir. Ses modu bu sınırda hareket üretmez.": "Displayed Z height of 250 mm is the official slicer printable_height and may differ from marketed nominal volume. Sound mode does not move within this limit.",
+    "M1006 dizisi resmî 20251031 tarihli X1 başlangıç şablonunda etkin durumdadır; önceki firmware sürümlerinde destek farklı olabilir.": "M1006 is active in the official 20251031 X1 startup template. Support in older firmware may differ.",
+    "Gösterilen 261 mm Z yüksekliği resmî dilimleyici profilinin printable_height değeridir; ses modu bu sınırda hareket üretmez.": "Displayed Z height of 261 mm is the official slicer printable_height. Sound mode does not move within this limit.",
+    "Kaynak ↗": "Source ↗",
+    "Lisans belirtilmemiş": "License unspecified",
+    "Elektronik": "Electronic",
+    "Film / Dizi": "Film / TV",
+    "Kullanıcı dosyası; yeniden dağıtım izni belirtilmedi": "User-supplied file; redistribution permission unspecified",
+    "MIDI okunuyor…": "Reading MIDI…",
+    "MIDI okunuyor": "Reading MIDI…"
+  }
+}

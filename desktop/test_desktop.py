@@ -39,6 +39,8 @@ class DesktopTests(unittest.TestCase):
         self.assertEqual(data["runtime"]["mode"], "desktop")
         self.assertEqual(data["default_id"], "snapmaker_u1")
         self.assertEqual(len(data["library"]), 129)
+        with self.client.open(self.host.origin + "/locales.json", timeout=5) as response:
+            self.assertEqual(len(json.load(response)["languages"]), 10)
 
     def test_cross_origin_post_is_rejected_even_with_cookie(self):
         self.login()

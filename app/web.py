@@ -227,9 +227,11 @@ def create_app(config=None):
     @app.get("/app.js")
     @app.get("/styles.css")
     @app.get("/favicon.svg")
+    @app.get("/i18n.js")
+    @app.get("/locales.json")
     def static_file():
         name = "index.html" if request.path == "/" else request.path[1:]
-        mime = {"index.html": "text/html", "app.js": "text/javascript", "styles.css": "text/css", "favicon.svg": "image/svg+xml"}[name]
+        mime = {"index.html": "text/html", "app.js": "text/javascript", "styles.css": "text/css", "favicon.svg": "image/svg+xml", "i18n.js": "text/javascript", "locales.json": "application/json"}[name]
         return send_file(STATIC / name, mimetype=mime, max_age=0)
 
     return app

@@ -9,6 +9,7 @@ from urllib.parse import parse_qs, unquote, urlsplit
 
 import server as backend
 from desktop import VERSION
+from desktop import preferences
 
 COOKIE = "3dmidi_desktop"
 
@@ -54,7 +55,7 @@ class DesktopHandler(backend.Handler):
     def reply(self, data, *args, **kwargs):
         if urlsplit(self.path).path == "/api/catalog" and isinstance(data, dict) and "profiles" in data:
             data = {**data, "runtime": {"mode": "desktop", "name": "3DMidi", "version": VERSION,
-                                       "demo_label": "Mario ile hızlı dene"}}
+                                       "demo_label": "Try Mario"}}
         super().reply(data, *args, **kwargs)
 
 
@@ -98,7 +99,17 @@ class NativeAPI:
         self._window = None
         self._saving = threading.Lock()
 
-    def save_export(self, url):
+    def get_preferences(self):
+        if not self._window or self._window.get_current_url() != self._origin + "/":
+            return {"language": "en"}
+        return preferences.get_preferences()
+
+    def set_preferences(self, data):
+        if not self._window or self._window.get_current_url() != self._origin + "/":
+            raise ValueError("Return to the 3DMidi window and try again.")
+        return preferences.set_preferences(data)
+
+    def save_export(self, url, language="en"):
         if not self._window or self._window.get_current_url() != self._origin + "/":
             return {"error": "3DMidi penceresine geri dönüp yeniden dene."}
         if not self._saving.acquire(blocking=False):
@@ -109,7 +120,7 @@ class NativeAPI:
             suffix = Path(file["name"]).suffix
             selected = self._window.create_file_dialog(
                 webview.FileDialog.SAVE, save_filename=file["name"],
-                file_types=("Gcode dosyasi (*.gcode)" if suffix == ".gcode" else "JSON raporu (*.json)",))
+                file_types=(preferences.text("Gcode files", language) + " (*.gcode)" if suffix == ".gcode" else preferences.text("JSON report", language) + " (*.json)",))
             if not selected:
                 return {"cancelled": True}
             target = Path(selected if isinstance(selected, str) else selected[0])

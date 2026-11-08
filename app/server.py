@@ -99,10 +99,10 @@ class Handler(BaseHTTPRequestHandler):
         if path == "/api/catalog":
             from foc_acoustic import DEFAULT_BANDS
             return self.reply({"default_id": "snapmaker_u1", "profiles": public_profiles(), "library": library_items(), "foc_reference_bands": DEFAULT_BANDS})
-        files = {"/": "index.html", "/styles.css": "styles.css", "/app.js": "app.js", "/favicon.svg": "favicon.svg"}
+        files = {"/": "index.html", "/styles.css": "styles.css", "/app.js": "app.js", "/favicon.svg": "favicon.svg", "/i18n.js": "i18n.js", "/locales.json": "locales.json"}
         if path in files:
             target = STATIC / files[path]
-            content_type = {".js": "text/javascript", ".css": "text/css", ".html": "text/html", ".svg": "image/svg+xml"}[target.suffix]
+            content_type = {".js": "text/javascript", ".css": "text/css", ".html": "text/html", ".svg": "image/svg+xml", ".json": "application/json"}[target.suffix]
             return self.reply(target.read_bytes(), content_type=content_type + "; charset=utf-8")
         self.reply({"error": "Bu sayfa bulunamadı."}, 404)
 

@@ -1,37 +1,43 @@
 # 3DMidi
 
-MIDI dosyalarından 3D yazıcı motorlarında müzik çalan G-code üretir. Windows uygulaması dosyaları bilgisayarında işler; internet bağlantısı veya Python kurulumu gerektirmez.
+**Turn MIDI files into music played by 3D printer motors.**
 
-## Windows için indir
+An offline Windows app with printer-specific G-code, movement and tempo controls, a melody preview and 129 bundled MIDI examples. No Python installation or internet connection is needed to convert a file.
 
-[Son sürüm ve 3DMidi.exe](https://github.com/QUINRY/3DMidi/releases/latest)
+[Download for Windows](https://github.com/QUINRY/3DMidi/releases/latest) · [Türkçe](README.tr.md)
 
-1. `3DMidi.exe` dosyasını indir ve çift tıkla. Kurulum gerekmez.
-2. Yazıcını seç. Varsayılan seçim **Snapmaker U1**.
-3. Bir `.mid` / `.midi` dosyası seç veya 129 örnekten birini aç.
-4. Hareket hızını ve tempoyu **Yavaş / Orta / Hızlı** olarak ayarla.
-5. G-code oluştur; kısa test dosyasını veya tam parçayı Windows'un **Farklı Kaydet** penceresiyle kaydet.
+## Get started
 
-Çıktı adı: `Yazici_MIDI_Tempo_Hiz.gcode`. Kontrol raporu ayrıca JSON olarak kaydedilebilir.
+1. Download **3DMidi.exe** from the latest release and double-click it. No installer is needed.
+2. Select your printer. **Snapmaker U1** is the default.
+3. Open a `.mid` / `.midi` file, or choose an example from the MIDI library.
+4. Set movement speed and tempo to **Slow / Medium / Fast**.
+5. Generate G-code and save a short test, the full song or the JSON validation report using **Save As**.
 
-Windows 10/11 **x64** ve Microsoft Edge WebView2 Runtime gerekir. Runtime çoğu güncel Windows sisteminde bulunur; eksikse [Microsoft'tan indirilebilir](https://developer.microsoft.com/microsoft-edge/webview2/). İlk sürümün `.exe` dosyası kod imzalı değildir.
+Windows 10/11 **x64** and [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) are required. WebView2 is present on many Windows systems. The executable is not code-signed.
 
-## Özellikler
+## Languages and settings
 
-- 31 seçilebilir Klipper ve Bambu Lab profili; kaynaklarıyla birlikte 50 modelden oluşan katalog.
-- Hız ve tempo ayarı, melodi önizlemesi, kısa test ve tam G-code çıktısı.
-- Sayısal parametrelerden özel `printer.cfg` profili içe aktarma; makrolar ve includes çalıştırılmaz.
-- U1 için XY müzik; Ender-3 V3 KE ve K2 / K2 Pro / K2 Plus için X ekseninde müzik.
-- K2 serisinde ayarlanabilir FOC ses aralığı. Hız ve tempo seçimleri açıktır.
-- Bambu Lab için yerleşik `M1006` motor müziği; Z müzik kanalı kapalıdır.
-- Z eksenine melodi veya müzik hızları uygulanmaz. Homing ve başlangıç adımları seçilen profile göre üretilir.
-- MIDI işleme ve dönüşüm çevrimdışı yapılır. Yazıcıya otomatik bağlantı ya da dosya gönderimi yoktur.
+English is the default. Open **Settings → Language** to choose English, Türkçe, Deutsch, Español, Français, Português, 简体中文, 日本語, Русский or العربية.
 
-Her modelde fiziksel test yapılmış değildir; profil uyarılarını ve oluşturulan kontrol raporunu incele. Yazıcıda ilk denemeyi kısa test dosyasıyla yap.
+The interface changes immediately and the preference is saved on your computer. Arabic has a right-to-left layout. Menus and controls are localized; technical details use English when a translation is unavailable. Track names, original source attribution and G-code instructions keep their original data.
 
-## Kaynaktan çalıştır
+## Printer support
 
-Python 3.12, Windows x64:
+- **31 selectable profiles** in a source-backed catalog of 50 Klipper and Bambu Lab models.
+- Snapmaker U1: XY motor music.
+- Ender-3 V3 KE and Creality K2 / K2 Pro / K2 Plus: X-only music.
+- K2 family: adjustable FOC acoustic range, movement speed and tempo.
+- Supported Bambu Lab models: native `M1006` music with the Z sound channel muted.
+- Custom Klipper CoreXY / Cartesian configurations can be imported from a complete `printer.cfg`. Includes and macros are never executed.
+
+**Z is never used for the melody.** Startup and homing depend on the profile. Physical testing has not been performed on every model. Read the selected profile's notes, clear the bed and start with the short test. Some profiles require prior homing and at least 20 mm physical nozzle-to-bed clearance.
+
+The app creates files locally. It does not connect to a printer or send G-code automatically.
+
+## Run from source
+
+Python 3.12 on Windows x64:
 
 ```powershell
 python -m venv .venv
@@ -39,23 +45,21 @@ python -m venv .venv
 .\.venv\Scripts\python desktop/launcher.py
 ```
 
-Tarayıcıdaki yerel sürüm:
+For local browser use:
 
 ```powershell
 .\.venv\Scripts\python app/server.py --open
 ```
 
-Raspberry Pi / Docker kurulumu için [deploy/README.md](deploy/README.md).
-
-## Windows paketi oluştur
+## Build the portable executable
 
 ```powershell
 .\.venv\Scripts\python desktop/build.py
 ```
 
-`output/windows/3DMidi.exe` tek dosyalık taşınabilir uygulamadır. Derleme, paketlenmiş uygulamanın 129 MIDI kaynağını, yerel oturum korumasını, U1 dönüşümünü ve `.gcode` indirmelerini denetler. GitHub Actions aynı paketi Windows üzerinde üretir.
+The build creates `output/windows/3DMidi.exe`, a ZIP package and SHA-256 checksums. It checks all 129 bundled MIDI hashes, local API authentication, U1 conversion and generated downloads. The Windows workflow is in `.github/workflows/windows.yml`.
 
-Testler:
+Run the tests:
 
 ```powershell
 .\.venv\Scripts\python -m pip install -r deploy/requirements.txt
@@ -63,8 +67,8 @@ Testler:
 .\.venv\Scripts\python -m unittest discover -s desktop -p "test_*.py"
 ```
 
-## Lisans ve katkı
+## License and contributing
 
-Uygulama kodu **GPLv3** ile sunulur. MIDI dosyalarının lisansı ve kaynak bilgisi dosya bazında korunur; uygulamanın lisansı müzikler için yeni bir kullanım hakkı vermez. Ayrıntılar [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) ve [LICENSE](LICENSE) dosyalarında.
+Application code is **GPLv3**. MIDI compositions and arrangements retain their individual source, attribution and stated license status; the application license grants no additional music rights. See [LICENSE](LICENSE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and `app/midi_library.json`.
 
-Herkes kodu indirebilir, kendi kopyasını değiştirebilir ve pull request gönderebilir. Ana depoya yazma yetkisi yalnızca depo sahibinde ve yetki verilen katkıcılardadır.
+Issues and pull requests are welcome. You can download and modify your own copy; only the owner and authorized collaborators can write directly to this repository.

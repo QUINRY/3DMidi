@@ -1,9 +1,13 @@
 # -*- mode: python ; coding: utf-8 -*-
 from pathlib import Path
 import ssl
+import sys
 from PyInstaller.utils.win32.versioninfo import VSVersionInfo, FixedFileInfo, StringFileInfo, StringTable, StringStruct, VarFileInfo, VarStruct
 
 root = Path(SPECPATH).parent
+sys.path.insert(0, str(root))
+from desktop import VERSION
+version_tuple = tuple(int(part) for part in VERSION.split('.')) + (0,)
 data = []
 # Some Python distributions carry an additional TLS trust-policy data file.
 # Preserve that file when present instead of changing their SSL behavior.
@@ -25,9 +29,9 @@ a = Analysis([str(root / "desktop/launcher.py")],
     hookspath=[], runtime_hooks=[], excludes=["tkinter", "matplotlib", "numpy", "pandas", "PyQt5", "PyQt6", "PySide6", "pytest", "flask", "waitress"],
     noarchive=False, optimize=0)
 pyz = PYZ(a.pure)
-version = VSVersionInfo(ffi=FixedFileInfo(filevers=(1,0,0,0), prodvers=(1,0,0,0), mask=0x3f, flags=0, OS=0x40004, fileType=1, subtype=0, date=(0,0)),
+version = VSVersionInfo(ffi=FixedFileInfo(filevers=version_tuple, prodvers=version_tuple, mask=0x3f, flags=0, OS=0x40004, fileType=1, subtype=0, date=(0,0)),
     kids=[StringFileInfo([StringTable('040904B0', [StringStruct('CompanyName','QUINRY'), StringStruct('FileDescription','3DMidi - MIDI to printer music'),
-        StringStruct('FileVersion','1.0.0'), StringStruct('ProductName','3DMidi'), StringStruct('ProductVersion','1.0.0'),
+        StringStruct('FileVersion',VERSION), StringStruct('ProductName','3DMidi'), StringStruct('ProductVersion',VERSION),
         StringStruct('OriginalFilename','3DMidi.exe'), StringStruct('LegalCopyright','Copyright (C) 2026 QUINRY. GNU GPLv3.')])]),
         VarFileInfo([VarStruct('Translation',[1033,1200])])])
 exe = EXE(pyz, a.scripts, a.binaries, a.datas, [], name="3DMidi", debug=False, bootloader_ignore_signals=False,

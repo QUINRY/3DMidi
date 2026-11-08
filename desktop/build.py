@@ -26,7 +26,7 @@ def main():
     checked = json.loads(report.read_text(encoding="utf-8"))
     if not checked.get("ok") or not checked.get("frozen") or checked.get("library") != 129:
         raise RuntimeError("Bundled app verification failed: " + str(checked))
-    notes = ROOT / "desktop/WINDOWS_KULLANIM.txt"
+    notes = ROOT / "desktop/WINDOWS_README.txt"
     archive = out / f"3DMidi-{VERSION}-Windows-x64.zip"
     with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as zipped:
         for path in (executable, notes, ROOT / "LICENSE", ROOT / "THIRD_PARTY_NOTICES.md"):

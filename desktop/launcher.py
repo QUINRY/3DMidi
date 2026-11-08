@@ -14,6 +14,8 @@ ROOT = Path(getattr(sys, "_MEIPASS", Path(__file__).resolve().parents[1]))
 for folder in (ROOT, ROOT / "app", ROOT / "tools"):
     sys.path.insert(0, str(folder))
 
+from desktop import VERSION
+
 
 def data_directory():
     folder = Path(os.environ.get("LOCALAPPDATA", Path.home())) / "3DMidi"
@@ -39,7 +41,7 @@ def self_test(destination):
     host = DesktopServer()
     host.start()
     client = build_opener(ProxyHandler({}), HTTPCookieProcessor(CookieJar()))
-    result = {"version": "1.0.0", "frozen": bool(getattr(sys, "frozen", False))}
+    result = {"version": VERSION, "frozen": bool(getattr(sys, "frozen", False))}
     try:
         try:
             client.open(host.origin + "/api/catalog", timeout=10)
@@ -106,7 +108,8 @@ def main():
         try:
             msvcrt.locking(lock.fileno(), msvcrt.LK_NBLCK, 1)
         except OSError:
-            ctypes.windll.user32.MessageBoxW(None, "3DMidi zaten açık. Açık pencereye geçebilirsin.", "3DMidi", 0x40)
+            from desktop.preferences import text
+            ctypes.windll.user32.MessageBoxW(None, text("3DMidi is already running. Switch to its open window."), "3DMidi", 0x40)
             return
         import webview
         from desktop.host import DesktopServer, NativeAPI
@@ -125,9 +128,10 @@ def main():
                       icon=str(ROOT / "desktop/assets/3dmidi.ico"))
     except Exception:
         logging.exception("3DMidi could not start")
-        message = ("3DMidi açılamadı. Microsoft Edge WebView2 Runtime'ın kurulu olduğundan emin ol.\n\n"
-                   "İndirme: https://developer.microsoft.com/microsoft-edge/webview2/\n\n"
-                   f"Hata günlüğü: {folder / '3dmidi.log'}")
+        from desktop.preferences import text
+        message = (text("Could not start 3DMidi. Make sure Microsoft Edge WebView2 Runtime is installed.") + "\n\n"
+                   "https://developer.microsoft.com/microsoft-edge/webview2/\n\n"
+                   f"Log: {folder / '3dmidi.log'}")
         ctypes.windll.user32.MessageBoxW(None, message, "3DMidi", 0x10)
     finally:
         if host:
