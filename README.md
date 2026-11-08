@@ -1,4 +1,4 @@
-# 3DMidi
+# 3DMidi - Print your melody!
 
 **Turn MIDI files into music played by 3D printer motors.**
 
