@@ -8,19 +8,27 @@ An offline Windows app with printer-specific G-code, movement and tempo controls
 
 ## Printer demos
 
+<a name="snapmaker-u1-demo"></a>
+
 Turn on sound to hear the melodies played by the printers’ motors.
 
-### Snapmaker U1 — Insomnia
-
-https://github.com/user-attachments/assets/35632834-2989-4c17-b8fd-dd31da0e4d57
-
-### Creality K2 Pro — Für Elise
-
-[Watch the video (MP4)](https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Creality-K2-Pro-Fur-Elise.mp4)
-
-### Creality Ender-3 V3 KE — Mario
-
-[Watch the video (MP4)](https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Creality-Ender-3-V3-KE-Mario.mp4)
+<table>
+<tr>
+<th width="33%">Snapmaker U1<br><em>Insomnia</em></th>
+<th width="33%">Creality K2 Pro<br><em>Für Elise</em></th>
+<th width="33%">Creality Ender-3 V3 KE<br><em>Mario</em></th>
+</tr>
+<tr>
+<td align="center" valign="top"><video controls width="240" src="https://github.com/user-attachments/assets/35632834-2989-4c17-b8fd-dd31da0e4d57"></video></td>
+<td align="center" valign="top"><video controls width="240" src="https://github.com/user-attachments/assets/8b0c0384-3ef2-4041-8d63-6d59684b63cd"></video></td>
+<td align="center" valign="top"><video controls width="240" src="https://github.com/user-attachments/assets/6be743ec-c4a5-4889-8838-6778ac043e88"></video></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Snapmaker-U1-Insomnia.mp4">Download MP4 · 35 s</a></td>
+<td align="center"><a href="https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Creality-K2-Pro-Fur-Elise.mp4">Download MP4 · 60 s</a></td>
+<td align="center"><a href="https://github.com/QUINRY/3DMidi/releases/download/v1.1.0/Creality-Ender-3-V3-KE-Mario.mp4">Download MP4 · 23 s</a></td>
+</tr>
+</table>
 
 ## Get started
 
